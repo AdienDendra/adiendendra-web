@@ -56,7 +56,7 @@ Where appropriate, an installation, licensing, or compatibility issue may be inv
 
 Lemon Squeezy is the Merchant of Record and processes approved refunds, payment reversals, and chargebacks. Refund availability and processing are also subject to applicable law and Lemon Squeezy's policies and decisions. Bank or payment-provider processing times may apply after a refund is issued.
 
-See Lemon Squeezy's information about [refunds and chargebacks](https://docs.lemonsqueezy.com/help/payments/refunds-chargebacks).
+See Lemon Squeezy's information about <a href="https://docs.lemonsqueezy.com/help/payments/refunds-chargebacks" target="_blank" rel="noopener noreferrer" aria-label="Lemon Squeezy refunds and chargebacks information, opens in a new tab">refunds and chargebacks</a>.
 
 ## Effect on the licence
 

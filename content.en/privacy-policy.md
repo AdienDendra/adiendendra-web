@@ -30,7 +30,7 @@ Cloudflare may set strictly necessary security cookies when its protection featu
 
 The site uses browser `localStorage` to remember the visitor's light or dark theme preference. The local 3D Tools filter operates in the browser and does not send filter selections to a server.
 
-See [Cloudflare's Privacy Policy](https://www.cloudflare.com/privacypolicy/) and [Cloudflare Cookies](https://developers.cloudflare.com/fundamentals/reference/policies-compliances/cloudflare-cookies/) for information about Cloudflare's processing.
+See <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener noreferrer" aria-label="Cloudflare Privacy Policy, opens in a new tab">Cloudflare's Privacy Policy</a> and <a href="https://developers.cloudflare.com/fundamentals/reference/policies-compliances/cloudflare-cookies/" target="_blank" rel="noopener noreferrer" aria-label="Cloudflare Cookies documentation, opens in a new tab">Cloudflare Cookies</a> for information about Cloudflare's processing.
 
 ## 2. External content used by the website
 
@@ -74,7 +74,7 @@ When sales open, Lemon Squeezy will provide checkout and act as Merchant of Reco
 - Product, order, tax, refund, and chargeback information.
 - Device, network, fraud-prevention, and checkout usage information.
 
-Payment-card details are handled by Lemon Squeezy and its payment providers, not by this website or the AD Skin Tools licensing database. Lemon Squeezy's processing is governed by its [Privacy Policy](https://www.lemonsqueezy.com/privacy) and [Buyer Terms](https://www.lemonsqueezy.com/buyer-terms).
+Payment-card details are handled by Lemon Squeezy and its payment providers, not by this website or the AD Skin Tools licensing database. Lemon Squeezy's processing is governed by its <a href="https://www.lemonsqueezy.com/privacy" target="_blank" rel="noopener noreferrer" aria-label="Lemon Squeezy Privacy Policy, opens in a new tab">Privacy Policy</a> and <a href="https://www.lemonsqueezy.com/buyer-terms" target="_blank" rel="noopener noreferrer" aria-label="Lemon Squeezy Buyer Terms, opens in a new tab">Buyer Terms</a>.
 
 The AD Skin Tools licensing service is designed not to store customer names or email addresses received from Lemon Squeezy webhooks.
 

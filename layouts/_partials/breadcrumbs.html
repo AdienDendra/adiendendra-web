@@ -1,0 +1,44 @@
+{{- if (.Param "ShowBreadCrumbs") -}}
+{{- $translationKey := .TranslationKey -}}
+{{- $isAdSkinTools := eq $translationKey "ad-skin-tools" -}}
+{{- $isAdSkinToolsPolicy := in (slice "terms-of-service" "privacy-policy" "refund-policy") $translationKey -}}
+<nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+    {{- if or $isAdSkinTools $isAdSkinToolsPolicy }}
+        <a href="{{ .Site.Home.RelPermalink }}">{{ i18n "home" | default "Home" }}</a>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right" aria-hidden="true">
+            <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+        <a href="/{{ .Lang }}/3dtools/">3D Tools &amp; Resources</a>
+        {{- if $isAdSkinToolsPolicy }}
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right" aria-hidden="true">
+            <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+        <a href="/{{ .Lang }}/3dtools/ad-skin-tools/">AD Skin Tools</a>
+        {{- end }}
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right" aria-hidden="true">
+            <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+        <span class="breadcrumb-current" aria-current="page">{{ .Title }}</span>
+    {{- else }}
+        {{- $ancestors := .Ancestors.Reverse -}}
+        {{- range $i, $bc := $ancestors }}
+            {{- if eq $i 0 }}
+                <a href="{{ $bc.RelPermalink }}">{{ i18n "home" | default "Home" }}</a>
+            {{- else }}
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                    <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+                <a href="{{ $bc.RelPermalink }}">{{ $bc.Title }}</a>
+            {{- end }}
+        {{- end }}
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+            <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+    {{- end }}
+</nav>
+{{- end -}}

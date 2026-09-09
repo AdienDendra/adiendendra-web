@@ -296,6 +296,11 @@
 }
 
 /* AD Skin Tools product page */
+.breadcrumbs .breadcrumb-current {
+    color: var(--secondary);
+    font-size: 16px;
+}
+
 .product-status-panel {
     display: flex;
     align-items: center;
@@ -352,6 +357,10 @@
     color: var(--primary);
     font-size: 16px;
     line-height: 1.45;
+}
+
+.product-fact data {
+    font: inherit;
 }
 
 .product-media-grid {

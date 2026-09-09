@@ -56,7 +56,7 @@ Jika sesuai, masalah instalasi, licensing, atau compatibility dapat diperiksa se
 
 Lemon Squeezy merupakan Merchant of Record dan memproses refund yang disetujui, payment reversal, serta chargeback. Ketersediaan dan pemrosesan refund juga tunduk pada hukum yang berlaku serta kebijakan dan keputusan Lemon Squeezy. Waktu pemrosesan bank atau payment provider dapat berlaku setelah refund diterbitkan.
 
-Lihat informasi Lemon Squeezy mengenai [refund dan chargeback](https://docs.lemonsqueezy.com/help/payments/refunds-chargebacks).
+Lihat informasi Lemon Squeezy mengenai <a href="https://docs.lemonsqueezy.com/help/payments/refunds-chargebacks" target="_blank" rel="noopener noreferrer" aria-label="informasi refund dan chargeback Lemon Squeezy, dibuka di tab baru">refund dan chargeback</a>.
 
 ## Dampak terhadap lisensi
 

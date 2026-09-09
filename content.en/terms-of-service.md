@@ -25,7 +25,7 @@ Autodesk Maya is required separately and is not supplied with AD Skin Tools.
 
 ## 2. Store and payment
 
-When sales open, checkout and payment will be provided by Lemon Squeezy, which acts as Merchant of Record for the transaction. Lemon Squeezy handles payment processing, applicable sales tax or VAT, receipts, approved refunds, and chargebacks. Its [Buyer Terms](https://www.lemonsqueezy.com/buyer-terms) and [Privacy Policy](https://www.lemonsqueezy.com/privacy) also apply to its services.
+When sales open, checkout and payment will be provided by Lemon Squeezy, which acts as Merchant of Record for the transaction. Lemon Squeezy handles payment processing, applicable sales tax or VAT, receipts, approved refunds, and chargebacks. Its <a href="https://www.lemonsqueezy.com/buyer-terms" target="_blank" rel="noopener noreferrer" aria-label="Lemon Squeezy Buyer Terms, opens in a new tab">Buyer Terms</a> and <a href="https://www.lemonsqueezy.com/privacy" target="_blank" rel="noopener noreferrer" aria-label="Lemon Squeezy Privacy Policy, opens in a new tab">Privacy Policy</a> also apply to its services.
 
 AD Skin Tools is a one-time purchase. It does not have a subscription or recurring product charge.
 

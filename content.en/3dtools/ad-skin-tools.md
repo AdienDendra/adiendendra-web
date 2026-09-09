@@ -32,7 +32,7 @@ AD Skin Tools is a **premade downloadable software toolset** for skin weighting 
 
 <div class="product-facts" aria-label="Product overview">
   <div class="product-fact"><span>Product</span><strong>Downloadable Maya toolset</strong></div>
-  <div class="product-fact"><span>Price</span><strong>US$24.99 launch · US$29.99 regular</strong></div>
+  <div class="product-fact"><span>Price</span><strong><data value="24.99">US$24.99</data> launch · <wbr><data value="29.99">US$29.99</data> regular</strong></div>
   <div class="product-fact"><span>Licence</span><strong>Perpetual Individual · 2 devices</strong></div>
   <div class="product-fact"><span>Trial</span><strong>48 hours · full featured</strong></div>
 </div>
@@ -75,7 +75,7 @@ The trial is provided so customers can evaluate the workflow and compatibility b
 
 An internet connection is required for paid activation and periodic licence validation. A paid licence normally refreshes its online validation every seven days and can continue operating offline for up to 30 days from the last successful server validation. After the offline grace period, the tool must connect successfully before protected operations can continue.
 
-Licence validation uses a pseudonymous device identifier. The licensing service is designed not to store the raw device fingerprint or the raw licence key used for lookup. See the [Privacy Policy](/en/privacy-policy/) for details.
+Licence validation uses a pseudonymous device identifier. The licensing service is designed not to store the raw device fingerprint or the raw licence key used for lookup. See the <a href="/en/privacy-policy/" target="_blank" rel="noopener noreferrer" aria-label="Privacy Policy, opens in a new tab">Privacy Policy</a> for details.
 
 ## Compatibility and delivery
 
@@ -122,9 +122,9 @@ Support does not include consulting, Maya training, commissioned rigging work, p
 
 ## Policies
 
-- [Terms of Service](/en/terms-of-service/)
-- [Privacy Policy](/en/privacy-policy/)
-- [Refund Policy](/en/refund-policy/)
+- <a href="/en/terms-of-service/" target="_blank" rel="noopener noreferrer" aria-label="Terms of Service, opens in a new tab">Terms of Service</a>
+- <a href="/en/privacy-policy/" target="_blank" rel="noopener noreferrer" aria-label="Privacy Policy, opens in a new tab">Privacy Policy</a>
+- <a href="/en/refund-policy/" target="_blank" rel="noopener noreferrer" aria-label="Refund Policy, opens in a new tab">Refund Policy</a>
 
 Purchases will be processed by Lemon Squeezy as Merchant of Record when sales open.
 

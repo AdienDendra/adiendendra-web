@@ -30,7 +30,7 @@ Cloudflare dapat memasang strictly necessary security cookies ketika fitur perli
 
 Website menggunakan `localStorage` browser untuk mengingat pilihan tema terang atau gelap. Filter 3D Tools lokal berjalan di browser dan tidak mengirim pilihan filter ke server.
 
-Lihat [Cloudflare Privacy Policy](https://www.cloudflare.com/privacypolicy/) dan [Cloudflare Cookies](https://developers.cloudflare.com/fundamentals/reference/policies-compliances/cloudflare-cookies/) untuk informasi tentang pemrosesan oleh Cloudflare.
+Lihat <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener noreferrer" aria-label="Cloudflare Privacy Policy, dibuka di tab baru">Cloudflare Privacy Policy</a> dan <a href="https://developers.cloudflare.com/fundamentals/reference/policies-compliances/cloudflare-cookies/" target="_blank" rel="noopener noreferrer" aria-label="dokumentasi Cloudflare Cookies, dibuka di tab baru">Cloudflare Cookies</a> untuk informasi tentang pemrosesan oleh Cloudflare.
 
 ## 2. Konten eksternal yang digunakan website
 
@@ -74,7 +74,7 @@ Ketika penjualan dibuka, Lemon Squeezy akan menyediakan checkout dan bertindak s
 - Informasi produk, order, pajak, refund, dan chargeback.
 - Informasi perangkat, jaringan, fraud-prevention, dan penggunaan checkout.
 
-Detail kartu pembayaran ditangani oleh Lemon Squeezy dan payment provider-nya, bukan oleh website ini atau AD Skin Tools licensing database. Pemrosesan oleh Lemon Squeezy diatur oleh [Privacy Policy](https://www.lemonsqueezy.com/privacy) dan [Buyer Terms](https://www.lemonsqueezy.com/buyer-terms) mereka.
+Detail kartu pembayaran ditangani oleh Lemon Squeezy dan payment provider-nya, bukan oleh website ini atau AD Skin Tools licensing database. Pemrosesan oleh Lemon Squeezy diatur oleh <a href="https://www.lemonsqueezy.com/privacy" target="_blank" rel="noopener noreferrer" aria-label="Lemon Squeezy Privacy Policy, dibuka di tab baru">Privacy Policy</a> dan <a href="https://www.lemonsqueezy.com/buyer-terms" target="_blank" rel="noopener noreferrer" aria-label="Lemon Squeezy Buyer Terms, dibuka di tab baru">Buyer Terms</a> mereka.
 
 AD Skin Tools licensing service dirancang agar tidak menyimpan nama atau alamat email customer yang diterima dari Lemon Squeezy webhook.
 

@@ -32,7 +32,7 @@ AD Skin Tools adalah **software toolset premade yang dapat diunduh** untuk skin 
 
 <div class="product-facts" aria-label="Ringkasan produk">
   <div class="product-fact"><span>Produk</span><strong>Toolset Maya yang dapat diunduh</strong></div>
-  <div class="product-fact"><span>Harga</span><strong>US$24.99 peluncuran · US$29.99 reguler</strong></div>
+  <div class="product-fact"><span>Harga</span><strong><data value="24.99">US$24.99</data> peluncuran · <wbr><data value="29.99">US$29.99</data> reguler</strong></div>
   <div class="product-fact"><span>Lisensi</span><strong>Individual perpetual · 2 perangkat</strong></div>
   <div class="product-fact"><span>Trial</span><strong>48 jam · semua fitur</strong></div>
 </div>
@@ -75,7 +75,7 @@ Trial disediakan agar customer dapat mengevaluasi workflow dan kompatibilitas se
 
 Koneksi internet diperlukan untuk aktivasi berbayar dan validasi lisensi secara berkala. Lisensi berbayar biasanya memperbarui validasi online setiap tujuh hari dan dapat terus digunakan secara offline hingga 30 hari sejak validasi server terakhir yang berhasil. Setelah offline grace period berakhir, tool harus berhasil tersambung kembali sebelum operasi yang dilindungi dapat digunakan.
 
-Validasi lisensi menggunakan identitas perangkat pseudonim. Licensing service dirancang agar tidak menyimpan raw device fingerprint atau raw licence key yang digunakan untuk pencarian. Lihat [Kebijakan Privasi](/id/privacy-policy/) untuk rinciannya.
+Validasi lisensi menggunakan identitas perangkat pseudonim. Licensing service dirancang agar tidak menyimpan raw device fingerprint atau raw licence key yang digunakan untuk pencarian. Lihat <a href="/id/privacy-policy/" target="_blank" rel="noopener noreferrer" aria-label="Kebijakan Privasi, dibuka di tab baru">Kebijakan Privasi</a> untuk rinciannya.
 
 ## Kompatibilitas dan pengiriman
 
@@ -122,9 +122,9 @@ Support tidak mencakup konsultasi, training Maya, commissioned rigging work, int
 
 ## Kebijakan
 
-- [Syarat dan Ketentuan](/id/terms-of-service/)
-- [Kebijakan Privasi](/id/privacy-policy/)
-- [Kebijakan Pengembalian Dana](/id/refund-policy/)
+- <a href="/id/terms-of-service/" target="_blank" rel="noopener noreferrer" aria-label="Syarat dan Ketentuan, dibuka di tab baru">Syarat dan Ketentuan</a>
+- <a href="/id/privacy-policy/" target="_blank" rel="noopener noreferrer" aria-label="Kebijakan Privasi, dibuka di tab baru">Kebijakan Privasi</a>
+- <a href="/id/refund-policy/" target="_blank" rel="noopener noreferrer" aria-label="Kebijakan Pengembalian Dana, dibuka di tab baru">Kebijakan Pengembalian Dana</a>
 
 Pembelian akan diproses oleh Lemon Squeezy sebagai Merchant of Record ketika penjualan dibuka.
 
