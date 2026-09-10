@@ -88,7 +88,7 @@ lastmod = ['lastmod']
             url = "https://fishing.adiendendra.com/"
             weight = 1
         [[languages.en.menu.main]]
-            name = "Projects"
+            name = "Documentation"
             url = "/en/projects/"
             weight = 3
         [[languages.en.menu.main]]
@@ -137,7 +137,7 @@ lastmod = ['lastmod']
             url = "https://fishing.adiendendra.com/"
             weight = 1
         [[languages.id.menu.main]]
-            name = "Proyek"
+            name = "Dokumentasi"
             url = "/id/projects/"
             weight = 3
         [[languages.id.menu.main]]
