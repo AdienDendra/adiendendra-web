@@ -79,7 +79,7 @@ lastmod = ['lastmod']
                 imageWidth = 120
                 imageHeight = 120
                 [[languages.en.params.profileMode.buttons]]
-                    name = "Projects"
+                    name = "Documentation"
                     url = "/en/projects/"
 
         # HEADER MENU (English)
@@ -130,7 +130,7 @@ lastmod = ['lastmod']
                 imageHeight = 120
                 # pakai /id/ agar tidak balik ke English
                 [[languages.id.params.profileMode.buttons]]
-                    name = "Proyek"
+                    name = "Dokumentasi"
                     url = "/id/projects/"
         [[languages.id.menu.main]]
             name = "Portofolio"
