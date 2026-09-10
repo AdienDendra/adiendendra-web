@@ -1,5 +1,7 @@
 ---
 title: "First Content"
+aliases:
+  - "/en/posts/first-content/"
 translationKey: "post-first-content"
 date: 2026-05-05T17:10:00+10:00
 tags: ["story", "blog", "sydney", "website"]

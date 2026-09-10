@@ -1,5 +1,7 @@
 ---
 title: "Rumah Singgah"
+aliases:
+  - "/id/posts/guesthouse-rumi/"
 translationKey: "post-guesthouse-rumi"
 date: 2026-05-23T13:43:03+10:00
 tags: ["sydney","winter", "refleksi", "perjalanan"]

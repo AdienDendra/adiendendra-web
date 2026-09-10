@@ -1,5 +1,7 @@
 ---
 title: "Isso-Comments Setup on VPS"
+aliases:
+  - "/en/projects/web-isso-comment-ionos/"
 translationKey: "post-web-isso-comment-ionos"
 date: 2026-05-24T19:41:52+10:00
 lastmod: 2026-05-28T14:31:52+10:00

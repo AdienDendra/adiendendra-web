@@ -1,5 +1,7 @@
 ---
 title: "Website Migration and Efficiency From 1.2 GB to 11.2 MB! Crazy!"
+aliases:
+  - "/en/projects/web-adiendendra-documentation/"
 translationKey: "web-adiendendra-documentation"
 date: 2026-05-13T21:50:00+10:00
 tags: ["sydney", "documentation", "website", "adiendendra.com", "template"]

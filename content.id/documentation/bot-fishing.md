@@ -1,5 +1,7 @@
 ---
 title: "Bot-Mancing: Sistem Analisis Cuaca dan Identifikasi Spesies Secara Real-Time"
+aliases:
+  - "/id/projects/bot-fishing/"
 date: 2026-05-21T19:25:00+10:00
 lastmod: 2026-05-28T13:20:00+10:00
 tags: ["cloud", "vps", "jaringan", "sydney", "mancing"]

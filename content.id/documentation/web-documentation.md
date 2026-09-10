@@ -1,5 +1,7 @@
 ---
 title: "Alur Kerja Web Statis Dengan Hugo"
+aliases:
+  - "/id/projects/web-documentation/"
 translationKey: "web-documentation"
 date: 2026-05-07T20:49:00+10:00
 tags: ["sydney", "dokumentasi", "website", "paperMod", "template"]
@@ -46,9 +48,9 @@ Berikut adalah peran krusial dari direktori utama yang membentuk website ini:
 Hugo memiliki fitur multibahasa.
 Kenapa dipisah? Folder ini memisahkan konten berdasarkan bahasa (English dan Indonesia). Hugo secara otomatis akan membuat jalur URL /en/ dan /id/
 
-- <code>_index.md </code>: Penambahan file penting yang mendefinisikan metadata untuk halaman utama folder(misalnya judul kategori "Projects").
+- <code>_index.md </code>: File penting yang mendefinisikan metadata untuk halaman utama folder (misalnya judul bagian "Dokumentasi").
 
-- <code>posts/</code> vs <code> projects/</code>: Pemisahan ini sebagai Content Sections. Saya menggunakan ini untuk membedakan konten antara blog  dan proyek.
+- <code>blog/</code> vs <code>documentation/</code>: Pemisahan ini mendefinisikan content section. Saya menggunakannya untuk membedakan artikel blog dan dokumentasi teknis.
 
 #### 2. layouts/
 Ini adalah tempat saya "memerintah" Hugo untuk berperilaku di luar standar tema.

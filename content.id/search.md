@@ -2,5 +2,5 @@
 title: "Cari"
 layout: "search"
 summary: "search"
-placeholder: "Cari proyek atau artikel..."
+placeholder: "Cari dokumentasi atau artikel blog..."
 ---

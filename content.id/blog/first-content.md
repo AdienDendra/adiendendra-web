@@ -1,5 +1,7 @@
 ---
 title: "Konten Pertama"
+aliases:
+  - "/id/posts/first-content/"
 translationKey: "post-first-content"
 date: 2026-05-05T17:10:00+10:00
 tags: ["cerita", "blog", "sydney", "website"]
@@ -15,4 +17,3 @@ Balik ke tujuan awal, gue pengen punya sub-domain khusus buat dokumentasi perjal
 Selain itu, banyak juga keresahan di kepala yang nggak tahu mau ditaruh di mana. Kayaknya lebih cocok ditulis daripada dijadiin vlog. Semoga aja gue nggak males-malesan nulisnya… haha!
 
 ---
-

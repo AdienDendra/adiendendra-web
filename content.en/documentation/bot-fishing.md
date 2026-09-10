@@ -1,5 +1,7 @@
 ---
 title: "Bot-Mancing: Real-Time Weather Analysis and Species Identification System"
+aliases:
+  - "/en/projects/bot-fishing/"
 date: 2026-05-21T19:25:00+10:00
 lastmod: 2026-05-27T12:14:00+10:00
 tags: ["cloud", "vps", "network", "sydney", "fishing"]

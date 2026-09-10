@@ -3,7 +3,7 @@ public/
 resources/
 
 # directory lokal
-content.id/projects/lambda-sqs.md
+content.id/documentation/lambda-sqs.md
 
 # File log dan cache
 hugo_build.lock

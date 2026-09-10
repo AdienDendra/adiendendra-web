@@ -1,5 +1,7 @@
 ---
 title: "Markdown Documentation"
+aliases:
+  - "/en/projects/view-documentation/"
 translationKey: "view-documentation"
 date: 2026-05-04T17:58:00+10:00
 tags: ["sydney", "documentation", "travel", "fishing", "family"]

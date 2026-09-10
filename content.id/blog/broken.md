@@ -1,5 +1,7 @@
 ---
 title: "Yang Tak Sempat Hidup"
+aliases:
+  - "/id/posts/broken/"
 translationKey: "yang-tak-sempat-hidup"
 date: 2026-08-14T23:36:00+10:00
 tags: ["sydney","winter", "refleksi", "perjalanan"]

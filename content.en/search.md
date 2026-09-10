@@ -2,5 +2,5 @@
 title: "Search"
 layout: "search"
 summary: "search"
-placeholder: "Search projects or posts..."
+placeholder: "Search documentation or blog posts..."
 ---

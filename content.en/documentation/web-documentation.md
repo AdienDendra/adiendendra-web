@@ -1,5 +1,7 @@
 ---
 title: "Static Web Workflow With Hugo"
+aliases:
+  - "/en/projects/web-documentation/"
 translationKey: "web-documentation"
 date: 2026-05-07T20:49:00+10:00
 tags: ["sydney", "documentation", "website", "paperMod", "template"]
@@ -47,9 +49,9 @@ Here are the key roles of the main directories that make up this website:
 Hugo has native multilingual support.
 Why separate them? These folders split content by language (English and Indonesian). Hugo automatically generates URL paths /en/ and /id/.
 
-- <code>_index.md </code>: A crucial file that defines metadata for the main folder page (e.g., category title “Projects”).
+- <code>_index.md </code>: A crucial file that defines metadata for the main folder page (e.g., section title “Documentation”).
 
-- <code>posts/</code> vs <code>projects/</code>: This separation defines Content Sections. I use it to distinguish between blog posts and project documentation.
+- <code>blog/</code> vs <code>documentation/</code>: This separation defines content sections. I use it to distinguish between blog posts and technical documentation.
 
 #### 2. layouts/
 This is where I tell Hugo to behave beyond the theme’s default settings.
@@ -93,5 +95,3 @@ Here’s the Cloudflare Pages setting:
 | Repository | GitHub | Version control and automation trigger |
 | Hosting | Cloudflare Pages | CDN, SSL, and global file delivery |
 | Domain | CPanel DNS | Connects personal domain identity |
-
-
