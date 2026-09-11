@@ -62,24 +62,6 @@ Ketika skinned mesh dimuat, list otomatis diisi dengan influence yang sudah dimi
 
 <!-- GIF: 01-load-mesh.gif — Load skinned mesh, lalu berpindah ke unskinned mesh. -->
 
-## Skin Weight Visual
-
-Skin Weight Visual menampilkan weight dari satu bound influence langsung pada loaded mesh tanpa mengubah skin weight yang tersimpan.
-
-1. Load mesh yang sudah memiliki skinCluster.
-2. Pilih tepat satu bound influence di dalam list.
-3. Pilih display mode:
-   - **Spectrum:** hitam, biru, hijau, kuning, oranye, merah, dan putih.
-   - **Heat:** hitam, merah, oranye, kuning, dan putih.
-   - **Grayscale:** hitam melalui abu-abu hingga putih.
-4. Pilih **Off** untuk mengembalikan normal mesh shading.
-
-Jika **Live Joint Selection** diset ke **On**, memilih listed bound joint di Maya scene juga akan memilih dan menampilkannya dalam UI list serta memperbarui weight visual yang aktif. Set ke **Off** jika Anda ingin displayed influence tetap sama ketika Maya scene selection berubah.
-
-Visual akan diperbarui setelah weight operation yang relevan, Undo, dan Redo. Ini adalah temporary display session dan tidak melakukan bake colour data ke dalam skin weight.
-
-<!-- GIF: 07-skin-weight-visual.gif — Ganti colour ramp dan demonstrasikan Live Joint Selection. -->
-
 ## Joints / Influences
 
 ### Bound dan pending joint
@@ -181,6 +163,24 @@ Smooth meratakan skin weight saat ini pada component selection atau pada seluruh
 Smooth tidak memerlukan joint row untuk dipilih. Component mode mengikuti Maya Soft Selection falloff. Untuk object mode menampilkan konfirmasi sebelum diproses. Nilai locked influence tetap tidak berubah dan vertex yang tidak memiliki writable weight akan dilewati.
 
 <!-- GIF: 06-smooth.gif — Smooth selected component dengan dan tanpa Soft Selection. -->
+
+## Skin Weight Visual
+
+Skin Weight Visual menampilkan weight dari satu bound influence langsung pada loaded mesh tanpa mengubah skin weight yang tersimpan.
+
+1. Load mesh yang sudah memiliki skinCluster.
+2. Pilih tepat satu bound influence di dalam list.
+3. Pilih display mode:
+   - **Spectrum:** hitam, biru, hijau, kuning, oranye, merah, dan putih.
+   - **Heat:** hitam, merah, oranye, kuning, dan putih.
+   - **Grayscale:** hitam melalui abu-abu hingga putih.
+4. Pilih **Off** untuk mengembalikan normal mesh shading.
+
+Jika **Live Joint Selection** diset ke **On**, memilih listed bound joint di Maya scene juga akan memilih dan menampilkannya dalam UI list serta memperbarui weight visual yang aktif. Set ke **Off** jika Anda ingin displayed influence tetap sama ketika Maya scene selection berubah.
+
+Visual akan diperbarui setelah weight operation yang relevan, Undo, dan Redo. Ini adalah temporary display session dan tidak melakukan bake colour data ke dalam skin weight.
+
+<!-- GIF: 07-skin-weight-visual.gif — Ganti colour ramp dan demonstrasikan Live Joint Selection. -->
 
 ## Mirror Skin Weights Posed Mesh
 
