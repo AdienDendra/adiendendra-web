@@ -8,7 +8,7 @@ tags: ["story", "blog", "sydney", "website"]
 categories: ["story"]
 ---
 
-Finally, this website is up! After days of tweaking and experimenting, I finally found the setup that works. I actually already have a website for my demoreel and portfolio at <a href="http://www.adiendendra.com/" target="_blank" rel="noopener">adiendendra.com</a>, but since it’s built on WordPress, it’s a bit tricky to write more technical content there. Here, because the site is static, I can be more flexible and creative, though the challenge is that everything is pretty “manual,” from setting up the sub-domain, hugo, cloudflare, and so on.
+Finally, this website is up! After days of tweaking and experimenting, I finally found the setup that works. I actually already have a website for my demoreel and portfolio at <a href="https://rigging.adiendendra.com/" target="_blank" rel="noopener">rigging.adiendendra.com</a>, but since it’s built on WordPress, it’s a bit tricky to write more technical content there. Here, because the site is static, I can be more flexible and creative, though the challenge is that everything is pretty “manual,” from setting up the sub-domain, hugo, cloudflare, and so on.
 
 At first it was really tough. It was my first time messing around with .toml, .html, and .md files. Luckily, with Gemini around, I could ask tons of questions and eventually figure things out. The key is understanding the concepts, so you know what to ask and how to approach it.
 

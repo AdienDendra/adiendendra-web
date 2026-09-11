@@ -10,10 +10,10 @@ categories: ["dokumentasi"]
 
 Saya membangun website ini bukan sekadar tentang "tampilan", melainkan tentang efisiensi, dan performa. Berikut adalah dokumentasi teknis bagaimana website ini dirakit dari nol hingga jadi.
 
-Proses membangun website ini diawali oleh keresahan website saya (<a href="http://www.adiendendra.com/" target="_blank" rel="noopener">adiendendra.com</a>) yang lambat, karena terlalu banyak fitur yang kurang penting. Akhirnya saya mencari cara untuk membuat website yang ringan dan efisien karena tujuannya hanya untuk dokumentasi satu arah.
+Proses membangun website ini diawali oleh keresahan website saya (<a href="https://rigging.adiendendra.com/" target="_blank" rel="noopener">rigging.adiendendra.com</a>) yang lambat, karena terlalu banyak fitur yang kurang penting. Akhirnya saya mencari cara untuk membuat website yang ringan dan efisien karena tujuannya hanya untuk dokumentasi satu arah.
 
 ### Mengapa Memilih SSG?
-Seperti yang saya nyatakan diatas, website <a href="http://www.adiendendra.com/" target="_blank" rel="noopener">adiendendra.com</a> menggunakan WordPress (CMS) secara konvensional yang menggunakan database aktif, sedangkan website ini menggunakan SSG (Static Site Generator). 
+Seperti yang saya nyatakan diatas, website <a href="https://rigging.adiendendra.com/" target="_blank" rel="noopener">rigging.adiendendra.com</a> menggunakan WordPress (CMS) secara konvensional yang menggunakan database aktif, sedangkan website ini menggunakan SSG (Static Site Generator).
 
 SSG yang saya gunakan yaitu Hugo, alasannya karena popular dan banyak dokumentasinya. Fungsi Hugo disini bertugas 'memasak' semua konten menjadi file HTML statis, server hanya mengirimkan file yang sudah jadi, ditambah juga dengan edge computing dari cloudflare yang kita tahu mereka tersebar dimana-mana. Sehingga kecepatannya jadi jauh lebih tinggi. 
 
@@ -31,7 +31,7 @@ git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/Pape
 Saya menggunakan format TOML untuk konfigurasi karena lebih bersih dan lebih gampang dibaca dibanding JSON. Di sinilah saya mengatur format konten dari web, menyertakan dwibahasa (inggris dan indonesia) dll:
 
 ```markdown
-baseURL = 'https://architect.adiendendra.com/'
+baseURL = 'https://adiendendra.com/'
 languageCode = 'en-us'
 title = 'Adien'
 theme = 'PaperMod'

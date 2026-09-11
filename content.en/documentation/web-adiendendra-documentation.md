@@ -9,10 +9,10 @@ categories: ["documentation"]
 ---
 
 ### Introduction
-The website <a href="https://adiendendra.com/" target="_blank" rel="noopener">adiendendra.com</a> was very slow and had no TLS, so I started looking for alternative solutions that could provide the most efficient service possible in terms of cost, security, and low DTI/DTO (Data Transfer In/Out). Eventually, I decided to replace the shared hosting + domain from <a href="https://sosys.net/" target="_blank" rel="noopener">sosys.net</a> with AWS S3 as static storage, Cloudflare for DNS+TLS management, and I plan to migrate the domain to *adiendendra.com.au* to make it look more local.
+The website <a href="https://rigging.adiendendra.com/" target="_blank" rel="noopener">rigging.adiendendra.com</a> was very slow and had no TLS, so I started looking for alternative solutions that could provide the most efficient service possible in terms of cost, security, and low DTI/DTO (Data Transfer In/Out). Eventually, I decided to replace the shared hosting + domain from <a href="https://sosys.net/" target="_blank" rel="noopener">sosys.net</a> with AWS S3 as static storage, Cloudflare for DNS+TLS management, and I plan to migrate the domain to *adiendendra.com.au* to make it look more local.
 
 ### Problem
-Currently, it's using shared hosting + domain costs Rp. 700k/year. The price is actually quite affordable, but the website is slow and unstable, the domain <a href="https://adiendendra.com/" target="_blank" rel="noopener">adiendendra.com</a> several times was redirected to another website on the same server (eldersleamanor.co.nz).
+Currently, it's using shared hosting + domain costs Rp. 700k/year. The price is actually quite affordable, but the website is slow and unstable, the domain <a href="https://rigging.adiendendra.com/" target="_blank" rel="noopener">rigging.adiendendra.com</a> several times was redirected to another website on the same server (eldersleamanor.co.nz).
 
 ### Method
 I will move the hosting and domain to another server, no longer using sosys.net. There are many alternative options out there that are much faster and more cost‑efficient. For the domain, I will look for a cheaper registrar. I will explain the method in detail.
@@ -141,6 +141,6 @@ The easiest way to access an S3 bucket is through AWS CLI. We must generate an A
 ### Conclusion
 After the website was “cooked” into a static version, the total data size dropped dramatically to just 11.2 MB! A massive difference compared to the original 1.2 GB stored in CPanel, filled with WordPress features that, in my opinion, are unnecessary for a simple portfolio site.
 
-Now, the website <a href="https://adiendendra.com/" target="_blank" rel="noopener">adiendendra.com</a> runs smoothly and flawlessly on AWS S3 infrastructure, providing up to 99% data durability and the ability to handle scalability without any risk of downtime.
+Now, the website <a href="https://rigging.adiendendra.com/" target="_blank" rel="noopener">rigging.adiendendra.com</a> runs smoothly and flawlessly on AWS S3 infrastructure, providing up to 99% data durability and the ability to handle scalability without any risk of downtime.
 
-On top of that, the integration with Cloudflare DNS adds even more performance benefits. Cloudflare’s Edge Computing technology ensures extremely low latency for global visitors. With caching at the Edge level, adiendendra.com becomes significantly lighter because content is delivered from the data center closest to the user. This greatly improves load speed and helps minimize additional AWS S3 charges once my free‑tier period ends!
+On top of that, the integration with Cloudflare DNS adds even more performance benefits. Cloudflare’s Edge Computing technology ensures extremely low latency for global visitors. With caching at the Edge level, rigging.adiendendra.com becomes significantly lighter because content is delivered from the data center closest to the user. This greatly improves load speed and helps minimize additional AWS S3 charges once my free‑tier period ends!

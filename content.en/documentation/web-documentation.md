@@ -10,10 +10,10 @@ categories: ["documentation"]
 
 I built this website not merely for its “appearance,” but for efficiency and performance. Below is the technical documentation of how this site was assembled from scratch.
 
-The whole process started from my frustration with my previous website (<a href="http://www.adiendendra.com/" target="_blank" rel="noopener">adiendendra.com</a>) being slow because it had too many unnecessary features. That pushed me to find a way to create a lightweight and efficient site, especially since the goal was simply one‑way documentation.
+The whole process started from my frustration with my previous website (<a href="https://rigging.adiendendra.com/" target="_blank" rel="noopener">rigging.adiendendra.com</a>) being slow because it had too many unnecessary features. That pushed me to find a way to create a lightweight and efficient site, especially since the goal was simply one‑way documentation.
 
 ### Why Choose SSG?
-As I mentioned earlier, <a href="http://www.adiendendra.com/" target="_blank" rel="noopener">adiendendra.com</a> uses WordPress (a CMS) with an active database, while this site uses an SSG (Static Site Generator).
+As I mentioned earlier, <a href="https://rigging.adiendendra.com/" target="_blank" rel="noopener">rigging.adiendendra.com</a> uses WordPress (a CMS) with an active database, while this site uses an SSG (Static Site Generator).
 
 The SSG I use is Hugo, the reason because it’s popular and well-documented. Hugo’s role here is to “cook” all content into static HTML files, the server only delivers the finished files, enhanced by Cloudflare’s edge computing, which is distributed globally. As a result, the speed is significantly higher.
 
@@ -31,7 +31,7 @@ git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/Pape
 I use the TOML format for configuration because it’s cleaner and easier to read than JSON. This is where I define the site’s content structure, enable bilingual support (English and Indonesian), and more:
 
 ```markdown
-baseURL = 'https://architect.adiendendra.com/'
+baseURL = 'https://adiendendra.com/'
 languageCode = 'en-us'
 title = 'Adien'
 theme = 'PaperMod'

@@ -9,10 +9,10 @@ categories: ["dokumentasi"]
 ---
 
 ### Pendahuluan 
-Website <a href="https://adiendendra.com/" target="_blank" rel="noopener">adiendendra.com</a> sangat lambat dan tidak ada TLS, karenanya saya mencoba untuk mencari alternatif pilihan agar mendapatkan layanan website yang se efisien mungkin dari segi biaya, aman dan ongkos yang murah tiap DTI/DTO (Data Transfer In/Out). Akhirnya, saya memutuskan untuk mengganti shared hosting + domain dari <a href="https://sosys.net/" target="_blank" rel="noopener">sosys.net</a> dengan AWS S3 sebagai storage statis, Cloudflare untuk managing DNS+TLS dan rencananya akan bermigrasi domain menjadi *adiendendra.com.au* agar terlihat lebih lokal.
+Website <a href="https://rigging.adiendendra.com/" target="_blank" rel="noopener">rigging.adiendendra.com</a> sangat lambat dan tidak ada TLS, karenanya saya mencoba untuk mencari alternatif pilihan agar mendapatkan layanan website yang se efisien mungkin dari segi biaya, aman dan ongkos yang murah tiap DTI/DTO (Data Transfer In/Out). Akhirnya, saya memutuskan untuk mengganti shared hosting + domain dari <a href="https://sosys.net/" target="_blank" rel="noopener">sosys.net</a> dengan AWS S3 sebagai storage statis, Cloudflare untuk managing DNS+TLS dan rencananya akan bermigrasi domain menjadi *adiendendra.com.au* agar terlihat lebih lokal.
 
 ### Masalah
-Saat ini menggunakan share hosting + domain dikenakan biaya Rp. 700rb/tahun. Biaya relatif murah sebetulnya, tapi sayangnya web lambat dan tidak stabil, beberapa kali domain <a href="https://adiendendra.com/" target="_blank" rel="noopener">adiendendra.com</a> sempat terlempar ke website lain di server yang sama (eldersleamanor.co.nz).
+Saat ini menggunakan share hosting + domain dikenakan biaya Rp. 700rb/tahun. Biaya relatif murah sebetulnya, tapi sayangnya web lambat dan tidak stabil, beberapa kali domain <a href="https://rigging.adiendendra.com/" target="_blank" rel="noopener">rigging.adiendendra.com</a> sempat terlempar ke website lain di server yang sama (eldersleamanor.co.nz).
 
 ### Metode
 Hosting dan domain website akan saya pindahkan ke server lain, tidak lagi menggunakan sosys.net. Banyak pilihan alternatif diluar sana yang jauh lebih cepat dan efisien dari segi harga. Untuk domain, saya akan mencari alternatif resources lain yang lebih murah per-tahunnya. Metodenya saya akan saya jelaskan secara terperinci.
@@ -146,6 +146,6 @@ Cara mudah untuk mengakses bucket di S3 ialah melalui AWS CLI. Untuk dapat masuk
 ### Kesimpulan
 Setelah web di 'masak' menjadi static, total kapasitas datanya turun jauh sehingga menjadi 11.2 MB! Sangat signifikan sekali bedanya yang sebelumnya 1.2 GB tertampung di CPanel dengan fitur-fitur dari Wordpress yang menurut saya banyak yang kurang penting untuk web portofolio.
 
-Kini website <a href="https://adiendendra.com/" target="_blank" rel="noopener">adiendendra.com</a> berjalan mulus dan sempurna diatas infrastruktur AWS S3, memberikan tingkat durabilitas data hingga 99% yang pastinya dapat menangani skalabilitas tanpa risiko downtime. 
+Kini website <a href="https://rigging.adiendendra.com/" target="_blank" rel="noopener">rigging.adiendendra.com</a> berjalan mulus dan sempurna diatas infrastruktur AWS S3, memberikan tingkat durabilitas data hingga 99% yang pastinya dapat menangani skalabilitas tanpa risiko downtime.
 
-Selain itu ditambah juga dengan integrasi Cloudflare DNS. Cloudflare yang memiliki teknologi Edge Computing yang dapat memastikan latensi yang sangat rendah bagi pengunjung global. Sehingga strategi caching di level Edge membuat web adiendendra.com jauh lebih ringan karena didistribusikan dari pusat data terdekat dengan pengguna. Hal ini secara signifikan akan meningkatkan kecepatan load serta meminimalisir biaya tambahan tagihan AWS S3 setelah free-tier saya habis!
+Selain itu ditambah juga dengan integrasi Cloudflare DNS. Cloudflare yang memiliki teknologi Edge Computing yang dapat memastikan latensi yang sangat rendah bagi pengunjung global. Sehingga strategi caching di level Edge membuat web rigging.adiendendra.com jauh lebih ringan karena didistribusikan dari pusat data terdekat dengan pengguna. Hal ini secara signifikan akan meningkatkan kecepatan load serta meminimalisir biaya tambahan tagihan AWS S3 setelah free-tier saya habis!

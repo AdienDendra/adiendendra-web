@@ -1,4 +1,4 @@
-baseURL = 'https://architect.adiendendra.com/'
+baseURL = 'https://adiendendra.com/'
 languageCode = 'en-us'
 title = " "
 theme = 'PaperMod'
@@ -18,6 +18,10 @@ lastmod = ['lastmod']
 
 [params.assets]
     favicon = "/AD_favIcon.svg"
+    favicon16x16 = "/AD_favIcon.png"
+    favicon32x32 = "/AD_favIcon.png"
+    apple_touch_icon = "/AD_favIcon.png"
+    safari_pinned_tab = "/AD_favIcon.svg"
 
 [params.label]
     title = " "
@@ -52,7 +56,7 @@ lastmod = ['lastmod']
         url = "/CV_ADIEN_DENDRA_2024.pdf"
     [[params.socialIcons]]
         name = "3D rigging website"
-        url = "https://adiendendra.com"    
+        url = "https://rigging.adiendendra.com/"
 
 [markup.goldmark.renderer]
   unsafe = true
