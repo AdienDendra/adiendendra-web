@@ -1,10 +1,10 @@
 +++
 title = "AD Skin Tools"
 translationKey = "ad-skin-tools"
-summary = "A premade skin-weighting and influence-management toolset for production work in Autodesk Maya."
-description = "A downloadable skin-weighting toolset for Autodesk Maya, available as a perpetual Individual License."
+summary = "A focused skin-weighting and influence-management toolset for production work in Autodesk Maya."
+description = "Bind, manage, visualise, mirror, and transfer skin weights with a preview-driven Maya workflow."
 date = 2026-08-14T21:09:27+10:00
-lastmod = 2026-09-09T20:58:00+10:00
+lastmod = 2026-09-11T10:00:00+10:00
 
 featured = true
 resource_type = "maya-tool"
@@ -28,7 +28,7 @@ ShowPostNavLinks = false
   <p>AD Skin Tools is being prepared for release. Sales are not open and there is currently no public checkout.</p>
 </aside>
 
-AD Skin Tools is a **premade downloadable software toolset** for skin weighting in Autodesk Maya. It is intended for artists and riggers—not a consultation, commissioned tool, or customised development service.
+AD Skin Tools brings common skin-weighting operations into one focused Autodesk Maya toolset. It is designed for artists and riggers who want to bind geometry, manage influences, inspect weights, mirror results, and transfer skin weights with a clear preview step before applying changes.
 
 <div class="product-facts" aria-label="Product overview">
   <div class="product-fact"><span>Product</span><strong>Downloadable Maya toolset</strong></div>
@@ -37,88 +37,59 @@ AD Skin Tools is a **premade downloadable software toolset** for skin weighting 
   <div class="product-fact"><span>Trial</span><strong>48 hours · full featured</strong></div>
 </div>
 
-## Features
-
-- **Bind Skin** for supported Maya geometry and joint workflows.
-- **Add Influence** for adding joints to an existing skinCluster.
-- **Flood and Smooth** operations for focused skin-weight editing.
-- **Skin Weight Visualisation** for inspecting weight distribution in the viewport.
-- **Mirror pairing, preview, and application** before committing mirrored weights.
-- **Skin Weight Transfer preview and application** for transferring weights with a review step before applying the result.
-
-## Pricing and licence
-
-| Item | Details |
-|---|---|
-| Launch price | **US$24.99** for the first 100 completed customer purchases |
-| Regular price | **US$29.99** after the first 100 customer purchases |
-| Payment | One-time purchase; no subscription or recurring charge |
-| Licence | Perpetual Individual License for one customer |
-| Devices | Up to two activated devices for that individual |
-
-The prices above are in US dollars. Applicable sales tax or VAT may be calculated and added by Lemon Squeezy at checkout according to the customer's location.
-
-A perpetual licence means the licensed version does not expire. Future major paid versions may be offered separately. The two-device allowance belongs to one individual and is not a two-user or team licence.
-
-## Full-featured 48-hour trial
-
-The trial does not start automatically when Maya opens. It begins only when the user selects **Start 48-Hour Trial** inside the tool and continues for 48 hours from that time.
-
-- All protected product features are available during the trial.
-- An internet connection is required to start the trial.
-- The trial is limited to one trial per device and cannot be restarted by reinstalling the package.
-- When the trial expires, protected operations require a paid licence.
-
-The trial is provided so customers can evaluate the workflow and compatibility before purchasing.
-
-## Activation and offline use
-
-An internet connection is required for paid activation and periodic licence validation. A paid licence normally refreshes its online validation every seven days and can continue operating offline for up to 30 days from the last successful server validation. After the offline grace period, the tool must connect successfully before protected operations can continue.
-
-Licence validation uses a pseudonymous device identifier. The licensing service is designed not to store the raw device fingerprint or the raw licence key used for lookup. See the <a href="/en/privacy-policy/" target="_blank" rel="noopener noreferrer" aria-label="Privacy Policy, opens in a new tab">Privacy Policy</a> for details.
-
-## Compatibility and delivery
-
-The current release target covers **19 separately built ZIP packages** across:
-
-| Operating system | Architecture | Autodesk Maya target |
-|---|---|---|
-| Windows | x86-64 | Maya 2023–2027 |
-| Linux | x86-64 | Maya 2023–2027 |
-| macOS | Intel | Supported builds in the Maya 2023–2027 matrix |
-| macOS | Apple Silicon | Maya versions supported by the release matrix |
-
-Not every Maya version is available for every macOS architecture. The exact supported package will be identified in the download selection. Customers receive the ZIP matching their Maya version, operating system, and processor architecture.
-
-This is a digital delivery only. There is no physical product, and Autodesk Maya is not included.
-
 ## Product preview
 
 <div class="product-media-grid">
   <section class="product-media-card" aria-labelledby="screenshots-title">
     <div class="product-media-placeholder" aria-hidden="true"><span>Product screenshots</span><strong>Interface and workflow preview</strong></div>
     <h3 id="screenshots-title">Screenshots</h3>
-    <p>Product screenshots will be added using an original, non-confidential Maya scene before release.</p>
+    <p>Original product screenshots will be added before release.</p>
   </section>
   <section class="product-media-card" aria-labelledby="demo-title">
-    <div class="product-media-placeholder" aria-hidden="true"><span>Verification demo</span><strong>Feature overview video</strong></div>
+    <div class="product-media-placeholder" aria-hidden="true"><span>Workflow demo</span><strong>Feature overview video</strong></div>
     <h3 id="demo-title">Demo video</h3>
-    <p>A short verification demo will be added here before the product page is submitted for store review.</p>
+    <p>A short product and workflow demonstration will be added before release.</p>
   </section>
 </div>
 
-No ILM assets, shots, production scenes, or other confidential material will be used in product screenshots or videos.
+## Features
 
-## Customer support
+- **Focused skin setup:** Bind supported Maya geometry and add influences to an existing skinCluster without moving between separate workflows.
+- **Direct weight editing:** Flood and smooth weights while keeping the work centred on the selected geometry or components.
+- **Clear weight inspection:** Visualise skin-weight distribution directly in the viewport while reviewing deformation.
+- **Preview before mirroring:** Register influence pairings, inspect the mirror preview, and apply only after reviewing the result.
+- **Reviewed weight transfer:** Preview transferred skin weights before committing them to the destination.
 
-Product support is available by email at [hello@adiendendra.com](mailto:hello@adiendendra.com) for:
+## Pricing, trial, and licence
 
-- Installation.
-- Licensing and device activation.
-- Compatibility questions.
-- Product-related technical issues.
+The launch price is **US$24.99 for the first 100 completed customer purchases**, followed by a regular price of **US$29.99**. AD Skin Tools is a one-time purchase with no subscription or recurring product charge. Applicable sales tax or VAT may be calculated at checkout according to the customer's location.
 
-Support does not include consulting, Maya training, commissioned rigging work, pipeline integration, or customised feature development.
+Each purchase provides a **perpetual Individual License** for the purchased version and allows the customer to activate up to two of their own devices. The two-device allowance is not a two-user or team licence. Future major paid versions may be offered separately.
+
+The full-featured trial lasts **48 hours** and begins only when the user selects **Start 48-Hour Trial** inside the tool. No purchase is required to start the trial, although an internet connection is required at the start.
+
+## Compatibility and digital delivery
+
+| Operating system | Architecture | Autodesk Maya target |
+|---|---|---|
+| Windows | x86-64 | Maya 2023–2027 |
+| Linux | x86-64 | Maya 2023–2027 |
+| macOS | Intel | Supported builds in the Maya 2023–2027 matrix |
+| macOS | Apple Silicon | Supported builds in the Maya 2023–2027 matrix |
+
+Not every Maya version is available for every macOS architecture. The exact supported combinations will be identified in the download selection so customers can choose the ZIP matching their Maya version, operating system, and processor architecture.
+
+AD Skin Tools is delivered as a digital download. There is no physical product, and Autodesk Maya is not included.
+
+## Activation and offline work
+
+Paid activation requires an internet connection. After successful validation, AD Skin Tools can continue working offline for up to 30 days; an occasional connection is required to refresh the licence.
+
+See the [AD Skin Tools getting-started documentation](/en/documentation/ad-skin-tools/) for a concise guide to installation, trials, activation, device changes, and offline use.
+
+## Support
+
+Email support is available at [hello@adiendendra.com](mailto:hello@adiendendra.com) for installation, licensing and device activation, compatibility questions, and product-related technical issues.
 
 ## Policies
 
