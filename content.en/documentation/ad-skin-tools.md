@@ -1,10 +1,10 @@
 ---
-title: "AD Skin Tools — Documentation & Tutorials"
+title: "AD Skin Tools Documentation & Tutorials"
 translationKey: "ad-skin-tools-getting-started"
-summary: "A practical guide to every AD Skin Tools workflow in Autodesk Maya."
-description: "Learn how to load a mesh, manage influences, bind, flood, smooth, visualise, mirror, and transfer skin weights with AD Skin Tools."
+summary: "A guide to AD Skin Tools workflows in Autodesk Maya."
+description: "How to load meshes, manage influences, bind, flood, smooth, visualise, mirror, and transfer skin weights with AD Skin Tools."
 date: 2026-09-11T10:00:00+10:00
-lastmod: 2026-09-11T11:30:00+10:00
+lastmod: 2026-09-11T17:30:00+10:00
 tags: ["maya", "ad-skin-tools", "documentation", "tutorial"]
 categories: ["documentation"]
 comments: false
@@ -14,15 +14,15 @@ ShowReadingTime: false
 ShowPostNavLinks: false
 ---
 
-This guide follows the AD Skin Weights Tool from top to bottom and explains how each control affects the current Maya scene. Feature GIFs will be added alongside these instructions before release.
+This tutorial follows the AD Skin Weights Tool from top to bottom and explains how each control affects the current Maya scene.
 
-For pricing, compatibility, and release availability, see the [AD Skin Tools product page](/en/3dtools/ad-skin-tools/).
+For pricing, compatibility, and release availability, visit the [AD Skin Tools product page](/en/3dtools/ad-skin-tools/).
 
 ## Install and open the tool
 
-Use the download that matches your Autodesk Maya version, operating system, and processor architecture. Extract the package according to the installation instructions included with the download; packages built for different Maya or operating-system targets are not interchangeable.
+Use the download that matches your Autodesk Maya version, operating system, and processor architecture. Extract the package according to the included installation instructions. Each package is built specifically for its Maya version and target operating system.
 
-Open Maya's **Script Editor**, switch to a Python tab, and run:
+Open Maya's **Script Editor**, then switch to a Python tab and run:
 
 ```python
 import ad_skin_tools.launch as ad_skin_tools
@@ -37,7 +37,7 @@ The tool opens as a Maya workspace control and can be docked or left floating. *
 
 ## Recommended workflow
 
-1. Select a polygon mesh or one of its components and click **Load Mesh**.
+1. Select a polygon mesh or one of its components, then click **Load Mesh**.
 2. Add or select the required joints in **Joints / Influences**.
 3. Set **Blend** and **Iterations** for the operation you are about to run.
 4. Use **Bind Skin**, **Add Influence**, **Flood**, or **Smooth** for the loaded mesh.
@@ -50,12 +50,12 @@ The tool opens as a Maya workspace control and can be docked or left floating. *
 
 ### Load Mesh
 
-Select exactly one polygon mesh—or vertices, edges, or faces belonging to it—then click **Load Mesh**. The tool records that mesh as the working context. Changing the Maya selection afterwards does not replace the loaded context; to work on another mesh, select it and click **Load Mesh** again.
+Select one polygon mesh, or vertices, edges, or faces belonging to it, then click **Load Mesh**. The tool records that mesh as the working context. Changing the Maya selection afterwards does not replace the loaded context. To work on a different mesh, select it and click **Load Mesh** again.
 
 The panel reports:
 
-- **Skin Cluster:** the skinCluster found on the loaded mesh, or `<no skinCluster>` when the mesh is unskinned.
-- **Loaded Mesh:** the transform currently used by the Bind, Add Influence, Flood, Smooth, and visualisation workflows.
+- **Skin Cluster:** the skinCluster attached to the loaded mesh, or `<no skinCluster>` when the mesh is unskinned.
+- **Loaded Mesh:** the name of the transform currently used by the Bind, Add Influence, Flood, Smooth, and visualisation workflows.
 - **Listed Joints:** the number of bound and pending joints currently shown in the influence list.
 
 Loading a skinned mesh automatically populates the list with its existing influences. Loading an unskinned mesh creates an empty working context ready for joints to be added before binding.
@@ -69,19 +69,19 @@ Loading a skinned mesh automatically populates the list with its existing influe
 The list can contain two types of joint:
 
 - A **bound influence** already belongs to the loaded skinCluster and is displayed in green.
-- A **pending joint** exists in the scene and in the list but has not yet been added to the loaded skinCluster.
+- A **pending joint** exists in the scene and in the list but has not yet been added to the loaded skinCluster. It is displayed in white.
 
-Select one or more joints in Maya and click **Add Joints To The List**. On an unskinned mesh, these joints become the set used by **Bind Skin**. On a skinned mesh, newly listed joints remain pending until they are selected in the list and processed with **Add Influence**.
+Select one or more joints in Maya and click **Add Joints To The List**. On an unskinned loaded mesh, these joints become the set used by **Bind Skin**. On a skinned loaded mesh, newly listed joints remain pending until they are selected in the list and processed with **Add Influence**.
 
-Select joints in the Maya scene and click **Select Joints In The List** to find and highlight their corresponding rows. This is useful on long influence lists.
+Select joints in the Maya scene and click **Select Joints In The List** to find and highlight their corresponding rows. This is useful when working with a long influence list in the tool window.
 
 ### Sort, Search, and Pin
 
 - **A to Z** and **Z to A** sort the displayed joint names.
-- **Pending Joints** moves pending rows ahead of bound influences and is available only when pending joints exist.
-- **Search** filters the visible rows without changing the skinCluster or the underlying list.
-- **Pin** keeps only the currently selected visible rows on screen. Select the required rows first, then click the pin icon. Disable Pin to restore the normal filtered list.
-- **Reset** clears the tool-side mesh context, joint list, search, pin, and smoothing settings. It does not delete joints or edit skin weights in the Maya scene.
+- **Pending Joints** moves pending joints to the top of the list and is available only when pending joints exist.
+- **Search** filters the visible rows without changing the skinCluster.
+- **Pin** keeps only the selected rows visible. Select the required joint rows first, then click the pin icon. Disable Pin to restore the normal filtered list.
+- **Reset** clears the loaded mesh context, joint list, search, pin, and smoothing settings in the tool.
 
 ### Lock and context-menu actions
 
@@ -91,7 +91,7 @@ Right-click the joint list for additional actions:
 
 - Lock or unlock selected rows, or the inverse selection.
 - Select all pending joints.
-- Remove selected, inverse-selected, or all pending joints. Bound influences are always preserved by these removal commands.
+- Remove selected, inverse-selected, or all pending joints. These removal commands do not remove bound influences.
 - Select vertices that have non-zero weight from the selected bound influences.
 - Select one or all listed joints in the Maya scene.
 - Set one selected joint as **Global Owner**, or clear the current Global Owner.
@@ -104,7 +104,7 @@ Right-click the joint list for additional actions:
 
 These controls are shared by **Bind Skin**, **Add Influence**, **Flood**, and **Smooth**:
 
-- **Blend** ranges from `0.000` to `1.000` and controls how strongly each smoothing pass moves weights toward the neighbouring solution. Lower values preserve more of the current blocking; higher values produce a stronger smoothing effect.
+- **Blend** ranges from `0.000` to `1.000` and controls how strongly each smoothing pass shifts weights based on neighbouring vertices. Lower values preserve more of the current blocking; higher values produce a stronger smoothing effect.
 - **Iterations** ranges from `0` to `10`. More iterations spread and relax the result farther through neighbouring vertices.
 
 For Bind Skin, Add Influence, and Flood, **Iterations 0** keeps the result in hard blocking mode. **Smooth** requires Iterations `1` or higher. The default values are Blend `0.250` and Iterations `0`.
@@ -139,16 +139,16 @@ Only the selected pending joints are added. Existing influences remain part of t
 
 ## Flood
 
-Flood recalculates the natural regions owned by selected **bound influences**.
+Flood recalculates the natural regions owned by selected joints that are already **bound influences**.
 
-1. Select one or more bound influences in the UI list.
-2. In Maya, select vertices, edges, or faces on the loaded mesh for a component operation. To process the whole mesh, select the loaded mesh object instead.
+1. Select one or more joints that are already bound influences in the UI list.
+2. In the Maya scene, select vertices, edges, or faces on the loaded mesh for a component operation. To process the whole mesh, select the loaded mesh object.
 3. Set Blend and Iterations.
 4. Click **Flood**.
 
-When components are selected, only the resolved component scope is processed. Maya Soft Selection is supported and its falloff affects the result. When the loaded object is selected, the tool asks for confirmation before processing the entire mesh.
+When components are selected, only the resolved component scope is processed. You can also use Maya Soft Selection in this mode; its falloff affects the result. When the loaded mesh object is selected, the tool asks for confirmation before processing the entire mesh.
 
-With Iterations `0`, Flood writes a hard regional result. Positive iterations apply smoothing to the affected region using the current Blend value. Pending rows selected alongside bound influences are ignored; use Add Influence for those joints. A selected Flood target must be unlocked, while other locked influence values remain protected.
+With Iterations `0`, Flood writes a hard regional result. Positive Iterations values apply smoothing to the affected region using the current Blend value. Pending joints selected alongside bound influences are ignored; use Add Influence to add those joints. Selected Flood targets must be unlocked. Values belonging to other locked influences remain protected.
 
 <!-- GIF: 05-flood.gif — Compare component Flood, Soft Selection, and whole-object Flood. -->
 
@@ -160,7 +160,7 @@ Smooth relaxes the current skin weights on a component selection or across the l
 2. Set Blend and set Iterations to `1` or higher.
 3. Click **Smooth**.
 
-Smooth does not require a joint row to be selected. Component mode respects Maya Soft Selection falloff. Whole-object mode displays a confirmation before processing. Locked influence values remain unchanged, and vertices with no writable weight are skipped.
+Smooth does not require a joint row to be selected. Component mode respects Maya Soft Selection falloff. Object mode displays a confirmation before processing. Locked influence values remain unchanged, and vertices with no writable weight are skipped.
 
 <!-- GIF: 06-smooth.gif — Smooth selected components with and without Soft Selection. -->
 
@@ -207,8 +207,8 @@ When the preview is complete and valid, click **Register Pairing**. The geometry
 
 1. Load a mirror mesh with an existing valid registered pairing and skinCluster.
 2. Set Direction and confirm the Left/Right markers.
-3. For the whole mesh, leave mesh components unselected or select the complete registered region.
-4. For a local mirror, select donor components from one side only. Their registered counterparts become the targets.
+3. For whole-mesh mode, leave mesh components unselected or select the complete registered region.
+4. For component-selection mode, select donor components from one side only. Their registered counterparts become the targets.
 5. Click **Mirror Skin Weights**.
 
 The selected direction controls which side donates weights. Joint influences are paired from the literal Left/Right markers. Locked target influence values are preserved. Do not select both sides of the same mirror region in component mode.
@@ -227,7 +227,7 @@ Transfer projects weights from one or more skinned source surfaces to one or mor
 2. Select one or more target meshes or their components and click **Add Selected** under **Targets**. Registration records the owning target meshes; the active component scope is evaluated later, when Preview Transfer runs.
 3. Use **Remove Selected** or **Clear** to edit either list. A mesh cannot be registered as both a source and a target.
 
-Right-click either list to select the highlighted object—or every registered object from that list—in the Maya scene.
+Right-click either list to select the highlighted object or every registered object in that list within the Maya scene.
 
 ### Understand target scope
 
@@ -240,20 +240,20 @@ The registered Target list determines which meshes participate. The Maya compone
 | Components selected on an unskinned target | That component target is skipped and must be bound first |
 | Unskinned target used as a whole object | A new target skinCluster can be created during Apply |
 
-Mixed scope is supported. In one operation, one target can use selected components while another registered target continues as a whole object. Components from unregistered meshes do not add those meshes to the transfer.
+Mixed scope means that, within one operation, one target can use selected components while another registered target remains in object mode. Components from unregistered meshes do not add those meshes to the transfer.
 
 ### Preview and apply
 
-1. Set the intended target component selection, or leave registered targets without components for whole-object mode.
+1. Set the intended target component selection, or leave registered targets without selected components for object mode.
 2. Click **Preview Transfer**.
 3. Review the status summary: registered, active, and skipped targets; requested and writable vertices; locked or empty rows; and maximum source distance.
 4. If the preview is valid, click **Transfer Skin Weights**.
 
-Preview calculates and retains the exact closest-source correspondence used by Apply; it does not write weights. If source or target registration, the target component scope, a skinCluster, or its influence order changes after Preview, run Preview again.
+Preview calculates and retains the exact closest-source correspondence that Apply will use; Preview does not write weights. If source or target registration, the target component scope, a skinCluster, or its influence order changes after Preview, run Preview again.
 
 During Apply:
 
-- A whole-object unskinned target receives a new skinCluster.
+- An unskinned target in object mode receives a new skinCluster.
 - Missing source influences on an existing target are listed before they are added.
 - Locked target influences are listed and skipped so their values remain unchanged.
 - If either condition applies, the tool presents **Cancel** and **Proceed**. Cancel keeps the Preview available and makes no changes.
@@ -267,6 +267,6 @@ The Transfer **Reset** button clears the registered Source and Target lists and 
 
 Each operation displays a short result beneath its section and prints a more detailed report in Maya's Script Editor. Read both when a Preview is partial or when vertices are skipped because of locks, missing writable donor weight, unmatched geometry, or an invalid component scope.
 
-Applied Bind, Add Influence, Flood, Smooth, Mirror, and Transfer operations participate in Maya's Undo workflow. If the result is not the intended one, use Maya Undo before continuing with more edits.
+Applied Bind, Add Influence, Flood, Smooth, Mirror, and Transfer operations participate in Maya's Undo workflow. If the result is not what you intended, use Maya Undo before continuing with other edits.
 
 For support, open **Tool Help**, click **Copy Diagnostics**, and include the copied environment report with a concise description of the problem. Do not include confidential production assets or a complete licence key. Support is available at [hello@adiendendra.com](mailto:hello@adiendendra.com).
