@@ -39,7 +39,7 @@ defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true 
 enableRobotsTXT = true
 ```
-You can see the full configuration here <a href="https://github.com/AdienDendra/architect-web/blob/main/hugo.toml " target="_blank" rel="noopener">hugo.toml</a>
+You can see the full configuration here <a href="https://github.com/AdienDendra/adiendendra-web/blob/main/hugo.toml " target="_blank" rel="noopener">hugo.toml</a>
 
 
 ### Anatomy of Hugo Directory Structure

@@ -39,7 +39,7 @@ defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true 
 enableRobotsTXT = true
 ```
-selengkapnya bisa dilihat di <a href="https://github.com/AdienDendra/architect-web/blob/main/hugo.toml " target="_blank" rel="noopener">hugo.toml</a>
+selengkapnya bisa dilihat di <a href="https://github.com/AdienDendra/adiendendra-web/blob/main/hugo.toml " target="_blank" rel="noopener">hugo.toml</a>
 
 ### Anatomi Struktur Direktori Hugo
 Berikut adalah peran krusial dari direktori utama yang membentuk website ini:
