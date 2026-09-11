@@ -3,7 +3,7 @@ title = "Syarat dan Ketentuan"
 translationKey = "terms-of-service"
 description = "Ketentuan yang mengatur website, trial, pembelian, lisensi, pengiriman digital, dan support AD Skin Tools."
 date = 2026-09-09T20:58:00+10:00
-lastmod = 2026-09-09T20:58:00+10:00
+lastmod = 2026-09-10T20:58:00+10:00
 comments = false
 showToc = true
 TocOpen = true
@@ -11,90 +11,83 @@ ShowReadingTime = false
 ShowPostNavLinks = false
 +++
 
-**Tanggal berlaku: 9 September 2026**
+**Tanggal berlaku: 10 September 2026**
+Syarat dan Ketentuan layanan ini berlaku untuk halaman produk, masa uji coba, lisensi perangkat lunak, pengiriman digital, dan layanan bantuan produk AD Skin Tools yang disediakan oleh Adien Dendra. Kontak: [hello@adiendendra.com](mailto:hello@adiendendra.com)
 
-Syarat dan Ketentuan ini berlaku untuk product page, trial, lisensi software, pengiriman digital, dan product support AD Skin Tools yang disediakan oleh Adien Dendra di Sydney, Australia. Kontak: [hello@adiendendra.com](mailto:hello@adiendendra.com).
-
-Dengan memulai trial, membeli, mengunduh, mengaktifkan, atau menggunakan AD Skin Tools, Anda menyetujui ketentuan ini. Jika tidak menyetujuinya, jangan memulai trial, membeli, mengaktifkan, atau menggunakan software.
+Dengan memulai masa uji coba, membeli, mengunduh, mengaktifkan, atau menggunakan AD Skin Tools, Anda menyetujui ketentuan ini. Jika Anda tidak setuju, mohon tidak memulai masa uji coba, membeli, mengaktifkan, atau menggunakan perangkat lunak ini.
 
 ## 1. Produk
 
-AD Skin Tools adalah software premade yang dapat diunduh untuk Autodesk Maya. Produk ini bukan produk fisik, konsultasi, commissioned tool, layanan training Maya, atau customised software-development service.
+AD Skin Tools adalah perangkat lunak siap pakai yang dapat diunduh untuk Autodesk Maya. Produk ini bukan barang fisik, layanan konsultasi, alat khusus buatan pesanan, layanan pelatihan Maya, atau jasa pengembangan perangkat lunak.
 
-Autodesk Maya diperlukan secara terpisah dan tidak disertakan bersama AD Skin Tools.
+Autodesk Maya diperlukan secara terpisah dan tidak termasuk dalam paket pembelian AD Skin Tools.
 
 ## 2. Store dan pembayaran
 
-Ketika penjualan dibuka, checkout dan pembayaran akan disediakan oleh Lemon Squeezy yang bertindak sebagai Merchant of Record untuk transaksi tersebut. Lemon Squeezy menangani payment processing, pajak penjualan atau VAT yang berlaku, receipt, refund yang disetujui, dan chargeback. <a href="https://www.lemonsqueezy.com/buyer-terms" target="_blank" rel="noopener noreferrer" aria-label="Lemon Squeezy Buyer Terms, dibuka di tab baru">Buyer Terms</a> dan <a href="https://www.lemonsqueezy.com/privacy" target="_blank" rel="noopener noreferrer" aria-label="Lemon Squeezy Privacy Policy, dibuka di tab baru">Privacy Policy</a> Lemon Squeezy juga berlaku untuk layanannya.
+Saat penjualan dibuka, proses checkout dan pembayaran akan dikelola oleh Lemon Squeezy yang bertindak sebagai Merchant of Record untuk setiap transaksi. Lemon Squeezy menangani pemrosesan pembayaran, pajak penjualan atau PPN (VAT) yang berlaku, tanda terima, pengembalian dana (refund) yang disetujui, dan sanggahan pembayaran (chargeback). <a href="https://www.lemonsqueezy.com/buyer-terms" target="_blank" rel="noopener noreferrer" aria-label="Lemon Squeezy Buyer Terms, dibuka di tab baru">Syarat Pembeli</a> dan <a href="https://www.lemonsqueezy.com/privacy" target="_blank" rel="noopener noreferrer" aria-label="Lemon Squeezy Privacy Policy, dibuka di tab baru">Kebijakan Privasi</a> milik Lemon Squeezy juga berlaku untuk layanannya.
 
-AD Skin Tools merupakan pembelian satu kali. Produk ini tidak memiliki subscription atau biaya produk berulang.
+AD Skin Tools adalah produk sekali bayar. Tidak ada skema langganan maupun biaya produk berkala.
 
-## 3. Trial
+## 3. Masa uji coba
+Masa uji coba fitur lengkap berlaku selama 48 jam sejak pengguna memulainya dari dalam tool. Masa uji coba tidak berjalan otomatis saat Maya dibuka. Uji coba ini dibatasi satu kali per perangkat dan memerlukan koneksi internet untuk memulainya.
 
-Full-featured trial berlangsung selama 48 jam sejak user memulainya di dalam tool. Trial tidak dimulai secara otomatis ketika Maya dibuka. Trial dibatasi satu kali untuk setiap perangkat dan memerlukan koneksi internet untuk dimulai.
+Masa uji coba ini bertujuan agar calon pembeli dapat mengevaluasi alur kerja (workflow) dan kompatibilitas produk sebelum membeli. Tindakan merekayasa, memperpanjang, atau mengakhiri masa uji coba secara tidak sah tidak diizinkan.
 
-Trial ditujukan agar calon customer dapat mengevaluasi workflow dan kompatibilitas produk sebelum membeli. Upaya mereset, memperpanjang, atau mengakali trial tidak diizinkan.
+## 4. Lisensi perorangan
+Pembelian yang berhasil memberikan lisensi perorangan yang berlaku permanen (perpetual Individual License) untuk versi AD Skin Tools yang dibeli, sesuai dengan Ketentuan ini.
 
-## 4. Lisensi Individual
+- Lisensi terikat pada satu pembeli perorangan.
+- Pembeli tersebut dapat mengaktifkan lisensi pada maksimal dua perangkat pribadi.
+- Batas dua perangkat ini tidak mengizinkan dua orang atau satu tim untuk berbagi satu lisensi.
+- Pembeli dilarang memublikasikan, mendistribusikan ulang, menjual kembali, memberikan sublisensi, atau membagikan berkas ZIP produk maupun kunci lisensi (licence key) kepada orang lain.
+- Pengguna tambahan wajib memiliki lisensi masing-masing.
 
-Pembelian yang selesai diproses memberikan Lisensi Individual perpetual untuk versi AD Skin Tools yang dibeli, sesuai dengan ketentuan ini.
-
-- Lisensi diberikan kepada satu individual customer.
-- Individual tersebut dapat mengaktifkan lisensi pada maksimum dua perangkat.
-- Batas dua perangkat tidak mengizinkan dua orang atau sebuah tim menggunakan satu lisensi bersama-sama.
-- Customer tidak boleh memublikasikan, mendistribusikan ulang, menjual kembali, mensublisensikan, atau membagikan ZIP produk maupun licence key kepada orang lain.
-- Setiap user tambahan memerlukan lisensinya sendiri.
-
-Software dan hak kekayaan intelektualnya tetap dimiliki oleh Adien Dendra. Pembelian memberikan izin untuk menggunakan software; pembelian tidak memindahkan kepemilikan software atau source code.
+Perangkat lunak beserta hak kekayaan intelektual di dalamnya tetap sepenuhnya milik Adien Dendra. Pembelian hanya memberikan izin penggunaan (license to use), bukan pemindahan kepemilikan atas perangkat lunak maupun kode sumber (source code).
 
 ## 5. Aktivasi dan validasi
 
-Koneksi internet diperlukan untuk mengaktifkan lisensi berbayar dan memperbarui validasi secara berkala. Lisensi berbayar biasanya melakukan validasi online setiap tujuh hari dan memiliki offline grace period hingga 30 hari sejak validasi server terakhir yang berhasil.
+Koneksi internet diperlukan untuk mengaktifkan lisensi berbayar dan memperbarui validasi berkala. Lisensi berbayar biasanya melakukan validasi online setiap tujuh hari sekali dan memiliki masa tenggang offline (grace period) hingga 30 hari sejak validasi server terakhir yang berhasil.
 
-Jika offline grace period berakhir, operasi yang dilindungi tidak tersedia hingga validasi berhasil. Customer bertanggung jawab menyediakan akses yang wajar ke layanan validasi ketika pembaruan diperlukan.
+Jika masa tenggang offline berakhir, fitur-fitur utama tidak dapat digunakan sampai validasi ulang berhasil dilakukan. Pembeli bertanggung jawab memastikan akses internet yang memadai saat pembaruan validasi diperlukan.
 
-Batas perangkat dapat dikelola melalui fungsi aktivasi dan deaktivasi produk. Mengakali aktivasi, validasi, batas perangkat, atau kontrol lisensi lainnya tidak diizinkan.
+Pengaturan batas perangkat dapat dikelola melalui fungsi aktivasi dan deaktivasi di dalam produk. Tindakan memanipulasi atau meretas proses aktivasi, validasi, batas perangkat, maupun kontrol lisensi lainnya tidak diizinkan.
 
 ## 6. Pengiriman dan kompatibilitas
 
-Customer menerima ZIP yang dapat diunduh dan dipilih berdasarkan versi Autodesk Maya, sistem operasi, dan arsitektur processor yang didukung. Customer bertanggung jawab memilih package yang sesuai dengan environment mereka dan mengikuti panduan instalasi.
+Pembeli akan menerima berkas ZIP yang dapat diunduh sesuai pilihan versi Autodesk Maya, sistem operasi, dan arsitektur prosesor yang didukung. Pembeli bertanggung jawab memilih paket yang sesuai dengan lingkungan perangkat mereka serta mengikuti petunjuk instalasi.
 
-Kompatibilitas terbatas pada kombinasi yang tercantum di product page atau download page. Perubahan Autodesk Maya, sistem operasi, security control, hardware, atau third-party dependency di masa mendatang dapat memengaruhi kompatibilitas. Lisensi perpetual tidak menjamin kompatibilitas dengan software atau hardware yang dirilis setelah support matrix yang dinyatakan.
+Kompatibilitas terbatas pada kombinasi yang tertera di halaman produk atau halaman unduhan. Perubahan di masa mendatang pada Autodesk Maya, sistem operasi, kontrol keamanan, perangkat keras, atau dependensi pihak ketiga dapat memengaruhi kompatibilitas. Lisensi permanen tidak menjamin kompatibilitas dengan perangkat lunak atau perangkat keras yang dirilis setelah matriks dukungan yang telah ditentukan.
 
-## 7. Update dan versi mendatang
+## 7. Pembaruan dan versi masa depan
 
-Lisensi perpetual berlaku untuk versi yang dibeli. Maintenance update dapat disediakan untuk versi tersebut. Versi mayor, platform build baru, atau paid upgrade di masa mendatang dapat ditawarkan secara terpisah dan tidak otomatis termasuk kecuali dinyatakan secara jelas saat pembelian.
+Lisensi permanen berlaku untuk versi yang dibeli. Pembaruan pemeliharaan (maintenance update) dapat disediakan untuk versi tersebut. Namun, versi utama di masa mendatang (major version), build platform baru, atau pembaruan berbayar (paid upgrade) dapat ditawarkan secara terpisah dan tidak mencakup secara otomatis kecuali dinyatakan sebaliknya saat pembelian.
 
-## 8. Support
+## 8. Bantuan dan dukungan
 
-Customer support mencakup instalasi, licensing, compatibility, dan masalah teknis yang berkaitan dengan produk. Support tidak mencakup konsultasi, training Maya, custom feature development, commissioned rigging, debugging khusus proyek, atau integrasi pipeline.
+Layanan bantuan mencakup kendala instalasi, lisensi, kompatibilitas, dan masalah teknis terkait produk. Dukungan ini tidak mencakup konsultasi, pelatihan Maya, pengembangan fitur kustom, pengerjaan rigging khusus, debugging proyek tertentu, atau integrasi pipeline.
 
-Tidak ada jaminan waktu respons atau penyelesaian tertentu. Support dapat meminta informasi diagnosis yang wajar, seperti versi Maya, sistem operasi, arsitektur, pesan error, dan order reference. Jangan mengirim asset produksi rahasia kecuali diminta secara khusus dan metode transfer yang sesuai telah disepakati.
+Tidak ada jaminan estimasi waktu respons atau penyelesaian masalah. Tim bantuan mungkin memerlukan informasi diagnostik secukupnya, seperti versi Maya, sistem operasi, arsitektur, pesan error, dan nomor referensi pesanan. Mohon tidak mengirimkan aset produksi yang bersifat rahasia kecuali atas permintaan khusus dan menggunakan metode pengiriman yang telah disepakati.
 
-## 9. Refund dan reversal
+## 9. Pengembalian dana dan pembatalan
 
-Refund diatur oleh [Kebijakan Pengembalian Dana](/id/refund-policy/), consumer law yang berlaku, dan keputusan Lemon Squeezy sebagai Merchant of Record.
+Pengembalian dana diatur dalam [Kebijakan Pengembalian Dana](/id/refund-policy/), hukum perlindungan konsumen yang berlaku, serta keputusan dari Lemon Squeezy selaku Merchant of Record.
 
-Refund, chargeback, payment reversal, atau pembatalan order yang benar-benar diproses dapat menyebabkan lisensi terkait ditangguhkan atau dicabut.
+Pengembalian dana, sanggahan pembayaran (chargeback), pembalikan transaksi, atau pembatalan pesanan yang telah diproses dapat menyebabkan lisensi terkait ditangguhkan atau dicabut.
 
 ## 10. Penggunaan yang bertanggung jawab
 
-Anda tidak boleh menggunakan AD Skin Tools dengan cara yang melanggar hukum atau hak orang lain. Anda tidak boleh mengganggu licensing service, mencoba mendapatkan akses tanpa izin, menyebarkan modifikasi berbahaya, atau mengaku bahwa software ini merupakan produk Anda sendiri.
+Anda dilarang menggunakan AD Skin Tools dengan cara yang melanggar hukum atau hak orang lain. Anda dilarang mengganggu layanan lisensi, mencoba akses tanpa izin, mendistribusikan modifikasi yang berbahaya, atau mengklaim perangkat lunak ini sebagai produk buatan Anda sendiri.
 
-## 11. Ketersediaan dan hak konsumen
+## 11. Ketersediaan layanan dan hak konsumen
 
-Upaya yang wajar dilakukan untuk menyediakan produk dan licensing service sesuai deskripsi. Namun, software tetap dapat mengandung defect atau mengalami gangguan layanan sementara.
+Usaha terbaik telah dilakukan untuk menyediakan produk dan layanan lisensi sesuai deskripsi. Meski demikian, perangkat lunak tetap dapat memiliki *bug* atau mengalami gangguan layanan sementara.
 
-Tidak ada bagian dalam ketentuan ini yang mengecualikan, membatasi, atau mengubah hak maupun remedy yang menurut hukum tidak dapat dikecualikan, termasuk consumer guarantees yang berlaku berdasarkan Australian Consumer Law. Setiap pembatasan dalam ketentuan ini hanya berlaku sejauh diizinkan oleh hukum.
+Tidak ada hal dalam Ketentuan ini yang mengecualikan, membatasi, atau mengubah hak maupun ganti rugi yang menurut hukum tidak dapat dikecualikan. Setiap pembatasan dalam Ketentuan ini hanya berlaku sejauh yang diizinkan oleh hukum.
 
 ## 12. Perubahan ketentuan
 
-Ketentuan ini dapat diperbarui untuk mencerminkan perubahan produk, provider, security, atau hukum. Tanggal berlaku akan diperbarui ketika perubahan material dipublikasikan. Ketentuan yang ditampilkan ketika pembelian dilakukan tetap relevan bagi transaksi tersebut, dengan memperhatikan perubahan yang diwajibkan hukum atau diperlukan untuk menjalankan dan melindungi layanan.
+Syarat dan Ketentuan ini dapat diperbarui sewaktu-waktu untuk menyesuaikan perubahan produk, penyedia layanan, keamanan, atau regulasi hukum. Tanggal berlaku akan diperbarui setiap kali ada perubahan substansial yang diterbitkan. Ketentuan yang berlaku pada saat transaksi pembelian tetap menjadi acuan untuk transaksi tersebut, kecuali ada perubahan yang diwajibkan oleh hukum atau diperlukan untuk mengoperasikan dan melindungi layanan.
 
-## 13. Hukum yang berlaku
+## 13. Pemberitahuan Autodesk
 
-Ketentuan ini diatur oleh hukum yang berlaku di New South Wales, Australia, tanpa membatasi hak wajib yang tersedia berdasarkan hukum di yurisdiksi customer.
-
-## 14. Pemberitahuan Autodesk
-
-Autodesk dan Maya adalah merek dagang terdaftar atau merek dagang milik Autodesk, Inc., dan/atau anak perusahaan maupun afiliasinya di Amerika Serikat dan negara lain. AD Skin Tools dan Adien Dendra tidak berafiliasi, disponsori, didukung, atau disetujui oleh Autodesk.
+Autodesk dan Maya adalah merek dagang terdaftar atau merek dagang dari Autodesk, Inc., dan/atau anak perusahaan maupun afiliasinya di AS dan negara-negara lainnya. AD Skin Tools dan Adien Dendra tidak berafiliasi dengan, disponsori, didukung, atau disetujui oleh Autodesk.

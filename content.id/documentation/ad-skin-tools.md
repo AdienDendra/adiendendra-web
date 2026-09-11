@@ -4,7 +4,7 @@ translationKey: "ad-skin-tools-getting-started"
 summary: "Panduan untuk workflow AD Skin Tools di Autodesk Maya."
 description: "Cara meload mesh, mengelola influence, bind, flood, smooth, memvisualisasikan, mirror, dan transfer skin weight dengan AD Skin Tools."
 date: 2026-09-11T10:00:00+10:00
-lastmod: 2026-09-11T17:30:00+10:00
+lastmod: 2026-09-11T20:30:00+10:00
 tags: ["maya", "ad-skin-tools", "dokumentasi", "tutorial"]
 categories: ["documentation"]
 comments: false
@@ -56,7 +56,7 @@ Panel ini menampilkan:
 
 - **Skin Cluster:** skinCluster yang ada pada loaded mesh, atau `<no skinCluster>` jika mesh belum di skin.
 - **Loaded Mesh:** nama transform yang sedang digunakan oleh workflow Bind, Add Influence, Flood, Smooth, dan visualisation.
-- **Listed Joints:** jumlah bound dan pending joint yang sedang ditampilkan dalam influence list.
+- **Listed Joints:** jumlah bind dan pending joint yang sedang ditampilkan dalam influence list.
 
 Ketika skinned mesh dimuat, list otomatis diisi dengan influence yang sudah dimiliki skinCluster. Ketika unskinned mesh dimuat, tool membuat working context kosong yang siap diisi joint sebelum binding.
 
@@ -64,11 +64,11 @@ Ketika skinned mesh dimuat, list otomatis diisi dengan influence yang sudah dimi
 
 ## Joints / Influences
 
-### Bound dan pending joint
+### Bind dan pending joint
 
 List dapat berisi dua jenis joint:
 
-- **Bound influence** sudah menjadi bagian dari skinCluster pada loaded mesh dan ditampilkan dengan warna hijau.
+- **Bind influence** sudah menjadi bagian dari skinCluster pada loaded mesh dan ditampilkan dengan warna hijau.
 - **Pending joint** sudah ada di scene dan di dalam list, tetapi belum ditambahkan ke skinCluster pada loaded mesh dengan warna putih.
 
 Pilih satu atau beberapa joint di Maya, kemudian klik **Add Joints To The List**. Pada unskinned loaded mesh, joint tersebut menjadi kumpulan joint yang digunakan oleh **Bind Skin**. Pada skinned loaded mesh, joint yang baru dimasukkan akan tetap berstatus pending sampai dipilih di dalam list dan diproses menggunakan **Add Influence**.
@@ -85,14 +85,14 @@ Pilih joint di Maya scene lalu klik **Select Joints In The List** untuk menemuka
 
 ### Lock dan context-menu actions
 
-Klik lock control pada sebuah row untuk mengunci atau membuka joint tersebut. Untuk bound influence, control ini mengikuti influence lock pada skinCluster; untuk pending joint, lock state disimpan sementara di dalam tool.
+Klik lock control pada sebuah row untuk mengunci atau membuka joint tersebut. Untuk bind influence, control ini mengikuti influence lock pada skinCluster; untuk pending joint, lock state disimpan sementara di dalam tool.
 
 Klik kanan pada joint list untuk membuka action tambahan:
 
 - Lock atau unlock selected row maupun inverse selection.
 - Memilih seluruh pending joint.
-- Menghapus pending joint yang dipilih, inverse-selected, atau semuanya. Bound influence tidak terhapus oleh perintah removal ini.
-- Memilih vertex yang memiliki weight bukan nol dari bound influence yang dipilih.
+- Menghapus pending joint yang dipilih, inverse-selected, atau semuanya. Bind influence tidak terhapus oleh perintah removal ini.
+- Memilih vertex yang memiliki weight bukan nol dari bind influence yang dipilih.
 - Memilih satu atau seluruh listed joint di Maya scene.
 - Menetapkan satu selected joint sebagai **Global Owner**, atau membersihkan Global Owner saat ini.
 
@@ -113,13 +113,13 @@ Untuk Bind Skin, Add Influence, dan Flood, **Iterations 0** mempertahankan hasil
 
 Gunakan **Bind Skin** untuk membuat skinCluster awal pada unskinned loaded mesh.
 
-1. Load polygon mesh yang belum di-skin.
+1. Load polygon mesh yang belum di skin.
 2. Tambahkan setidaknya dua joint ke dalam list.
 3. Jika diperlukan, tetapkan Global Owner.
 4. Tentukan Blend dan Iterations. Gunakan Iterations `0` untuk hard initial blocking atau nilai positif untuk menyertakan smoothing.
 5. Klik **Bind Skin** dan tunggu sampai operasi selesai.
 
-Bind Skin menggunakan **seluruh joint list**, bukan hanya row yang sedang disorot. Tool menghitung natural surface ownership untuk listed joint, membuat satu skinCluster, menulis hasilnya, lalu memperbarui context agar influence yang baru di-bind muncul dalam list.
+Bind Skin menggunakan **seluruh joint list**, bukan hanya row yang sedang disorot. Tool menghitung natural surface ownership untuk listed joint, membuat satu skinCluster, menulis hasilnya, lalu memperbarui context agar influence yang baru di bind muncul dalam list.
 
 <!-- GIF: 03-bind-skin.gif — Buat hard bind, lalu bandingkan dengan smoothed bind. -->
 
@@ -133,13 +133,13 @@ Gunakan **Add Influence** ketika loaded mesh sudah memiliki skinCluster dan satu
 4. Atur Blend dan Iterations.
 5. Klik **Add Influence**.
 
-Hanya pending joint yang dipilih yang akan ditambahkan. Existing influence tetap menjadi bagian dari skinCluster, sementara tool memperbarui region yang diklaim oleh influence baru. Setelah selesai, row yang ditambahkan berubah menjadi bound influence dan tetap terpilih di dalam list.
+Hanya pending joint yang dipilih yang akan ditambahkan. Existing influence tetap menjadi bagian dari skinCluster, sementara tool memperbarui region yang diklaim oleh influence baru. Setelah selesai, row yang ditambahkan berubah menjadi bind influence dan tetap terpilih di dalam list.
 
-<!-- GIF: 04-add-influence.gif — Tambahkan pending joint dan ubah selected row menjadi bound influence. -->
+<!-- GIF: 04-add-influence.gif — Tambahkan pending joint dan ubah selected row menjadi bind influence. -->
 
 ## Flood
 
-Flood menghitung ulang natural region yang dimiliki oleh **bound influence** yang dipilih.
+Flood menghitung ulang natural region yang dimiliki oleh **bind influence** yang dipilih.
 
 1. Pilih satu atau beberapa joint yang sudah memiliki influence di UI list.
 2. Di Maya scene, pilih vertex, edge, atau face pada loaded mesh untuk component operation. Untuk memproses seluruh mesh, cukup pilih mesh object.
@@ -148,7 +148,7 @@ Flood menghitung ulang natural region yang dimiliki oleh **bound influence** yan
 
 Jika component dipilih, hanya component scope yang berhasil di resolve yang akan diproses. Pada mode ini juga bisa menggunakan Maya Soft Selection, hasilnya akan terpengaruh oleh falloffnya. Jika object loaded mesh yang dipilih, maka tool akan meminta konfirmasi sebelum memproses seluruh mesh.
 
-Dengan Iterations `0`, Flood menulis hard regional result. Iterations menerapkan smoothing pada affected region menggunakan nilai Blend saat ini. Pending Joints yang ikut dipilih bersama bound influence akan diabaikan; jika ingin menambahkan Pending Joints gunakan Add Influence untuk joint. Selected Flood target harus dalam keadaan unlocked, jika terkunci makan nilai influence lain tetap terlindungi.
+Dengan Iterations `0`, Flood menulis hard regional result. Iterations menerapkan smoothing pada affected region menggunakan nilai Blend saat ini. Pending Joints yang ikut dipilih bersama bind influence akan diabaikan; jika ingin menambahkan Pending Joints gunakan Add Influence untuk joint. Selected Flood target harus dalam keadaan unlocked, jika terkunci makan nilai influence lain tetap terlindungi.
 
 <!-- GIF: 05-flood.gif — Bandingkan component Flood, Soft Selection, dan whole-object Flood. -->
 
@@ -166,17 +166,17 @@ Smooth tidak memerlukan joint row untuk dipilih. Component mode mengikuti Maya S
 
 ## Skin Weight Visual
 
-Skin Weight Visual menampilkan weight dari satu bound influence langsung pada loaded mesh tanpa mengubah skin weight yang tersimpan.
+Skin Weight Visual menampilkan weight dari satu bind influence langsung pada loaded mesh tanpa mengubah skin weight yang tersimpan.
 
 1. Load mesh yang sudah memiliki skinCluster.
-2. Pilih tepat satu bound influence di dalam list.
+2. Pilih tepat satu bind influence di dalam list.
 3. Pilih display mode:
    - **Spectrum:** hitam, biru, hijau, kuning, oranye, merah, dan putih.
    - **Heat:** hitam, merah, oranye, kuning, dan putih.
    - **Grayscale:** hitam melalui abu-abu hingga putih.
 4. Pilih **Off** untuk mengembalikan normal mesh shading.
 
-Jika **Live Joint Selection** diset ke **On**, memilih listed bound joint di Maya scene juga akan memilih dan menampilkannya dalam UI list serta memperbarui weight visual yang aktif. Set ke **Off** jika Anda ingin displayed influence tetap sama ketika Maya scene selection berubah.
+Jika **Live Joint Selection** diset ke **On**, memilih listed bind joint di Maya scene juga akan memilih dan menampilkannya dalam UI list serta memperbarui weight visual yang aktif. Set ke **Off** jika Anda ingin displayed influence tetap sama ketika Maya scene selection berubah.
 
 Visual akan diperbarui setelah weight operation yang relevan, Undo, dan Redo. Ini adalah temporary display session dan tidak melakukan bake colour data ke dalam skin weight.
 

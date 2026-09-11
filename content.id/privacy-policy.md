@@ -3,7 +3,7 @@ title = "Kebijakan Privasi"
 translationKey = "privacy-policy"
 description = "Cara website ini dan AD Skin Tools memproses data website, support, komentar, transaksi, licensing, dan perangkat lokal."
 date = 2026-09-09T20:58:00+10:00
-lastmod = 2026-09-09T20:58:00+10:00
+lastmod = 2026-09-10T20:58:00+10:00
 comments = false
 showToc = true
 TocOpen = true
@@ -11,140 +11,118 @@ ShowReadingTime = false
 ShowPostNavLinks = false
 +++
 
-**Tanggal berlaku: 9 September 2026**
+**Tanggal berlaku: 10 September 2026**
 
-Kebijakan Privasi ini menjelaskan cara website `architecture.adiendendra.com` dan AD Skin Tools memproses informasi. Website dan produk dioperasikan oleh Adien Dendra di Sydney, Australia. Pertanyaan mengenai privasi dapat dikirimkan ke [hello@adiendendra.com](mailto:hello@adiendendra.com).
+Kebijakan Privasi ini menjelaskan bagaimana situs web `adiendendra.com` dan AD Skin Tools mengelola dan memproses informasi. Situs web beserta produk ini dioperasikan oleh Adien Dendra. Pertanyaan mengenai privasi dapat dikirimkan ke [hello@adiendendra.com](mailto:hello@adiendendra.com).
 
-Kebijakan ini tidak menyatakan bahwa tidak ada data yang dikumpulkan. Infrastruktur website, email, komentar, payment provider, dan licensing service perlu memproses informasi terbatas agar dapat beroperasi.
+Kebijakan ini tidak menyatakan bahwa tidak ada data yang dikumpulkan sama sekali. Infrastruktur situs web, email, komentar, penyedia layanan pembayaran, dan sistem lisensi secara teknis tetap perlu memproses sejumlah informasi terbatas agar dapat beroperasi.
 
 ## 1. Kunjungan website dan hosting
 
-Website ini merupakan static site Hugo yang di-host melalui Cloudflare Pages dan dikirimkan melalui jaringan Cloudflare. Cloudflare dapat memproses informasi teknis request dan security seperti:
+Situs web ini merupakan situs statis berbasis Hugo yang di-host melalui Cloudflare Pages dan didistribusikan lewat jaringan Cloudflare. Cloudflare dapat memproses informasi keamanan dan permintaan teknis seperti:
 
 - Alamat IP dan perkiraan lokasi jaringan.
-- URL yang diminta serta tanggal dan waktu request.
+- URL yang diakses, tanggal, serta waktu akses.
 - Informasi browser, perangkat, sistem operasi, dan request header.
-- Cache, performance, error, abuse-prevention, dan security event.
+- Catatan cache, performa, error, pencegahan penyalahgunaan, serta peristiwa keamanan (security events).
 
-Cloudflare dapat memasang strictly necessary security cookies ketika fitur perlindungannya memerlukannya. Website ini tidak dengan sengaja mengonfigurasi advertising tracker atau third-party advertising cookies.
+Cloudflare dapat memasang cookie keamanan yang esensial jika diperlukan oleh fitur perlindungannya. Situs web ini tidak memasang penjejak iklan (advertising trackers) atau cookie iklan pihak ketiga.
 
-Website menggunakan `localStorage` browser untuk mengingat pilihan tema terang atau gelap. Filter 3D Tools lokal berjalan di browser dan tidak mengirim pilihan filter ke server.
+Situs ini menggunakan `localStorage` pada browser untuk menyimpan preferensi tampilan mode terang atau gelap pengunjung. Fitur penyaring (filter) 3D Tools beroperasi secara lokal di dalam browser dan tidak mengirimkan pilihan penyaring tersebut ke server.
 
-Lihat <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener noreferrer" aria-label="Cloudflare Privacy Policy, dibuka di tab baru">Cloudflare Privacy Policy</a> dan <a href="https://developers.cloudflare.com/fundamentals/reference/policies-compliances/cloudflare-cookies/" target="_blank" rel="noopener noreferrer" aria-label="dokumentasi Cloudflare Cookies, dibuka di tab baru">Cloudflare Cookies</a> untuk informasi tentang pemrosesan oleh Cloudflare.
+Silakan baca <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener noreferrer" aria-label="Cloudflare Privacy Policy, dibuka di tab baru">Kebijakan Privasi Cloudflare</a> dan <a href="https://developers.cloudflare.com/fundamentals/reference/policies-compliances/cloudflare-cookies/" target="_blank" rel="noopener noreferrer" aria-label="dokumentasi Cloudflare Cookies, dibuka di tab baru">Dokumentasi Cookie Cloudflare</a> untuk informasi lebih lanjut mengenai pemrosesan data oleh Cloudflare.
 
-## 2. Konten eksternal yang digunakan website
+## 2. Konten eksternal yang digunakan situs web
 
-Website saat ini memuat resource Mermaid dan KaTeX dari content-delivery network jsDelivr. Homepage juga memuat profile image dari GitHub. Ketika resource tersebut dimuat, provider dapat menerima informasi request biasa seperti alamat IP pengunjung, browser header, resource yang diminta, dan timestamp.
+Situs web ini memuat sumber daya Mermaid dan KaTeX dari jaringan distribusi konten (Content Delivery Network / CDN) jsDelivr. Halaman utama juga memuat foto profil dari GitHub. Saat sumber daya ini dimuat, penyedia layanan terkait dapat menerima informasi permintaan standar seperti alamat IP pengunjung, browser header, sumber daya yang diminta, dan stempel waktu (timestamp).
 
-Saat ini belum ada third-party video player yang ditanamkan pada product page AD Skin Tools. Kebijakan ini akan diperbarui ketika provider video demo ditambahkan.
+## 3. Email dan dukungan teknis
+Situs web ini menggunakan tautan email. Jika Anda mengirimkan email, informasi yang diproses dapat mencakup:
 
-## 3. Email dan support
+- Alamat email dan nama tampilan Anda.
+- Pesan, lampiran, dan informasi teknis yang Anda pilih untuk berikan.
+- Referensi pesanan dan riwayat dukungan teknis jika relevan.
 
-Website menggunakan link email dan bukan contact form. Jika Anda mengirim email, informasi yang diproses dapat mencakup:
+Informasi ini digunakan untuk merespons pertanyaan seputar instalasi, lisensi, kompatibilitas, privasi, serta kendala teknis produk. Email diproses oleh penyedia layanan email yang digunakan oleh pengirim dan penerima.
 
-- Alamat email dan display name.
-- Pesan, attachment, dan informasi teknis yang Anda pilih untuk diberikan.
-- Order reference dan riwayat support jika relevan.
+Mohon untuk tidak mengirimkan kunci lisensi secara utuh, aset produksi yang bersifat rahasia, kata sandi, atau informasi sensitif lainnya kecuali jika memang diperlukan dan metode pengiriman yang aman telah disepakati.
 
-Informasi tersebut digunakan untuk menjawab pertanyaan mengenai instalasi, licensing, kompatibilitas, privasi, dan masalah teknis terkait produk. Email diproses oleh email provider yang digunakan pengirim dan penerima.
+## 4. Pembelian melalui Lemon Squeezy
 
-Jangan mengirim full licence key, asset produksi rahasia, password, atau informasi sensitif lain kecuali benar-benar diperlukan dan metode transfer yang sesuai telah disepakati.
+Saat penjualan dibuka, Lemon Squeezy akan menyediakan alur checkout dan bertindak sebagai Merchant of Record. Lemon Squeezy dapat mengumpulkan dan memproses informasi yang diperlukan untuk pembayaran, pajak, pencegahan penipuan, pengiriman digital, pengembalian dana (refund), dan sanggahan pembayaran (chargeback), mencakup:
 
-## 4. Komentar
+- Nama pelanggan, email, negara penagihan, dan rincian alamat tagihan.
+- Informasi pembayaran dan pengenal (identifier) transaksi.
+- Informasi produk, pesanan, pajak, pengembalian dana, dan sanggahan pembayaran.
+- Informasi perangkat, jaringan, pencegahan penipuan, dan penggunaan alur checkout.
 
-Komentar dimatikan pada halaman AD Skin Tools dan halaman kebijakan, tetapi Isso comment system tersedia pada beberapa halaman blog dan proyek.
+Rincian kartu pembayaran dikelola langsung oleh Lemon Squeezy beserta penyedia pembayaran rekannya, bukan oleh situs web ini atau basis data lisensi AD Skin Tools. Pemrosesan oleh Lemon Squeezy diatur dalam <a href="https://www.lemonsqueezy.com/privacy" target="_blank" rel="noopener noreferrer" aria-label="Lemon Squeezy Privacy Policy, dibuka di tab baru">Kebijakan Privasi</a> dan <a href="https://www.lemonsqueezy.com/buyer-terms" target="_blank" rel="noopener noreferrer" aria-label="Lemon Squeezy Buyer Terms, dibuka di tab baru">Syarat Pembeli</a> milik mereka.
 
-Jika Anda mengirim komentar, Isso dapat memproses:
+Layanan lisensi AD Skin Tools dirancang untuk tidak menyimpan nama atau alamat email pelanggan yang diterima dari webhook Lemon Squeezy.
 
-- Isi komentar, halaman terkait, dan timestamp.
-- Nama, alamat email, atau website opsional yang Anda berikan.
-- Status moderation dan informasi anti-abuse.
-- Informasi teknis jaringan, termasuk alamat IP yang dianonimkan sebagian.
+## 5. Uji coba dan lisensi berbayar
 
-Isi komentar yang disetujui dan display name yang diberikan dapat ditampilkan secara publik. Alamat email digunakan untuk administrasi atau notifikasi dan tidak dengan sengaja ditampilkan secara publik.
+AD Skin Tools berkomunikasi dengan layanan lisensi yang di-host di AWS (Amazon Web Services) saat pengguna memulai masa uji coba, atau melakukan aktivasi, validasi, maupun deaktivasi lisensi berbayar.
 
-Komentar disimpan dalam self-hosted Isso SQLite database. Traffic menuju layanan melewati Cloudflare dan notifikasi moderation dapat dikirim menggunakan Google SMTP. Jangan menuliskan informasi pribadi yang rahasia atau sensitif dalam komentar publik.
+Layanan lisensi dapat memproses:
 
-## 5. Pembelian melalui Lemon Squeezy
+- Sidik jari perangkat (device fingerprint) yang dihasilkan oleh tool yang terpasang.
+- Digest pseudonim (pseudonymous digest) yang diturunkan dari fingerprint tersebut.
+- Kunci lisensi (licence key) saat proses aktivasi atau validasi.
+- Nilai pencarian kunci lisensi yang di-hash (hashed lookup value), alih-alih menyimpan kunci mentah pada penyimpanan permanen.
+- Status masa uji coba, lisensi, aktivasi, slot perangkat, hak akses (entitlement), dan pencabutan lisensi (revocation).
+- Stempel waktu server, tanggal validasi, tanggal kadaluarsa, dan hasil permintaan.
+- Metadata jaringan dan keamanan standar yang diproses oleh infrastruktur AWS.
 
-Ketika penjualan dibuka, Lemon Squeezy akan menyediakan checkout dan bertindak sebagai Merchant of Record. Lemon Squeezy dapat mengumpulkan serta memproses informasi yang diperlukan untuk pembayaran, pajak, fraud prevention, pengiriman digital, refund, dan chargeback, termasuk:
+Aplikasi dirancang sedemikian rupa agar device fingerprint dan kunci lisensi mentah tidak pernah ditulis ke basis data lisensi maupun log aplikasi. Meski demikian, pengenal pseudonim (pseudonymous identifiers) tetap dianggap sebagai data yang berkaitan dengan perangkat dan dikelola secara aman.
 
-- Nama customer, email, negara penagihan, dan billing details.
-- Informasi pembayaran dan transaction identifier.
-- Informasi produk, order, pajak, refund, dan chargeback.
-- Informasi perangkat, jaringan, fraud-prevention, dan penggunaan checkout.
+Informasi lisensi digunakan untuk menyediakan masa uji coba 48 jam, menerapkan batas dua perangkat, menerbitkan hak akses yang tertanda secara digital (signed entitlements), mendukung penggunaan offline, memvalidasi lisensi, mencegah penyalahgunaan ulang masa uji coba, serta mencabut lisensi apabila terjadi pengembalian dana, pembalikan transaksi, atau pembatalan pesanan yang sah.
 
-Detail kartu pembayaran ditangani oleh Lemon Squeezy dan payment provider-nya, bukan oleh website ini atau AD Skin Tools licensing database. Pemrosesan oleh Lemon Squeezy diatur oleh <a href="https://www.lemonsqueezy.com/privacy" target="_blank" rel="noopener noreferrer" aria-label="Lemon Squeezy Privacy Policy, dibuka di tab baru">Privacy Policy</a> dan <a href="https://www.lemonsqueezy.com/buyer-terms" target="_blank" rel="noopener noreferrer" aria-label="Lemon Squeezy Buyer Terms, dibuka di tab baru">Buyer Terms</a> mereka.
+## 6. Informasi lokal di komputer pelanggan
 
-AD Skin Tools licensing service dirancang agar tidak menyimpan nama atau alamat email customer yang diterima dari Lemon Squeezy webhook.
+AD Skin Tools menyimpan data hak akses lokal (local entitlement) dan cache lisensi di komputer pelanggan. Data ini dapat berisi informasi penambatan perangkat pseudonim (pseudonymous device binding), status lisensi atau uji coba, data hak akses tertandatangani, stempel waktu validasi, serta informasi batas waktu penggunaan offline.
 
-## 6. Trial dan paid licensing
+Informasi lokal ini diperlukan untuk menjalankan masa uji coba dan masa tenggang offline (offline grace period) pada lisensi berbayar. Menghapus atau mengubah data ini tidak menjamin dimulainya masa uji coba baru dan mungkin mengharuskan produk terhubung kembali ke layanan lisensi.
 
-AD Skin Tools berkomunikasi dengan licensing service yang di-host di Amazon Web Services ketika user memulai trial atau mengaktifkan, memvalidasi, maupun menonaktifkan lisensi berbayar.
-
-Licensing service dapat memproses:
-
-- Device fingerprint yang dibuat oleh tool yang terpasang.
-- Digest pseudonim yang dibuat dari fingerprint tersebut.
-- Licence key ketika melakukan aktivasi atau validasi.
-- Hashed licence-key lookup value dan bukan raw key dalam persistent storage.
-- Status trial, lisensi, aktivasi, device slot, entitlement, dan revocation.
-- Server timestamp, tanggal validasi, tanggal kedaluwarsa, dan hasil request.
-- Metadata jaringan dan security standar yang diproses oleh infrastruktur AWS.
-
-Aplikasi dirancang agar raw device fingerprint dan raw licence key tidak ditulis ke licensing database maupun application logs. Identitas pseudonim tetap merupakan data yang berkaitan dengan sebuah perangkat dan diperlakukan sebagaimana mestinya.
-
-Informasi licensing digunakan untuk menyediakan trial 48 jam, menerapkan batas dua perangkat, menerbitkan signed entitlement, mendukung penggunaan offline, memvalidasi lisensi, mencegah reset trial, dan mencabut lisensi setelah refund, reversal, atau event lain yang benar-benar membatalkan hak lisensi.
-
-## 7. Informasi lokal di komputer customer
-
-AD Skin Tools menyimpan entitlement dan licensing cache secara lokal di komputer customer. Informasi ini dapat berisi pseudonymous device binding, status lisensi atau trial, signed entitlement data, validation timestamp, dan informasi offline expiry.
-
-Informasi lokal tersebut diperlukan untuk menjalankan trial dan paid offline grace period. Menghapus atau mengubahnya tidak menjamin trial baru dan dapat mengharuskan produk tersambung kembali ke licensing service.
-
-## 8. Alasan informasi diproses
+## 7. Alasan pemrosesan informasi
 
 Informasi yang dijelaskan dalam kebijakan ini diproses untuk:
 
-- Mengirimkan, mengamankan, dan melakukan troubleshooting website.
-- Menampilkan konten serta mengingat preference penting website.
-- Memublikasikan dan memoderasi komentar pada halaman yang mengaktifkannya.
-- Menjawab pertanyaan support dan privasi.
-- Memproses pembelian dan pengiriman digital.
-- Memulai trial serta mengaktifkan, memvalidasi, menonaktifkan, atau mencabut lisensi.
-- Mencegah fraud, abuse, license sharing, dan reset trial tanpa izin.
-- Memenuhi kewajiban accounting, pajak, consumer protection, dispute, dan hukum.
+- Menyediakan, mengamankan, dan mengatasi masalah teknis pada situs web.
+- Menampilkan konten situs dan menyimpan preferensi esensial.
+- Merespons permintaan dukungan teknis dan pertanyaan privasi.
+- Memproses transaksi pembelian dan pengiriman produk digital.
+- Memulai masa uji coba serta mengaktifkan, memvalidasi, menonaktifkan, atau mencabut lisensi.
+- Mencegah penipuan, penyalahgunaan, pembagian lisensi, dan peretasan masa uji coba secara tidak sah.
+- Memenuhi kewajiban akuntansi, perpajakan, perlindungan konsumen, penanganan sengketa, dan ketentuan hukum.
 
-## 9. Service provider dan pengungkapan
+## 8. Penyedia layanan dan pengungkapan data
 
-Informasi hanya dibagikan jika secara wajar diperlukan untuk menjalankan fungsi tersebut, menaati hukum, atau melindungi layanan. Provider terkait saat ini mencakup Cloudflare, jsDelivr, GitHub, email provider, Google SMTP untuk notifikasi komentar, Lemon Squeezy untuk commerce, dan Amazon Web Services untuk licensing.
+Informasi hanya diungkapkan jika secara wajar diperlukan untuk menjalankan fungsi-fungsi tersebut, mematuhi hukum, atau melindungi layanan. Penyedia layanan terkait saat ini meliputi Cloudflare, jsDelivr, GitHub, penyedia email, Google SMTP untuk notifikasi komentar, Lemon Squeezy untuk transaksi, dan AWS (Amazon Web Services) untuk sistem lisensi.
 
-Provider tersebut dapat memproses informasi di negara selain Australia berdasarkan privacy terms dan pengaturan infrastrukturnya masing-masing.
+Informasi pribadi tidak pernah dijual oleh Adien Dendra untuk keperluan periklanan.
 
-Adien Dendra tidak menjual informasi pribadi untuk tujuan advertising.
+## 9. Retensi data
 
-## 10. Retensi
+Jangka waktu penyimpanan (retensi) data bergantung pada jenis informasi serta kebutuhan operasional atau hukum:
 
-Retensi bergantung pada jenis informasi serta kebutuhan operasional atau hukum:
+- Log keamanan dan situs web mengikuti pengaturan serta praktik retensi dari penyedia hosting.
+- Email dukungan teknis disimpan selama diperlukan untuk menyelesaikan kendala, mencatat riwayat bantuan, mencegah penyalahgunaan, atau memenuhi kewajiban hukum.
+- Catatan transaksi disimpan oleh Lemon Squeezy dan penyedia terkait sesuai dengan persyaratan pembayaran, pajak, pencegahan penipuan, penanganan sengketa, dan hukum.
+- Catatan lisensi dan perangkat pseudonim dapat disimpan selama masa aktif uji coba atau lisensi, serta selama diperlukan untuk menerapkan aturan batas perangkat, pengembalian dana, pencegahan penipuan, dan status pencabutan lisensi.
 
-- Website dan security logs mengikuti pengaturan serta praktik retensi hosting provider.
-- Email support disimpan selama diperlukan untuk menyelesaikan permintaan, mempertahankan riwayat support, mencegah abuse, atau memenuhi kewajiban hukum.
-- Komentar tetap disimpan selama diskusi terkait dipublikasikan atau hingga moderation maupun permintaan penghapusan yang sah mengharuskan penghapusan, dengan memperhatikan kebutuhan backup dan security.
-- Transaction record disimpan oleh Lemon Squeezy dan provider terkait sesuai kebutuhan pembayaran, pajak, fraud, dispute, dan hukum.
-- Licensing record dan pseudonymous device record dapat disimpan selama lifecycle trial atau lisensi dan selama diperlukan untuk menerapkan status perangkat, refund, fraud, dan revocation.
+Informasi dapat disimpan lebih lama apabila diwajibkan oleh hukum, sengketa yang sedang berjalan, pencegahan penipuan, atau penyelidikan keamanan. Data akan dihapus atau dianonimkan jika tidak lagi dibutuhkan secara wajar.
 
-Informasi dapat disimpan lebih lama jika diwajibkan hukum, terdapat dispute aktif, atau diperlukan untuk fraud prevention maupun security investigation. Informasi akan dihapus atau dianonimkan ketika tidak lagi diperlukan secara wajar, dengan memperhatikan kebutuhan tersebut.
+## 10. Keamanan
 
-## 11. Security
+Langkah-langkah teknis dan organisasional yang wajar diterapkan untuk melindungi informasi, mencakup enkripsi koneksi jaringan, pengenal perangkat pseudonim, pencarian kunci lisensi terenkripsi (hashed lookup), pembatasan akses layanan, serta penghindaran kunci mentah dan sidik jari mentah pada log aplikasi. Meski demikian, tidak ada metode transmisi atau penyimpanan data yang dapat dijamin aman secara mutlak.
 
-Langkah teknis dan organisasi yang wajar digunakan untuk melindungi informasi, termasuk koneksi jaringan terenkripsi, pseudonymous device identifier, hashed licence-key lookup, pembatasan akses layanan, serta menghindari raw key dan raw fingerprint dalam application logs. Tidak ada metode transmisi atau penyimpanan yang dapat dijamin sepenuhnya aman.
+## 11. Permintaan akses, koreksi, dan penghapusan data
 
-## 12. Permintaan akses, koreksi, dan penghapusan
+Anda dapat menghubungi [hello@adiendendra.com](mailto:hello@adiendendra.com) untuk mengajukan permintaan akses, koreksi, atau penghapusan informasi pribadi yang dikelola oleh Adien Dendra. Informasi verifikasi secukupnya mungkin diperlukan untuk mengonfirmasi identitas Anda dan menemukan catatan data yang relevan.
 
-Anda dapat menghubungi [hello@adiendendra.com](mailto:hello@adiendendra.com) untuk meminta akses, koreksi, atau penghapusan informasi pribadi yang dikendalikan oleh Adien Dendra. Informasi yang cukup mungkin diperlukan untuk memverifikasi permintaan dan menemukan record terkait.
+Sebagian informasi mungkin perlu tetap disimpan untuk alasan hukum, catatan transaksi, pencegahan penipuan, keamanan, atau integritas lisensi. Permintaan terkait data checkout atau pembayaran yang dikelola oleh Lemon Squeezy juga perlu ditujukan secara langsung kepada Lemon Squeezy.
 
-Sebagian informasi mungkin perlu dipertahankan untuk keperluan hukum, transaksi, fraud prevention, security, atau integritas lisensi. Permintaan mengenai checkout atau data pembayaran yang dikendalikan Lemon Squeezy juga perlu ditujukan kepada Lemon Squeezy.
+## 12. Perubahan kebijakan
 
-## 13. Perubahan kebijakan
-
-Kebijakan ini dapat diperbarui ketika website, video provider, commerce flow, licensing service, atau persyaratan hukum berubah. Tanggal berlaku akan diperbarui ketika perubahan material dipublikasikan.
+Kebijakan ini dapat diperbarui sewaktu-waktu apabila terdapat perubahan pada situs web, penyedia video, alur transaksi, layanan lisensi, atau ketentuan hukum. Tanggal berlaku akan diperbarui setiap kali ada perubahan substansial yang diterbitkan.
