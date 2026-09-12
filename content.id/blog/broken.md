@@ -16,4 +16,6 @@ Kala sepi itu datang, namamu menjelma gema memenuhi seluruh ruang. Jiwaku yang k
 
 Anganku kini selalu melayang dalam rindu yang berulang, di mana kita pernah menjelajahi hari bersama, membuat iri insan rapuh yang sering kita sebut tunaasmara. Kini kepergianmu menjadi pilu yang tak kunjung luruh, berwujud rumah yang tak mengenal siapa puannya. Aku yang tak pernah beranjak dan setia tinggal di dalamnya, selalu merawat seluruh sunyi. Menutup rapat semua pintu, agar segala kenang menetap di dalam kening.
 
+Adien Dendra
+
 </div>

@@ -16,4 +16,6 @@ Whenever solitude arrives, your name becomes an echo that fills every corner. My
 
 Now my reverie drifts through the same recurring longing, returning to the days we once explored together, when our happiness stirred envy in the fragile souls we used to call the lovelorn. Now your departure has settled into a sorrow that refuses to fade, taking the shape of a house that no longer remembers whom it once called home. I have never left, but remain faithfully within its walls, tending every silence. I seal every door tight, so every memory may continue to dwell behind my brow.
 
+Adien Dendra
+
 </div>
