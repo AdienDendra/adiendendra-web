@@ -3,7 +3,7 @@ title = "Syarat dan Ketentuan"
 translationKey = "terms-of-service"
 description = "Ketentuan yang mengatur website, trial, pembelian, lisensi, pengiriman digital, dan support AD Skin Tools."
 date = 2026-09-09T20:58:00+10:00
-lastmod = 2026-09-10T20:58:00+10:00
+lastmod = 2026-09-11T20:58:00+10:00
 comments = false
 showToc = true
 TocOpen = true
@@ -11,7 +11,8 @@ ShowReadingTime = false
 ShowPostNavLinks = false
 +++
 
-**Tanggal berlaku: 10 September 2026**
+**Tanggal berlaku: 11 September 2026**
+
 Syarat dan Ketentuan layanan ini berlaku untuk halaman produk, masa uji coba, lisensi perangkat lunak, pengiriman digital, dan layanan bantuan produk AD Skin Tools yang disediakan oleh Adien Dendra. Kontak: [hello@adiendendra.com](mailto:hello@adiendendra.com)
 
 Dengan memulai masa uji coba, membeli, mengunduh, mengaktifkan, atau menggunakan AD Skin Tools, Anda menyetujui ketentuan ini. Jika Anda tidak setuju, mohon tidak memulai masa uji coba, membeli, mengaktifkan, atau menggunakan perangkat lunak ini.

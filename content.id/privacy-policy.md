@@ -3,7 +3,7 @@ title = "Kebijakan Privasi"
 translationKey = "privacy-policy"
 description = "Cara website ini dan AD Skin Tools memproses data website, support, komentar, transaksi, licensing, dan perangkat lokal."
 date = 2026-09-09T20:58:00+10:00
-lastmod = 2026-09-10T20:58:00+10:00
+lastmod = 2026-09-11T20:58:00+10:00
 comments = false
 showToc = true
 TocOpen = true
@@ -11,7 +11,7 @@ ShowReadingTime = false
 ShowPostNavLinks = false
 +++
 
-**Tanggal berlaku: 10 September 2026**
+**Tanggal berlaku: 11 September 2026**
 
 Kebijakan Privasi ini menjelaskan bagaimana situs web `adiendendra.com` dan AD Skin Tools mengelola dan memproses informasi. Situs web beserta produk ini dioperasikan oleh Adien Dendra. Pertanyaan mengenai privasi dapat dikirimkan ke [hello@adiendendra.com](mailto:hello@adiendendra.com).
 

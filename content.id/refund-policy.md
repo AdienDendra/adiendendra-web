@@ -3,7 +3,7 @@ title = "Kebijakan Pengembalian Dana"
 translationKey = "refund-policy"
 description = "Ketentuan refund pembelian digital AD Skin Tools, termasuk change-of-mind request dan remedy."
 date = 2026-09-09T20:58:00+10:00
-lastmod = 2026-09-10T20:58:00+10:00
+lastmod = 2026-09-11T20:58:00+10:00
 comments = false
 showToc = true
 TocOpen = true
@@ -11,7 +11,7 @@ ShowReadingTime = false
 ShowPostNavLinks = false
 +++
 
-**Tanggal berlaku: 10 September 2026**
+**Tanggal berlaku: 11 September 2026**
 
 Kebijakan Pengembalian Dana ini berlaku untuk pembelian AD Skin Tools. Kontak: [hello@adiendendra.com](mailto:hello@adiendendra.com).
 
