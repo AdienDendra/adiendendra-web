@@ -3,7 +3,7 @@ title = "Terms of Service"
 translationKey = "terms-of-service"
 description = "Terms governing the AD Skin Tools website, trial, purchase, licence, delivery, and support."
 date = 2026-09-09T20:58:00+10:00
-lastmod = 2026-09-10T20:58:00+10:00
+lastmod = 2026-09-11T20:58:00+10:00
 comments = false
 showToc = true
 TocOpen = true
@@ -11,7 +11,7 @@ ShowReadingTime = false
 ShowPostNavLinks = false
 +++
 
-**Effective date: 10 September 2026**
+**Effective date: 11 September 2026**
 
 These Terms of Service apply to the AD Skin Tools product page, trial, software licence, digital delivery, and product support provided by Adien Dendra. Contact: [hello@adiendendra.com](mailto:hello@adiendendra.com).
 
@@ -19,7 +19,7 @@ By starting a trial, purchasing, downloading, activating, or using AD Skin Tools
 
 ## 1. The product
 
-AD Skin Tools is ready-to-use downloadable software for Autodesk Maya. It is not a physical product, consulting service, custom-built tool, Maya training service, or software-development service.
+AD Skin Tools is ready-to-use downloadable software for Autodesk Maya. It is not a physical product, consulting service, commissioned tool, Maya training service, or custom software development service.
 
 Autodesk Maya is required separately and is not included with the purchase of AD Skin Tools.
 
@@ -57,7 +57,7 @@ The device allowance can be managed through the product's activation and deactiv
 
 ## 6. Delivery and compatibility
 
-The purchaser receives a downloadable ZIP selected for a supported Autodesk Maya version, operating system, and processor architecture. The purchaser is responsible for choosing the package that matches their environment and following the installation instructions.
+The purchaser receives a downloadable ZIP for a supported combination of Autodesk Maya version, operating system, and processor architecture. The purchaser is responsible for choosing the package that matches their environment and following the installation instructions.
 
 Compatibility is limited to the combinations listed on the product page or download page. Future changes to Autodesk Maya, operating systems, security controls, hardware, or third-party dependencies may affect compatibility. A perpetual licence does not guarantee compatibility with software or hardware released after the stated support matrix.
 

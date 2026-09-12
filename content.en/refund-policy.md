@@ -3,7 +3,7 @@ title = "Refund Policy"
 translationKey = "refund-policy"
 description = "Refund terms for AD Skin Tools digital purchases, including change-of-mind requests and consumer-law remedies."
 date = 2026-09-09T20:58:00+10:00
-lastmod = 2026-09-10T20:58:00+10:00
+lastmod = 2026-09-11T20:58:00+10:00
 comments = false
 showToc = true
 TocOpen = true
@@ -11,7 +11,7 @@ ShowReadingTime = false
 ShowPostNavLinks = false
 +++
 
-**Effective date: 10 September 2026**
+**Effective date: 11 September 2026**
 
 This Refund Policy applies to purchases of AD Skin Tools. Contact: [hello@adiendendra.com](mailto:hello@adiendendra.com).
 
@@ -35,11 +35,11 @@ This change-of-mind position does not override rights that apply by law.
 
 ## Faults, incorrect description, and mandatory rights
 
-Nothing in this policy excludes, restricts, or modifies consumer guarantees or other rights that cannot lawfully be excluded. Depending on the circumstances, applicable consumer law may provide a repair, replacement, refund, cancellation, or another remedy if the product has a legitimate technical fault, is materially different from its description, or cannot perform its intended function.
+Nothing in this policy excludes, restricts, or modifies consumer guarantees or other rights that cannot lawfully be excluded. Depending on the circumstances, applicable consumer law may provide a repair, replacement, refund, cancellation, or another remedy if the product has a genuine technical fault, is materially different from its description, or cannot perform its intended function.
 
 ## Requesting help or a refund review
 
-First contact [hello@adiendendra.com](mailto:hello@adiendendra.com) with:
+To request help or a refund review, first contact [hello@adiendendra.com](mailto:hello@adiendendra.com) with:
 
 - The Lemon Squeezy order reference.
 - Maya version, operating system, and processor architecture.

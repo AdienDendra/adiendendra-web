@@ -3,7 +3,7 @@ title = "Privacy Policy"
 translationKey = "privacy-policy"
 description = "How this website and AD Skin Tools process data relating to website visits, support, comments, transactions, licensing, and local devices."
 date = 2026-09-09T20:58:00+10:00
-lastmod = 2026-09-10T20:58:00+10:00
+lastmod = 2026-09-11T20:58:00+10:00
 comments = false
 showToc = true
 TocOpen = true
@@ -11,11 +11,11 @@ ShowReadingTime = false
 ShowPostNavLinks = false
 +++
 
-**Effective date: 10 September 2026**
+**Effective date: 11 September 2026**
 
 This Privacy Policy explains how the `adiendendra.com` website and AD Skin Tools manage and process information. The website and product are operated by Adien Dendra. Privacy enquiries can be sent to [hello@adiendendra.com](mailto:hello@adiendendra.com).
 
-This policy does not claim that no data is collected. The website infrastructure, email, comments, payment provider, and licensing service must process limited information in order to operate.
+This policy does not claim that no data is collected. Operating the website, email, comments, payment processing, and licensing service requires a limited amount of information to be processed.
 
 ## 1. Website visits and hosting
 
@@ -38,7 +38,7 @@ The website loads Mermaid and KaTeX resources from the jsDelivr content delivery
 
 ## 3. Email and technical support
 
-The website uses email links. If you send an email, the information processed may include:
+The website provides email links for enquiries. If you send an email, the information processed may include:
 
 - Your email address and display name.
 - Your message, attachments, and any technical information you choose to provide.
@@ -108,7 +108,7 @@ Personal information is not sold by Adien Dendra for advertising purposes.
 Retention depends on the type of information and operational or legal need:
 
 - Website and security logs follow the settings and retention practices of the hosting provider.
-- Support email is kept while needed to resolve the request, maintain support history, prevent abuse, or meet legal obligations.
+- Support emails are retained as needed to resolve requests, maintain support history, prevent abuse, or meet legal obligations.
 - Transaction records are retained by Lemon Squeezy and relevant providers according to payment, tax, fraud, dispute, and legal requirements.
 - Licensing and pseudonymous device records may remain for the life of the trial or licence and as needed to enforce device, refund, fraud, and revocation state.
 
