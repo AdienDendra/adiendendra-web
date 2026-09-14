@@ -60,7 +60,9 @@ The panel reports:
 
 Loading a skinned mesh automatically populates the list with its existing influences. Loading an unskinned mesh creates an empty working context ready for joints to be added before binding.
 
-<!-- GIF: 01-load-mesh.gif — Load a skinned mesh, then switch to an unskinned mesh. -->
+{{< collapse title="Load Mesh demonstration" collapse="true">}}
+![Load Mesh demonstration](/images/documentation/ad-skin-tools/01-load-mesh.gif)
+{{< /collapse >}}
 
 ## Joints / Influences
 
@@ -98,7 +100,9 @@ Right click the joint list for additional actions:
 
 **Global Owner** is optional. It provides an explicit owner for detached secondary regions after the conservative local assignment used by Bind, Add Influence, and Flood. Leave it unset when the normal local assignment already gives the intended result. The active Global Owner is highlighted in yellow and belongs only to the currently loaded mesh context.
 
-<!-- GIF: 02-joint-list.gif — Add joints, search, pin, lock, and use the context menu. -->
+{{< collapse title="Joint List demonstration" collapse="true">}}
+![Joint List demonstration](/images/documentation/ad-skin-tools/02-joint-list.gif)
+{{< /collapse >}}
 
 ## Blend and Iterations
 

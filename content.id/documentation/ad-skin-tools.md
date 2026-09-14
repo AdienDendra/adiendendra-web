@@ -60,7 +60,9 @@ Panel ini menampilkan:
 
 Ketika skinned mesh dimuat, list otomatis diisi dengan influence yang sudah dimiliki skinCluster. Ketika unskinned mesh dimuat, tool membuat working context kosong yang siap diisi joint sebelum binding.
 
-<!-- GIF: 01-load-mesh.gif — Load skinned mesh, lalu berpindah ke unskinned mesh. -->
+{{< collapse title="Load Mesh demonstration" collapse="true">}}
+![Load Mesh demonstration](/images/documentation/ad-skin-tools/01-load-mesh.gif)
+{{< /collapse >}}
 
 ## Joints / Influences
 
@@ -98,7 +100,9 @@ Klik kanan pada joint list untuk membuka action tambahan:
 
 **Global Owner** bersifat opsional. Fitur ini memberikan owner yang eksplisit untuk detached secondary region setelah conservative local assignment yang digunakan oleh Bind, Add Influence, dan Flood. Biarkan tidak aktif jika local assignment normal sudah memberikan hasil yang diinginkan. Global Owner aktif ditampilkan dengan warna kuning dan hanya berlaku pada loaded mesh context saat ini.
 
-<!-- GIF: 02-joint-list.gif — Tambahkan joint, gunakan search, pin, lock, dan context menu. -->
+{{< collapse title="Joint List demonstration" collapse="true">}}
+![Joint List demonstration](/images/documentation/ad-skin-tools/02-joint-list.gif)
+{{< /collapse >}}
 
 ## Blend dan Iterations
 
