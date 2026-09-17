@@ -125,7 +125,9 @@ Gunakan **Bind Skin** untuk membuat skinCluster awal pada unskinned loaded mesh.
 
 Bind Skin menggunakan **seluruh joint list**, bukan hanya row yang sedang disorot. Tool menghitung natural surface ownership untuk listed joint, membuat satu skinCluster, menulis hasilnya, lalu memperbarui context agar influence yang baru di bind muncul dalam list.
 
-<!-- GIF: 03-bind-skin.gif — Buat hard bind, lalu bandingkan dengan smoothed bind. -->
+{{< collapse title="Bind Skin demonstration" collapse="true">}}
+![Bind Skin demonstration](/images/documentation/ad-skin-tools/03-bind-skin.gif)
+{{< /collapse >}}
 
 ## Add Influence
 
@@ -139,7 +141,9 @@ Gunakan **Add Influence** ketika loaded mesh sudah memiliki skinCluster dan satu
 
 Hanya pending joint yang dipilih yang akan ditambahkan. Existing influence tetap menjadi bagian dari skinCluster, sementara tool memperbarui region yang diklaim oleh influence baru. Setelah selesai, row yang ditambahkan berubah menjadi bind influence dan tetap terpilih di dalam list.
 
-<!-- GIF: 04-add-influence.gif — Tambahkan pending joint dan ubah selected row menjadi bind influence. -->
+{{< collapse title="Add Influence demonstration" collapse="true">}}
+![Add Influence demonstration](/images/documentation/ad-skin-tools/04-add-influence.gif)
+{{< /collapse >}}
 
 ## Flood
 
@@ -154,7 +158,9 @@ Jika component dipilih, hanya component scope yang berhasil di resolve yang akan
 
 Dengan Iterations `0`, Flood menulis hard regional result. Iterations menerapkan smoothing pada affected region menggunakan nilai Blend saat ini. Pending Joints yang ikut dipilih bersama bind influence akan diabaikan; jika ingin menambahkan Pending Joints gunakan Add Influence untuk joint. Selected Flood target harus dalam keadaan unlocked, jika terkunci makan nilai influence lain tetap terlindungi.
 
-<!-- GIF: 05-flood.gif — Bandingkan component Flood, Soft Selection, dan whole-object Flood. -->
+{{< collapse title="Flood demonstration" collapse="true">}}
+![Flood demonstration](/images/documentation/ad-skin-tools/05-flood.gif)
+{{< /collapse >}}
 
 ## Smooth
 
@@ -166,7 +172,9 @@ Smooth meratakan skin weight saat ini pada component selection atau pada seluruh
 
 Smooth tidak memerlukan joint row untuk dipilih. Component mode mengikuti Maya Soft Selection falloff. Untuk object mode menampilkan konfirmasi sebelum diproses. Nilai locked influence tetap tidak berubah dan vertex yang tidak memiliki writable weight akan dilewati.
 
-<!-- GIF: 06-smooth.gif — Smooth selected component dengan dan tanpa Soft Selection. -->
+{{< collapse title="Smooth demonstration" collapse="true">}}
+![Smooth demonstration](/images/documentation/ad-skin-tools/06-smooth.gif)
+{{< /collapse >}}
 
 ## Skin Weight Visual
 
@@ -184,7 +192,9 @@ Jika **Live Joint Selection** diset ke **On**, memilih listed bind joint di Maya
 
 Visual akan diperbarui setelah weight operation yang relevan, Undo, dan Redo. Ini adalah temporary display session dan tidak melakukan bake colour data ke dalam skin weight.
 
-<!-- GIF: 07-skin-weight-visual.gif — Ganti colour ramp dan demonstrasikan Live Joint Selection. -->
+{{< collapse title="Skin Weight Visual demonstration" collapse="true">}}
+![Skin Weight Visual demonstration](/images/documentation/ad-skin-tools/07-skin-weight-visual.gif)
+{{< /collapse >}}
 
 ## Mirror Skin Weights Posed Mesh
 
