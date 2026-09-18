@@ -229,7 +229,9 @@ Direction yang dipilih menentukan sisi yang mendonorkan weight. Joint influence 
 
 Tombol **Reset** pada Mirror membersihkan active Mirror Mesh dan current UI option. Reset tidak menghapus persistent pairing yang sudah tersimpan pada mesh.
 
-<!-- GIF: 08-mirror.gif — Preview, register, whole-object mirror, dan component-source mirror. -->
+{{< collapse title="Mirror demonstration" collapse="true">}}
+![Mirror demonstration](/images/documentation/ad-skin-tools/08-mirror.gif)
+{{< /collapse >}}
 
 ## Transfer Skin Weights
 
@@ -275,7 +277,9 @@ Saat Apply:
 
 Tombol **Reset** pada Transfer membersihkan registered Source dan Target list serta Preview saat ini. Reset tidak membatalkan transfer yang sudah diterapkan; gunakan Maya Undo untuk itu.
 
-<!-- GIF: 09-transfer.gif — Register beberapa source/target, preview scope, konfirmasi, dan apply. -->
+{{< collapse title="Transfer demonstration" collapse="true">}}
+![Transfer demonstration](/images/documentation/ad-skin-tools/09-transfer.gif)
+{{< /collapse >}}
 
 ## Status, Undo, dan diagnostics
 

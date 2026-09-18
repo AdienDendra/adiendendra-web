@@ -125,7 +125,9 @@ Use **Bind Skin** to create the initial skinCluster on an unskinned loaded mesh.
 
 Bind Skin uses the **entire joint list**, not only the highlighted rows. It calculates the natural surface ownership for the listed joints, creates one skinCluster, writes the result, and refreshes the context so the newly bind influences appear in the list.
 
-<!-- GIF: 03-bind-skin.gif — Build a hard bind, then compare it with a smoothed bind. -->
+{{< collapse title="Bind Skin demonstration" collapse="true">}}
+![Bind Skin demonstration](/images/documentation/ad-skin-tools/03-bind-skin.gif)
+{{< /collapse >}}
 
 ## Add Influence
 
@@ -139,7 +141,10 @@ Use **Add Influence** when the loaded mesh already has a skinCluster and one or 
 
 Only the selected pending joints are added. Existing influences remain part of the skinCluster, and the tool updates the regions claimed by the new influences. After completion, the added rows become bind influences and remain selected in the list.
 
-<!-- GIF: 04-add-influence.gif — Add pending joints and convert selected rows into bind influences. -->
+{{< collapse title="Add Influence demonstration" collapse="true">}}
+![Add Influence demonstration](/images/documentation/ad-skin-tools/04-add-influence.gif)
+{{< /collapse >}}
+
 
 ## Flood
 
@@ -154,7 +159,9 @@ When components are selected, only the resolved component scope is processed. Yo
 
 With Iterations `0`, Flood writes a hard regional result. Positive Iterations values apply smoothing to the affected region using the current Blend value. Pending joints selected alongside bind influences are ignored; use Add Influence to add those joints. Selected Flood targets must be unlocked. Values belonging to other locked influences remain protected.
 
-<!-- GIF: 05-flood.gif — Compare component Flood, Soft Selection, and whole-object Flood. -->
+{{< collapse title="Flood demonstration" collapse="true">}}
+![Flood demonstration](/images/documentation/ad-skin-tools/05-flood.gif)
+{{< /collapse >}}
 
 ## Smooth
 
@@ -166,7 +173,9 @@ Smooth relaxes the current skin weights on a component selection or across the l
 
 Smooth does not require a joint row to be selected. Component mode respects Maya Soft Selection falloff. Object mode displays a confirmation before processing. Locked influence values remain unchanged, and vertices with no writable weight are skipped.
 
-<!-- GIF: 06-smooth.gif — Smooth selected components with and without Soft Selection. -->
+{{< collapse title="Smooth demonstration" collapse="true">}}
+![Smooth demonstration](/images/documentation/ad-skin-tools/06-smooth.gif)
+{{< /collapse >}}
 
 ## Skin Weight Visual
 
@@ -184,7 +193,9 @@ With **Live Joint Selection** set to **On**, selecting a listed bind joint in th
 
 The visual refreshes after relevant weight operations, Undo, and Redo. It is a temporary display session; it does not bake colour data into the skin weights.
 
-<!-- GIF: 07-skin-weight-visual.gif — Switch ramps and demonstrate Live Joint Selection. -->
+{{< collapse title="Skin Weight Visual demonstration" collapse="true">}}
+![Skin Weight Visual demonstration](/images/documentation/ad-skin-tools/07-skin-weight-visual.gif)
+{{< /collapse >}}
 
 ## Mirror Skin Weights Posed Mesh
 
@@ -219,7 +230,9 @@ The selected direction controls which side donates weights. Joint influences are
 
 The Mirror **Reset** button clears the active Mirror Mesh and current UI options. It does not delete a persistent pairing already stored on the mesh.
 
-<!-- GIF: 08-mirror.gif — Preview, register, whole-object mirror, and component-source mirror. -->
+{{< collapse title="Mirror demonstration" collapse="true">}}
+![Mirror demonstration](/images/documentation/ad-skin-tools/08-mirror.gif)
+{{< /collapse >}}
 
 ## Transfer Skin Weights
 
@@ -265,7 +278,10 @@ During Apply:
 
 The Transfer **Reset** button clears the registered Source and Target lists and the current Preview. It does not reverse a transfer that has already been applied; use Maya Undo for that.
 
-<!-- GIF: 09-transfer.gif — Register multiple sources/targets, preview scope, confirm, and apply. -->
+{{< collapse title="Transfer demonstration" collapse="true">}}
+![Transfer demonstration](/images/documentation/ad-skin-tools/09-transfer.gif)
+{{< /collapse >}}
+
 
 ## Status, Undo, and diagnostics
 
