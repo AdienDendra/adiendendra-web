@@ -231,7 +231,7 @@ The selected direction controls which side donates weights. Joint influences are
 The Mirror **Reset** button clears the active Mirror Mesh and current UI options. It does not delete a persistent pairing already stored on the mesh.
 
 {{< collapse title="Mirror demonstration" collapse="true">}}
-![Mirror demonstration](/images/documentation/ad-skin-tools/08-mirror.gif)
+![Mirror demonstration](/images/documentation/ad-skin-tools/08-mirror-optimized.gif)
 {{< /collapse >}}
 
 ## Transfer Skin Weights
@@ -279,7 +279,7 @@ During Apply:
 The Transfer **Reset** button clears the registered Source and Target lists and the current Preview. It does not reverse a transfer that has already been applied; use Maya Undo for that.
 
 {{< collapse title="Transfer demonstration" collapse="true">}}
-![Transfer demonstration](/images/documentation/ad-skin-tools/09-transfer.gif)
+![Transfer demonstration](/images/documentation/ad-skin-tools/09-transfer-optimized.gif)
 {{< /collapse >}}
 
 
