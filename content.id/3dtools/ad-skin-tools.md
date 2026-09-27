@@ -4,7 +4,7 @@ translationKey = "ad-skin-tools"
 summary = "Toolset yang terfokus untuk skin weighting dan influence management dalam workflow produksi Autodesk Maya."
 description = "Pengelola skin weight Maya dengan bind, mirror, dan transfer skin weight dengan visual dan berbasis preview."
 date = 2026-08-14T21:09:27+10:00
-lastmod = 2026-09-27T13:23:00+10:00
+lastmod = 2026-09-27T19:30:00+10:00
 
 featured = true
 resource_type = "maya-tool"
@@ -23,37 +23,35 @@ ShowReadingTime = false
 ShowPostNavLinks = false
 +++
 
-<aside class="product-status-panel" aria-label="Status rilis">
-  <span class="product-status-badge">Segera Hadir</span>
-  <p>Rilis lengkap masih dipersiapkan. Paket Windows Maya 2023 sudah tersedia di bawah untuk uji unduhan awal.</p>
-</aside>
-
-<div class="product-test-download">
-  <a class="product-download-button" href="/downloads/ad-skin-tools-native-maya2023-cp39-windows-x86_64.zip" download="ad-skin-tools-native-maya2023-cp39-windows-x86_64.zip" type="application/zip">Unduh untuk Windows · Maya 2023 (ZIP)</a>
-  <p>Paket uji awal khusus Windows x86-64 dan Maya 2023. ZIP berisi AD Skin Tools, NumPy bawaan, panduan instalasi, dan lisensi pihak ketiga. Ekstrak ZIP seluruhnya dan ikuti README.txt; build manifest tidak diperlukan.</p>
-</div>
-
 AD Skin Tools adalah toolset Autodesk Maya yang terfokus pada operasi skin weighting. Tool ini dirancang untuk artist dan rigger yang ingin melakukan bind geometry, mengelola influence, memeriksa weight, melakukan mirror, dan mentransfer skin weight dengan tahapan preview yang jelas sebelum perubahan diterapkan.
 
-<div class="product-facts" aria-label="Ringkasan produk">
-  <div class="product-fact"><span>Produk</span><strong>Toolset Maya yang dapat diunduh</strong></div>
-  <div class="product-fact"><span>Harga</span><strong><data value="24.99">US$24.99</data> peluncuran (100 Users) · <wbr><data value="29.99">US$29.99</data> reguler</strong></div>
-  <div class="product-fact"><span>Lisensi</span><strong>Individual untuk 2 perangkat</strong></div>
-  <div class="product-fact"><span>Trial</span><strong>48 jam · semua fitur</strong></div>
-</div>
+## Kompatibilitas dan unduhan
+
+| Sistem operasi | Arsitektur | Target Autodesk Maya |
+|---|---|---|
+| Windows | x86-64 | <a href="/downloads/ad-skin-tools-native-maya2023-cp39-windows-x86_64.zip" download="ad-skin-tools-native-maya2023-cp39-windows-x86_64.zip" type="application/zip" aria-label="Unduh AD Skin Tools untuk Windows x86-64 dan Maya 2023">2023</a>, 2024, 2025, 2026, 2027 |
+| Linux | x86-64 | 2023, 2024, 2025, 2026, 2027 |
+
+Klik versi Maya yang tersedia sebagai tautan pada tabel di atas untuk mengunduh paket ZIP yang sesuai. Jika Anda memerlukan build macOS, kirim email ke [hello@adiendendra.com](mailto:hello@adiendendra.com) dengan menyebutkan versi Maya dan apakah Mac Anda menggunakan Intel atau Apple Silicon.
 
 ## Preview produk
 
+Untuk melihat lebih dekat fitur dan workflow dalam video demo, baca [dokumentasi AD Skin Tools](/id/documentation/ad-skin-tools/) sebelum menontonnya.
+
 <div class="product-media-grid">
-  <section class="product-media-card" aria-labelledby="screenshots-title">
-    <div class="product-media-placeholder" aria-hidden="true"><span>Screenshot produk</span><strong>Preview interface dan workflow</strong></div>
-    <h3 id="screenshots-title">Screenshot</h3>
-    <p>Screenshot produk yang dibuat secara khusus akan ditambahkan sebelum rilis.</p>
-  </section>
   <section class="product-media-card" aria-labelledby="demo-title">
-    <div class="product-media-placeholder" aria-hidden="true"><span>Demo workflow</span><strong>Video ringkasan fitur</strong></div>
+    <div class="product-media-placeholder" aria-hidden="true">
+      <span>Demo workflow</span>
+      <strong>Ringkasan fitur 2 menit</strong>
+    </div>
     <h3 id="demo-title">Video demo</h3>
-    <p>Demo singkat mengenai produk dan workflow akan ditambahkan sebelum rilis.</p>
+    <p>
+      <a href="https://www.youtube.com/watch?v=YW-Ko5yevRg"
+        target="_blank"
+        rel="noopener noreferrer">
+        Tonton demo AD Skin Tools di YouTube
+      </a>
+    </p>
   </section>
 </div>
 
@@ -66,24 +64,11 @@ AD Skin Tools adalah toolset Autodesk Maya yang terfokus pada operasi skin weigh
 - **Transfer weight yang dapat ditinjau:** Preview hasil dari donor skin weight sebelum diterapkan ke target mesh.
 
 ## Harga, versi trial, dan lisensi
-Harga peluncuran sebesar **US$24.99 untuk 100 transaksi pembeli pertama**, lalu kembali ke harga normal **US$29.99**. AD Skin Tools adalah produk sekali bayar tanpa biaya langganan atau tagihan berkala. Pajak penjualan atau VAT yang berlaku akan dihitung saat checkout sesuai lokasi pembeli.
+Harga peluncuran sebesar **US$19.99 untuk 100 transaksi pembeli pertama**, lalu kembali ke harga normal **US$24.99**. AD Skin Tools adalah produk sekali bayar tanpa biaya langganan atau tagihan berkala. Pajak penjualan atau VAT yang berlaku akan dihitung saat checkout sesuai lokasi pembeli.
 
-Setiap pembelian diberikan **Lisensi Perorangan Permanen** untuk versi tersebut dan dapat diaktifkan pada maksimal dua perangkat pribadi. Batas dua perangkat ini bukan merupakan lisensi dua pengguna atau lisensi tim. Versi utama berbayar di masa mendatang mungkin akan ditawarkan terpisah.
+Setiap pembelian diberikan **Lisensi Perorangan Permanen** untuk versi tersebut dan dapat diaktifkan pada maksimal **dua perangkat pribadi**. Batas dua perangkat ini bukan merupakan lisensi dua pengguna atau lisensi tim. Versi utama berbayar di masa mendatang mungkin akan ditawarkan terpisah.
 
 Uji coba fitur lengkap berlaku selama **48 jam** dan baru aktif saat pengguna memilih **Start 48-Hour Trial** di dalam tool. Anda tidak perlu membeli apa pun untuk memulai uji coba, meskipun koneksi internet tetap dibutuhkan di awal.
-
-## Kompatibilitas dan unduhan digital
-
-| Sistem operasi | Arsitektur | Target Autodesk Maya |
-|---|---|---|
-| Windows | x86-64 | Maya 2023–2027 |
-| Linux | x86-64 | Maya 2023–2027 |
-| macOS | Intel | Build yang terdapat didalam matrix Maya 2023–2027 |
-| macOS | Apple Silicon | Build yang terdapat didalam matrix Maya 2023–2027 |
-
-Saat ini hanya paket uji Windows Maya 2023 di atas yang tersedia untuk diunduh. Build lain belum dipublikasikan di sini. Tidak semua versi Maya tersedia untuk tiap arsitektur macOS; kombinasi yang didukung akan ditampilkan jika build tersebut dirilis.
-
-AD Skin Tools hadir dalam bentuk unduhan digital. Produk ini tidak memiliki bentuk fisik, dan tidak mencakup aplikasi Autodesk Maya.
 
 ## Aktivasi dan penggunaan offline
 
