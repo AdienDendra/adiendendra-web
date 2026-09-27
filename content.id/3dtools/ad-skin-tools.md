@@ -32,11 +32,11 @@ AD Skin Tools adalah toolset Autodesk Maya yang terfokus pada operasi skin weigh
 | Windows | x86-64 | <a href="/downloads/ad-skin-tools-native-maya2023-cp39-windows-x86_64.zip" download="ad-skin-tools-native-maya2023-cp39-windows-x86_64.zip" type="application/zip" aria-label="Unduh AD Skin Tools untuk Windows x86-64 dan Maya 2023">2023</a>, 2024, 2025, 2026, 2027 |
 | Linux | x86-64 | 2023, 2024, 2025, 2026, 2027 |
 
-Klik versi Maya yang tersedia sebagai tautan pada tabel di atas untuk mengunduh paket ZIP yang sesuai. Jika Anda memerlukan build macOS, kirim email ke [hello@adiendendra.com](mailto:hello@adiendendra.com) dengan menyebutkan versi Maya dan apakah Mac Anda menggunakan Intel atau Apple Silicon.
+Pilih versi Maya yang tersedia pada tabel di atas untuk mengunduh paket ZIP yang sesuai. Jika Anda memerlukan build macOS, bisa mengirimkan email ke [hello@adiendendra.com](mailto:hello@adiendendra.com) dengan menyebutkan versi Maya dan Mac Anda apakah menggunakan Intel atau Apple Silicon.
 
 ## Preview produk
 
-Untuk melihat lebih dekat fitur dan workflow dalam video demo, baca [dokumentasi AD Skin Tools](/id/documentation/ad-skin-tools/) sebelum menontonnya.
+Agar lebih jelas fitur dan workflow dalam video demo, baca [dokumentasi AD Skin Tools](/id/documentation/ad-skin-tools/) sebelum menontonnya.
 
 <div class="product-media-grid">
   <section class="product-media-card" aria-labelledby="demo-title">
