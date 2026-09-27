@@ -4,7 +4,7 @@ translationKey = "ad-skin-tools"
 summary = "A focused toolset for skin weighting and influence management in Autodesk Maya production workflows."
 description = "Manage Maya skin weights through visual, preview-driven workflows for binding, mirroring, and transferring weights."
 date = 2026-08-14T21:09:27+10:00
-lastmod = 2026-09-27T13:23:00+10:00
+lastmod = 2026-09-27T18:50:00+10:00
 
 featured = true
 resource_type = "maya-tool"
@@ -23,37 +23,34 @@ ShowReadingTime = false
 ShowPostNavLinks = false
 +++
 
-<aside class="product-status-panel" aria-label="Release status">
-  <span class="product-status-badge">Coming Soon</span>
-  <p>The full release is still being prepared. A Windows Maya 2023 package is available below for an early download test.</p>
-</aside>
-
-<div class="product-test-download">
-  <a class="product-download-button" href="/downloads/ad-skin-tools-native-maya2023-cp39-windows-x86_64.zip" download="ad-skin-tools-native-maya2023-cp39-windows-x86_64.zip" type="application/zip">Download for Windows · Maya 2023 (ZIP)</a>
-  <p>Early test package for Windows x86-64 and Maya 2023 only. The ZIP includes AD Skin Tools, its bundled NumPy runtime, installation instructions, and third-party licences. Extract the complete ZIP and follow README.txt; no build manifest is needed.</p>
-</div>
-
 AD Skin Tools is a focused Autodesk Maya toolset for skin-weighting operations. It is designed for artists and riggers who want to bind geometry, manage influences, inspect weights, mirror results, and transfer skin weights with a clear preview step before applying changes.
 
-<div class="product-facts" aria-label="Product overview">
-  <div class="product-fact"><span>Product</span><strong>Downloadable Maya toolset</strong></div>
-  <div class="product-fact"><span>Price</span><strong><data value="24.99">US$24.99</data> launch (first 100 purchases) · <wbr><data value="29.99">US$29.99</data> regular</strong></div>
-  <div class="product-fact"><span>Licence</span><strong>Individual · 2 devices</strong></div>
-  <div class="product-fact"><span>Trial</span><strong>48 hours · full featured</strong></div>
-</div>
+## Compatibility and downloads
+
+| Operating system | Architecture | Autodesk Maya target |
+|---|---|---|
+| Windows | x86-64 | <a href="/downloads/ad-skin-tools-native-maya2023-cp39-windows-x86_64.zip" download="ad-skin-tools-native-maya2023-cp39-windows-x86_64.zip" type="application/zip" aria-label="Download AD Skin Tools for Windows x86-64 and Maya 2023">2023</a>, 2024, 2025, 2026, 2027 |
+| Linux | x86-64 | 2023, 2024, 2025, 2026, 2027 |
+
+Select your operating system and Maya version in the table above to download the matching ZIP package. If you need a macOS build, email to hello@adiendendra.com with your Maya version and whether your Mac uses Intel or Apple Silicon.
 
 ## Product preview
+For a closer look at the features and workflows shown in the demo, read the [AD Skin Tools documentation](/en/documentation/ad-skin-tools/) before watching.
 
 <div class="product-media-grid">
-  <section class="product-media-card" aria-labelledby="screenshots-title">
-    <div class="product-media-placeholder" aria-hidden="true"><span>Product screenshots</span><strong>Interface and workflow preview</strong></div>
-    <h3 id="screenshots-title">Screenshots</h3>
-    <p>Original product screenshots will be added before release.</p>
-  </section>
   <section class="product-media-card" aria-labelledby="demo-title">
-    <div class="product-media-placeholder" aria-hidden="true"><span>Workflow demo</span><strong>Feature overview video</strong></div>
+    <div class="product-media-placeholder" aria-hidden="true">
+      <span>Workflow demo</span>
+      <strong>2-minute feature overview</strong>
+    </div>
     <h3 id="demo-title">Demo video</h3>
-    <p>A short product and workflow demonstration will be added before release.</p>
+    <p>
+      <a href="https://www.youtube.com/watch?v=YW-Ko5yevRg"
+        target="_blank"
+        rel="noopener noreferrer">
+        Watch the AD Skin Tools demo on YouTube
+      </a>
+    </p>
   </section>
 </div>
 
@@ -67,24 +64,12 @@ AD Skin Tools is a focused Autodesk Maya toolset for skin-weighting operations. 
 
 ## Pricing, trial, and licence
 
-The launch price is **US$24.99 for the first 100 completed purchases**, after which the regular price will be **US$29.99**. AD Skin Tools is a one-time purchase with no subscription or recurring product charges. Applicable sales tax or VAT will be calculated at checkout based on the buyer's location.
+The launch price is **US$19.99 for the first 100 completed purchases**, after which the regular price will be **US$24.99**. AD Skin Tools is a one-time purchase with no subscription or recurring product charges. Applicable sales tax or VAT will be calculated at checkout based on the buyer's location.
 
-Each purchase grants a **Perpetual Individual Licence** for that version and may be activated on up to two personal devices. The two-device allowance is not a two-user or team licence. Future paid major versions may be offered separately.
+Each purchase grants a **Perpetual Individual Licence** for that version and may be activated on up to **two personal devices**. The two-device allowance is not a two-user or team licence. Future paid major versions may be offered separately.
 
 The full-featured trial lasts **48 hours** and begins only when the user selects **Start 48-Hour Trial** inside the tool. No purchase is required, although an internet connection is needed to start the trial.
 
-## Compatibility and digital downloads
-
-| Operating system | Architecture | Autodesk Maya target |
-|---|---|---|
-| Windows | x86-64 | Maya 2023–2027 |
-| Linux | x86-64 | Maya 2023–2027 |
-| macOS | Intel | Builds available in the Maya 2023–2027 matrix |
-| macOS | Apple Silicon | Builds available in the Maya 2023–2027 matrix |
-
-At present, only the Windows Maya 2023 test package above is available to download. Other builds have not been published here yet. Not every Maya version is available for each macOS architecture; supported combinations will be shown if those builds are released.
-
-AD Skin Tools is supplied as a digital download. There is no physical product, and Autodesk Maya is not included.
 
 ## Activation and offline use
 
