@@ -4,7 +4,7 @@ translationKey = "ad-skin-tools"
 summary = "A focused toolset for skin weighting and influence management in Autodesk Maya production workflows."
 description = "Manage Maya skin weights through visual, preview-driven workflows for binding, mirroring, and transferring weights."
 date = 2026-08-14T21:09:27+10:00
-lastmod = 2026-09-11T21:15:00+10:00
+lastmod = 2026-09-27T13:23:00+10:00
 
 featured = true
 resource_type = "maya-tool"
@@ -25,8 +25,13 @@ ShowPostNavLinks = false
 
 <aside class="product-status-panel" aria-label="Release status">
   <span class="product-status-badge">Coming Soon</span>
-  <p>AD Skin Tools is being prepared for release. Sales are not open and there is currently no public checkout.</p>
+  <p>The full release is still being prepared. A Windows Maya 2023 package is available below for an early download test.</p>
 </aside>
+
+<div class="product-test-download">
+  <a class="product-download-button" href="/downloads/ad-skin-tools-native-maya2023-cp39-windows-x86_64.zip" download="ad-skin-tools-native-maya2023-cp39-windows-x86_64.zip" type="application/zip">Download for Windows · Maya 2023 (ZIP)</a>
+  <p>Early test package for Windows x86-64 and Maya 2023 only. The ZIP includes AD Skin Tools, its bundled NumPy runtime, installation instructions, and third-party licences. Extract the complete ZIP and follow README.txt; no build manifest is needed.</p>
+</div>
 
 AD Skin Tools is a focused Autodesk Maya toolset for skin-weighting operations. It is designed for artists and riggers who want to bind geometry, manage influences, inspect weights, mirror results, and transfer skin weights with a clear preview step before applying changes.
 
@@ -77,7 +82,7 @@ The full-featured trial lasts **48 hours** and begins only when the user selects
 | macOS | Intel | Builds available in the Maya 2023–2027 matrix |
 | macOS | Apple Silicon | Builds available in the Maya 2023–2027 matrix |
 
-Not every Maya version is available for each macOS architecture. The supported combinations will be shown in the download menu so you can select the ZIP that matches your Maya version, operating system, and processor architecture.
+At present, only the Windows Maya 2023 test package above is available to download. Other builds have not been published here yet. Not every Maya version is available for each macOS architecture; supported combinations will be shown if those builds are released.
 
 AD Skin Tools is supplied as a digital download. There is no physical product, and Autodesk Maya is not included.
 
