@@ -1,4 +1,20 @@
 {{- if not .Params.disableShare -}}
+{{- $api := strings.TrimSuffix "/" (default "" .Site.Params.garrulApi) -}}
+{{- if $api -}}
+<section class="comments">
+    <hr>
+    <h3>{{ if eq .Language.Lang "id" }}Komentar{{ else }}Comments{{ end }}</h3>
+    <div
+        id="garrul"
+        data-slug="{{ strings.Trim .RelPermalink "/" }}"
+        data-api="{{ $api }}"
+        data-title="{{ .Title }}"
+        data-url="{{ .Permalink }}"
+        data-published="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}"
+    ></div>
+    <script src="{{ $api }}/embed.js" defer></script>
+</section>
+{{- else -}}
 <style>
 
     /* 1. Paksa background utama Isso jadi transparan agar ikut warna blog */
@@ -132,4 +148,4 @@
     <section id="isso-thread"></section>
 </section>
 {{- end -}}
-
+{{- end -}}
