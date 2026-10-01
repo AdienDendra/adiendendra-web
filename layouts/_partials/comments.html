@@ -12,7 +12,33 @@
         data-url="{{ .Permalink }}"
         data-published="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}"
     ></div>
-    <script src="{{ $api }}/embed.js" defer></script>
 </section>
+<script>
+    (function () {
+        var mount = document.getElementById("garrul");
+        if (!mount) return;
+
+        function load() {
+            if (mount.dataset.loaded) return;
+            mount.dataset.loaded = "true";
+            var script = document.createElement("script");
+            script.src = mount.dataset.api + "/embed.js";
+            script.defer = true;
+            document.body.appendChild(script);
+        }
+
+        if ("IntersectionObserver" in window) {
+            var observer = new IntersectionObserver(function (entries) {
+                if (entries.some(function (entry) { return entry.isIntersecting; })) {
+                    observer.disconnect();
+                    load();
+                }
+            }, { rootMargin: "500px 0px" });
+            observer.observe(mount);
+        } else {
+            load();
+        }
+    })();
+</script>
 {{- end -}}
 {{- end -}}
