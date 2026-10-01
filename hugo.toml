@@ -42,7 +42,7 @@ lastmod = ['lastmod']
     showFullTextInList = false
     comments = true
     defaultTheme = "dark"
-    env = "production"
+
 
     [[params.socialIcons]]
         name = "github"

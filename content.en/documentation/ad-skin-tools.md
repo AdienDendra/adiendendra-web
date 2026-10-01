@@ -4,10 +4,10 @@ translationKey: "ad-skin-tools-getting-started"
 summary: "A guide to AD Skin Tools workflows in Autodesk Maya."
 description: "How to load meshes, manage influences, bind, flood, smooth, visualise, mirror, and transfer skin weights with AD Skin Tools."
 date: 2026-09-11T10:00:00+10:00
-lastmod: 2026-09-11T20:30:00+10:00
+lastmod: 2026-10-01T20:30:00+10:00
 tags: ["maya", "ad-skin-tools", "documentation", "tutorial"]
 categories: ["documentation"]
-comments: false
+comments: true
 showToc: true
 TocOpen: true
 ShowReadingTime: false
