@@ -41,6 +41,8 @@ lastmod = ['lastmod']
     author = "Adien Dendra"
     showFullTextInList = false
     comments = true
+    defaultTheme = "dark"
+    env = "production"
 
     [[params.socialIcons]]
         name = "github"
