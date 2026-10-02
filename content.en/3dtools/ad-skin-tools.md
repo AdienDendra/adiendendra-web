@@ -4,7 +4,7 @@ translationKey = "ad-skin-tools"
 summary = "A focused toolset for skin weighting and influence management in Autodesk Maya production workflows."
 description = "Manage Maya skin weights through visual, preview-driven workflows for binding, mirroring, and transferring weights."
 date = 2026-08-14T21:09:27+10:00
-lastmod = 2026-09-27T18:50:00+10:00
+lastmod = 2026-10-02T21:50:00+10:00
 
 featured = true
 resource_type = "maya-tool"
@@ -25,16 +25,16 @@ ShowPostNavLinks = false
 
 AD Skin Tools is a focused Autodesk Maya toolset for skin-weighting operations. It is designed for artists and riggers who want to bind geometry, manage influences, inspect weights, mirror results, and transfer skin weights with a clear preview step before applying changes.
 
-## Compatibility and downloads
+## Compatibility and Downloads (Release Soon)
 
 | Operating system | Architecture | Autodesk Maya target |
 |---|---|---|
-| Windows | x86-64 | <a href="/downloads/ad-skin-tools-native-maya2023-cp39-windows-x86_64.zip" download="ad-skin-tools-native-maya2023-cp39-windows-x86_64.zip" type="application/zip" aria-label="Download AD Skin Tools for Windows x86-64 and Maya 2023">2023</a>, 2024, 2025, 2026, 2027 |
+| Windows | x86-64 | 2023, 2024, 2025, 2026, 2027 |
 | Linux | x86-64 | 2023, 2024, 2025, 2026, 2027 |
 
 Select your operating system and Maya version in the table above to download the matching ZIP package. If you need a macOS build, email to hello@adiendendra.com with your Maya version and whether your Mac uses Intel or Apple Silicon.
 
-## Product preview
+## Product Preview
 For a closer look at the features and workflows shown in the demo, read the [AD Skin Tools documentation](/en/documentation/ad-skin-tools/) before watching.
 
 <div class="product-media-grid">
@@ -62,7 +62,7 @@ For a closer look at the features and workflows shown in the demo, read the [AD 
 - **Preview before mirroring:** Register influence pairings, inspect the mirror preview, and apply skin weights only after reviewing the result.
 - **Preview before transfer:** Review skin weights from donor surfaces before applying them to target meshes.
 
-## Pricing, trial, and licence
+## Pricing, Trial, and Licence
 
 The launch price is **US$19.99 for the first 100 completed purchases**, after which the regular price will be **US$24.99**. AD Skin Tools is a one-time purchase with no subscription or recurring product charges. Applicable sales tax or VAT will be calculated at checkout based on the buyer's location.
 
@@ -71,13 +71,13 @@ Each purchase grants a **Perpetual Individual Licence** for that version and may
 The full-featured trial lasts **48 hours** and begins only when the user selects **Start 48-Hour Trial** inside the tool. No purchase is required, although an internet connection is needed to start the trial.
 
 
-## Activation and offline use
+## Activation and Offline Use
 
 Activating a paid licence requires an internet connection. After successful validation, AD Skin Tools remains available offline for up to 30 days. You only need to reconnect occasionally to refresh the licence.
 
 For guidance on installation, the trial, activation, changing devices, and offline use, see the [AD Skin Tools documentation](/en/documentation/ad-skin-tools/).
 
-## Help and support
+## Help and Support
 
 Email support is available at [hello@adiendendra.com](mailto:hello@adiendendra.com) for installation, licensing and device activation, compatibility questions, and product-related technical issues.
 

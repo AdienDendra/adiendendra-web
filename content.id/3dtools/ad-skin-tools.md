@@ -4,7 +4,7 @@ translationKey = "ad-skin-tools"
 summary = "Toolset yang terfokus untuk skin weighting dan influence management dalam workflow produksi Autodesk Maya."
 description = "Pengelola skin weight Maya dengan bind, mirror, dan transfer skin weight dengan visual dan berbasis preview."
 date = 2026-08-14T21:09:27+10:00
-lastmod = 2026-09-27T19:30:00+10:00
+lastmod = 2026-10-02T21:50:00+10:00
 
 featured = true
 resource_type = "maya-tool"
@@ -25,11 +25,11 @@ ShowPostNavLinks = false
 
 AD Skin Tools adalah toolset Autodesk Maya yang terfokus pada operasi skin weighting. Tool ini dirancang untuk artist dan rigger yang ingin melakukan bind geometry, mengelola influence, memeriksa weight, melakukan mirror, dan mentransfer skin weight dengan tahapan preview yang jelas sebelum perubahan diterapkan.
 
-## Kompatibilitas dan unduhan
+## Kompatibilitas dan Unduhan (Segera Rilis)
 
 | Sistem operasi | Arsitektur | Target Autodesk Maya |
 |---|---|---|
-| Windows | x86-64 | <a href="/downloads/ad-skin-tools-native-maya2023-cp39-windows-x86_64.zip" download="ad-skin-tools-native-maya2023-cp39-windows-x86_64.zip" type="application/zip" aria-label="Unduh AD Skin Tools untuk Windows x86-64 dan Maya 2023">2023</a>, 2024, 2025, 2026, 2027 |
+| Windows | x86-64 | 2023, 2024, 2025, 2026, 2027 |
 | Linux | x86-64 | 2023, 2024, 2025, 2026, 2027 |
 
 Pilih versi Maya yang tersedia pada tabel di atas untuk mengunduh paket ZIP yang sesuai. Jika Anda memerlukan build macOS, bisa mengirimkan email ke [hello@adiendendra.com](mailto:hello@adiendendra.com) dengan menyebutkan versi Maya dan Mac Anda apakah menggunakan Intel atau Apple Silicon.
@@ -63,20 +63,20 @@ Agar lebih jelas fitur dan workflow dalam video demo, baca [dokumentasi AD Skin 
 - **Preview sebelum mirror:** Mendaftarkan pasangan pada influence, memeriksa mirror preview, lalu menerapkan skin weight setelah hasilnya ditinjau.
 - **Transfer weight yang dapat ditinjau:** Preview hasil dari donor skin weight sebelum diterapkan ke target mesh.
 
-## Harga, versi trial, dan lisensi
+## Harga, Trial, dan Lisensi
 Harga peluncuran sebesar **US$19.99 untuk 100 transaksi pembeli pertama**, lalu kembali ke harga normal **US$24.99**. AD Skin Tools adalah produk sekali bayar tanpa biaya langganan atau tagihan berkala. Pajak penjualan atau VAT yang berlaku akan dihitung saat checkout sesuai lokasi pembeli.
 
 Setiap pembelian diberikan **Lisensi Perorangan Permanen** untuk versi tersebut dan dapat diaktifkan pada maksimal **dua perangkat pribadi**. Batas dua perangkat ini bukan merupakan lisensi dua pengguna atau lisensi tim. Versi utama berbayar di masa mendatang mungkin akan ditawarkan terpisah.
 
 Uji coba fitur lengkap berlaku selama **48 jam** dan baru aktif saat pengguna memilih **Start 48-Hour Trial** di dalam tool. Anda tidak perlu membeli apa pun untuk memulai uji coba, meskipun koneksi internet tetap dibutuhkan di awal.
 
-## Aktivasi dan penggunaan offline
+## Aktivasi dan Penggunaan Offline
 
 Aktivasi lisensi berbayar membutuhkan koneksi internet. Setelah validasi berhasil, AD Skin Tools tetap dapat digunakan secara offline hingga 30 hari, Anda cukup terhubung ke internet sesekali untuk memperbarui lisensi.
 
 Panduan ringkas mengenai instalasi, masa uji coba, aktivasi, penggantian perangkat, hingga penggunaan offline dapat Anda lihat di [dokumentasi panduan awal AD Skin Tools](/id/documentation/ad-skin-tools/).
 
-## Bantuan & Dukungan
+## Bantuan dan Dukungan
 
 Layanan bantuan via email tersedia di [hello@adiendendra.com](mailto:hello@adiendendra.com) untuk menangani masalah instalasi, lisensi dan aktivasi perangkat, pertanyaan kompatibilitas, serta kendala teknis yang berkaitan dengan produk.
 
