@@ -1,7 +1,7 @@
 +++
 title = "AD Skin Tool"
 translationKey = "ad-skin-tools"
-summary = "Toolset yang terfokus untuk skin weighting dan influence management dalam workflow produksi Autodesk Maya."
+summary = "Toolset untuk skin weight dan influence management dalam workflow Autodesk Maya."
 description = "Pengelola skin weight Maya dengan bind, mirror, dan transfer skin weight dengan visual dan berbasis preview."
 date = 2026-08-14T21:09:27+10:00
 lastmod = 2026-10-06T22:23:00+11:00
