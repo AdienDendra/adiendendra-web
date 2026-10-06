@@ -1,7 +1,7 @@
 +++
 title = "Privacy Policy"
 translationKey = "privacy-policy"
-description = "How this website and AD Skin Tools process data relating to website visits, support, comments, transactions, licensing, and local devices."
+description = "How this website and AD Skin Tool process data relating to website visits, support, comments, transactions, licensing, and local devices."
 date = 2026-09-09T20:58:00+10:00
 lastmod = 2026-09-11T20:58:00+10:00
 comments = false
@@ -13,7 +13,7 @@ ShowPostNavLinks = false
 
 **Effective date: 11 September 2026**
 
-This Privacy Policy explains how the `adiendendra.com` website and AD Skin Tools manage and process information. The website and product are operated by Adien Dendra. Privacy enquiries can be sent to [hello@adiendendra.com](mailto:hello@adiendendra.com).
+This Privacy Policy explains how the `adiendendra.com` website and AD Skin Tool manage and process information. The website and product are operated by Adien Dendra. Privacy enquiries can be sent to [hello@adiendendra.com](mailto:hello@adiendendra.com).
 
 This policy does not claim that no data is collected. Operating the website, email, comments, payment processing, and licensing service requires a limited amount of information to be processed.
 
@@ -57,13 +57,13 @@ When sales open, Lemon Squeezy will provide checkout and act as Merchant of Reco
 - Product, order, tax, refund, and chargeback information.
 - Device, network, fraud-prevention, and checkout usage information.
 
-Payment-card details are handled directly by Lemon Squeezy and its payment providers, not by this website or the AD Skin Tools licensing database. Lemon Squeezy's processing is governed by its <a href="https://www.lemonsqueezy.com/privacy" target="_blank" rel="noopener noreferrer" aria-label="Lemon Squeezy Privacy Policy, opens in a new tab">Privacy Policy</a> and <a href="https://www.lemonsqueezy.com/buyer-terms" target="_blank" rel="noopener noreferrer" aria-label="Lemon Squeezy Buyer Terms, opens in a new tab">Buyer Terms</a>.
+Payment-card details are handled directly by Lemon Squeezy and its payment providers, not by this website or the AD Skin Tool licensing database. Lemon Squeezy's processing is governed by its <a href="https://www.lemonsqueezy.com/privacy" target="_blank" rel="noopener noreferrer" aria-label="Lemon Squeezy Privacy Policy, opens in a new tab">Privacy Policy</a> and <a href="https://www.lemonsqueezy.com/buyer-terms" target="_blank" rel="noopener noreferrer" aria-label="Lemon Squeezy Buyer Terms, opens in a new tab">Buyer Terms</a>.
 
-The AD Skin Tools licensing service is designed not to store customer names or email addresses received from Lemon Squeezy webhooks.
+The AD Skin Tool licensing service is designed not to store customer names or email addresses received from Lemon Squeezy webhooks.
 
 ## 5. Trial and paid licensing
 
-AD Skin Tools communicates with a licensing service hosted on Amazon Web Services (AWS) when a user starts a trial or activates, validates, or deactivates a paid licence.
+AD Skin Tool communicates with a licensing service hosted on Amazon Web Services (AWS) when a user starts a trial or activates, validates, or deactivates a paid licence.
 
 The licensing service may process:
 
@@ -81,7 +81,7 @@ Licensing information is used to provide the 48-hour trial, enforce the two-devi
 
 ## 6. Local information on the customer's computer
 
-AD Skin Tools stores a local entitlement and licensing cache on the customer's computer. This may contain pseudonymous device binding information, licence or trial status, signed entitlement data, validation timestamps, and offline-expiry information.
+AD Skin Tool stores a local entitlement and licensing cache on the customer's computer. This may contain pseudonymous device binding information, licence or trial status, signed entitlement data, validation timestamps, and offline-expiry information.
 
 This local information is required to operate the trial and the paid licence's offline grace period. Removing or modifying it does not guarantee a new trial and may require the product to reconnect to the licensing service.
 
