@@ -1,5 +1,5 @@
 +++
-title = "AD Skin Tools"
+title = "AD Skin Tool"
 translationKey = "ad-skin-tools"
 summary = "Toolset yang terfokus untuk skin weighting dan influence management dalam workflow produksi Autodesk Maya."
 description = "Pengelola skin weight Maya dengan bind, mirror, dan transfer skin weight dengan visual dan berbasis preview."
@@ -23,7 +23,7 @@ ShowReadingTime = false
 ShowPostNavLinks = false
 +++
 
-AD Skin Tools adalah toolset Autodesk Maya yang terfokus pada operasi skin weighting. Tool ini dirancang untuk artist dan rigger yang ingin melakukan bind geometry, mengelola influence, memeriksa weight, melakukan mirror, dan mentransfer skin weight dengan tahapan preview yang jelas sebelum perubahan diterapkan.
+AD Skin Tool adalah toolset Autodesk Maya yang terfokus pada operasi skin weighting. Tool ini dirancang untuk artist dan rigger yang ingin melakukan bind geometry, mengelola influence, memeriksa weight, melakukan mirror, dan mentransfer skin weight dengan tahapan preview yang jelas sebelum perubahan diterapkan.
 
 ## Kompatibilitas dan Unduhan (Segera Rilis)
 
@@ -36,7 +36,7 @@ Pilih versi Maya yang tersedia pada tabel di atas untuk mengunduh paket ZIP yang
 
 ## Preview produk
 
-Agar lebih jelas fitur dan workflow dalam video demo, baca [dokumentasi AD Skin Tools](/id/documentation/ad-skin-tools/) sebelum menontonnya.
+Agar lebih jelas fitur dan workflow dalam video demo, baca [dokumentasi AD Skin Tool](/id/documentation/ad-skin-tools/) sebelum menontonnya.
 
 <div class="product-media-grid">
   <section class="product-media-card" aria-labelledby="demo-title">
@@ -49,7 +49,7 @@ Agar lebih jelas fitur dan workflow dalam video demo, baca [dokumentasi AD Skin 
       <a href="https://www.youtube.com/watch?v=YW-Ko5yevRg"
         target="_blank"
         rel="noopener noreferrer">
-        Tonton demo AD Skin Tools di YouTube
+        Tonton demo AD Skin Tool di YouTube
       </a>
     </p>
   </section>
@@ -64,7 +64,7 @@ Agar lebih jelas fitur dan workflow dalam video demo, baca [dokumentasi AD Skin 
 - **Transfer weight yang dapat ditinjau:** Preview hasil dari donor skin weight sebelum diterapkan ke target mesh.
 
 ## Harga, Trial, dan Lisensi
-Harga peluncuran sebesar **US$19.99 untuk 100 transaksi pembeli pertama**, lalu kembali ke harga normal **US$24.99**. AD Skin Tools adalah produk sekali bayar tanpa biaya langganan atau tagihan berkala. Pajak penjualan atau VAT yang berlaku akan dihitung saat checkout sesuai lokasi pembeli.
+Harga peluncuran sebesar **US$19.99 untuk 100 transaksi pembeli pertama**, lalu kembali ke harga normal **US$24.99**. AD Skin Tool adalah produk sekali bayar tanpa biaya langganan atau tagihan berkala. Pajak penjualan atau VAT yang berlaku akan dihitung saat checkout sesuai lokasi pembeli.
 
 Setiap pembelian diberikan **Lisensi Perorangan Permanen** untuk versi tersebut dan dapat diaktifkan pada maksimal **dua perangkat pribadi**. Batas dua perangkat ini bukan merupakan lisensi dua pengguna atau lisensi tim. Versi utama berbayar di masa mendatang mungkin akan ditawarkan terpisah.
 
@@ -72,9 +72,9 @@ Uji coba fitur lengkap berlaku selama **48 jam** dan baru aktif saat pengguna me
 
 ## Aktivasi dan Penggunaan Offline
 
-Aktivasi lisensi berbayar membutuhkan koneksi internet. Setelah validasi berhasil, AD Skin Tools tetap dapat digunakan secara offline hingga 30 hari, Anda cukup terhubung ke internet sesekali untuk memperbarui lisensi.
+Aktivasi lisensi berbayar membutuhkan koneksi internet. Setelah validasi berhasil, AD Skin Tool tetap dapat digunakan secara offline hingga 30 hari, Anda cukup terhubung ke internet sesekali untuk memperbarui lisensi.
 
-Panduan lengkap mengenai trial, checkout, aktivasi, penggantian perangkat, dan penggunaan offline dapat dibaca di [Panduan Lisensi AD Skin Tools](/id/documentation/ad-skin-tools-license/).
+Panduan lengkap mengenai trial, checkout, aktivasi, penggantian perangkat, dan penggunaan offline dapat dibaca di [Panduan Lisensi AD Skin Tool](/id/documentation/ad-skin-tools-license/).
 
 ## Bantuan dan Dukungan
 
@@ -90,4 +90,4 @@ Transaksi pembelian akan diproses oleh Lemon Squeezy selaku *Merchant of Record*
 
 ---
 
-Autodesk dan Maya adalah merek dagang terdaftar atau merek dagang milik Autodesk, Inc., dan/atau anak perusahaan maupun afiliasinya di Amerika Serikat dan negara lainnya. AD Skin Tools serta Adien Dendra tidak berafiliasi dengan, disponsori, didukung, atau disetujui oleh Autodesk.
+Autodesk dan Maya adalah merek dagang terdaftar atau merek dagang milik Autodesk, Inc., dan/atau anak perusahaan maupun afiliasinya di Amerika Serikat dan negara lainnya. AD Skin Tool serta Adien Dendra tidak berafiliasi dengan, disponsori, didukung, atau disetujui oleh Autodesk.
