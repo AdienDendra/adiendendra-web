@@ -7,14 +7,14 @@ date: 2026-10-06T22:23:00+11:00
 lastmod: 2026-10-06T23:46:00+11:00
 tags: ["maya", "ad-skin-tools", "license", "documentation", "tutorial"]
 categories: ["documentation"]
-comments: false
+comments: true
 showToc: true
 TocOpen: true
 ShowReadingTime: false
 ShowPostNavLinks: false
 ---
 
-This guide covers the **License** window: starting the trial, buying AD Skin Tool, activating your license key, moving your activation to another device, and using the tool offline.
+This guide covers the **License** window, starting the trial, buying AD Skin Tool, activating your license key, moving your activation to another device, and using the tool offline.
 
 For installation and tool workflows, see the [AD Skin Tool Documentation & Tutorials](/en/documentation/ad-skin-tools/). For pricing, compatibility, and downloads, visit the [AD Skin Tool product page](/en/3dtools/ad-skin-tools/).
 
@@ -138,7 +138,7 @@ If your old computer is lost or you can no longer access it, contact [hello@adie
 
 | Control | Purpose |
 |---|---|
-| **Retry Now** | Tries your saved trial or paid-license request again, when available for the current status. Use it after reconnecting to the internet or correcting your computer's clock. |
+| **Retry Now** | Tries your saved trial or paid-license request again, when available for the current status. Use it after reconnecting to the internet or when your computer has been fixed. |
 | **Reset Local License Data** | Appears only when your local license data needs repair. It clears the license data on this computer, but does not free up a device slot on the server or restart or extend your trial. Use it only when the License window asks you to. |
 | **Buy License** | Opens the official checkout in your default web browser. |
 | **Update** or **Upgrade** | Appears only when a newer release is available for your installation. It opens the official AD Skin Tool page. The tool does not install software in the background or change your current license. |
@@ -154,7 +154,7 @@ If your old computer is lost or you can no longer access it, contact [hello@adie
 | **Checking license** | An automatic online check is in progress. Licensed features remain available during the check. |
 | **Working offline** | The online check could not finish, but your saved offline access is still valid. Reconnect before the offline-access date. |
 | **Online check required** | Offline access has ended. Connect to the internet and click **Retry Now**. |
-| **License not found** | Make sure you copied the complete key from the correct purchase email, then try again. |
+| **License not found** | Make sure you copied the complete key from the purchase email, then try again. |
 | **Device inactive** | This device is no longer activated. Enter your key and activate it again if a device slot is available. |
 | **License inactive** | Your license is no longer active. Use another valid license or contact support. |
 | **Temporarily unavailable** | The service could not be reached. Check your internet connection and try again later. |

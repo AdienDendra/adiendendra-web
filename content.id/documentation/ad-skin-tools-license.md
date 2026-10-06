@@ -22,7 +22,7 @@ Untuk instalasi dan workflow tool, dapat dibaca di [Dokumentasi & Tutorial AD Sk
 
 Buka AD Skin Tool di Maya, kemudian klik tombol **License** di pojok kanan atas. License akan menampilkan status lisensi untuk komputer yang sedang digunakan dan action yang tersedia untuk status tersebut.
 
-Membuka Maya, AD Skin Tool, jendela License, atau protected action **tidak** akan memulai trial. Trial akan dimulai ketika Anda menekan **Start 48-Hour Trial**.
+Membuka Maya, AD Skin Tool, jendela License, atau menjalankan fitur, **tidak** akan memulai trial. Trial akan dimulai ketika Anda menekan **Start 48-Hour Trial**.
 
 <!-- Saran GIF: open-license-window.gif -->
 
@@ -50,8 +50,8 @@ Sebelum membayar, pastikan checkout menampilkan **AD Skin Tool**, kemudian perik
 | Bagian checkout | Data yang diisi |
 |---|---|
 | Email | Gunakan alamat yang dapat Anda akses. Konfirmasi order dan license key akan dikirim ke alamat ini. |
-| Metode pembayaran | Pilih salah satu metode yang ditawarkan di checkout, seperti kartu debit/kredit atau PayPal. |
-| Detail kartu | Untuk pembayaran dengan kartu debit/kredit, masukkan nomor kartu, tanggal kedaluwarsa, dan security code. |
+| Metode pembayaran | Pilih salah satu metode yang ditawarkan di checkout, seperti kartu debit atau kredit atau PayPal. |
+| Detail kartu | Untuk pembayaran dengan kartu debit atau kredit, masukkan nomor kartu, tanggal kedaluwarsa, dan security code. |
 | Nama dan alamat billing | Masukkan nama cardholder, negara, alamat billing, kota, state atau region jika diminta, dan kode pos. |
 | Tax ID number | Opsional. Isi hanya jika berlaku untuk pembelian Anda. |
 | Discount code | Opsional. Masukkan kode yang masih valid, lalu periksa kembali total akhir. |
@@ -138,7 +138,7 @@ Jika komputer lama hilang atau sudah tidak dapat diakses, hubungi [hello@adiende
 
 | Control | Kegunaan |
 |---|---|
-| **Retry Now** | Langsung mencoba kembali request trial atau lisensi berbayar yang tersimpan ketika status saat ini membolehkannya. Terutama digunakan setelah koneksi internet pulih atau waktu komputer sudah diperbaiki. |
+| **Retry Now** | Langsung mencoba kembali request trial atau lisensi berbayar yang tersimpan ketika status saat ini membolehkannya. Gunakan setelah koneksi internet pulih atau ketika komputer sudah diperbaiki. |
 | **Reset Local License Data** | Action pemulihan hanya ditampilkan ketika data lisensi lokal perlu diperbaiki. Action ini menghapus data lisensi di komputer tersebut, tetapi tidak melepas slot perangkat di server dan tidak memulai ulang atau memperpanjang trial. Gunakan hanya ketika License menginstruksikannya. |
 | **Buy License** | Membuka checkout resmi di default web browser. |
 | **Update** atau **Upgrade** | Hanya muncul ketika rilis baru yang sesuai tersedia. Tombol ini membuka halaman resmi AD Skin Tool, AD Skin Tool tidak menginstal software secara diam-diam atau mengubah lisensi saat ini. |
@@ -154,7 +154,7 @@ Jika komputer lama hilang atau sudah tidak dapat diakses, hubungi [hello@adiende
 | **Checking license** | Pemeriksaan online otomatis sedang berjalan. Fitur tetap tersedia selama pemeriksaan. |
 | **Working offline** | Pemeriksaan online tidak dapat diselesaikan, tetapi periode offline yang tersimpan masih valid. Pulihkan koneksi sebelum tanggal offline access. |
 | **Online check required** | Akses offline sudah berakhir. Hubungkan komputer ke internet dan klik **Retry Now**. |
-| **License not found** | Pastikan key lengkap disalin dari email pembelian yang benar, kemudian coba lagi. |
+| **License not found** | Pastikan key disali secara lengkap dari email pembelian, kemudian coba lagi. |
 | **Device inactive** | Perangkat ini sudah tidak aktif. Masukkan key dan aktifkan kembali jika slot perangkat masih tersedia. |
 | **License inactive** | Lisensi sudah tidak aktif. Gunakan lisensi valid lain atau hubungi support. |
 | **Temporarily unavailable** | Service tidak dapat dihubungi. Periksa koneksi internet dan coba kembali nanti. |
@@ -168,7 +168,7 @@ Jika aktivasi melaporkan bahwa batas perangkat sudah tercapai, deactivate AD Ski
 
 Untuk bantuan lisensi, kirim email ke [hello@adiendendra.com](mailto:hello@adiendendra.com) dengan menyertakan:
 
-- Sistem operasi dan versi Maya, dapat dilihat secara lengkap melalui tombol Tool Help, kemudian Copy Diagnostics.
+- Sistem operasi dan versi Maya, dapat dilihat secara lengkap melalui tombol **Tool Help**, kemudian **Copy Diagnostics**.
 - Judul status dan pesan lengkap yang terlihat pada jendela License.
 - Deskripsi singkat mengenai tindakan yang dilakukan saat masalah terjadi.
 - Alamat email pembelian jika diperlukan untuk mencari order.
