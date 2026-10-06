@@ -4,7 +4,7 @@ translationKey: "ad-skin-tools-getting-started"
 summary: "Panduan untuk workflow AD Skin Tools di Autodesk Maya."
 description: "Cara meload mesh, mengelola influence, bind, flood, smooth, memvisualisasikan, mirror, dan transfer skin weight dengan AD Skin Tools."
 date: 2026-09-11T10:00:00+10:00
-lastmod: 2026-10-01T20:30:00+10:00
+lastmod: 2026-10-06T22:23:00+11:00
 tags: ["maya", "ad-skin-tools", "dokumentasi", "tutorial"]
 categories: ["documentation"]
 comments: true
@@ -33,7 +33,7 @@ ad_skin_tools.show(
 )
 ```
 
-Tool akan terbuka sebagai Maya workspace control dan dapat di dock atau dibiarkan floating. **Tool Help** membuka referensi singkat serta environment diagnostics. **License** membuka jendela trial, activation, dan device management.
+Tool akan terbuka sebagai Maya workspace control dan dapat di dock atau dibiarkan floating. **Tool Help** membuka referensi singkat serta environment diagnostics. **License** membuka jendela trial, activation, dan device management. Baca [Panduan Lisensi AD Skin Tools](/id/documentation/ad-skin-tools-license/) untuk workflow customer secara lengkap.
 
 ## Urutan penggunaan yang direkomendasikan
 
