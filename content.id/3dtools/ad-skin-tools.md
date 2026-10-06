@@ -4,7 +4,7 @@ translationKey = "ad-skin-tools"
 summary = "Toolset yang terfokus untuk skin weighting dan influence management dalam workflow produksi Autodesk Maya."
 description = "Pengelola skin weight Maya dengan bind, mirror, dan transfer skin weight dengan visual dan berbasis preview."
 date = 2026-08-14T21:09:27+10:00
-lastmod = 2026-10-02T21:50:00+10:00
+lastmod = 2026-10-06T22:23:00+11:00
 
 featured = true
 resource_type = "maya-tool"
@@ -74,7 +74,7 @@ Uji coba fitur lengkap berlaku selama **48 jam** dan baru aktif saat pengguna me
 
 Aktivasi lisensi berbayar membutuhkan koneksi internet. Setelah validasi berhasil, AD Skin Tools tetap dapat digunakan secara offline hingga 30 hari, Anda cukup terhubung ke internet sesekali untuk memperbarui lisensi.
 
-Panduan ringkas mengenai instalasi, masa uji coba, aktivasi, penggantian perangkat, hingga penggunaan offline dapat Anda lihat di [dokumentasi panduan awal AD Skin Tools](/id/documentation/ad-skin-tools/).
+Panduan lengkap mengenai trial, checkout, aktivasi, penggantian perangkat, dan penggunaan offline dapat dibaca di [Panduan Lisensi AD Skin Tools](/id/documentation/ad-skin-tools-license/).
 
 ## Bantuan dan Dukungan
 
