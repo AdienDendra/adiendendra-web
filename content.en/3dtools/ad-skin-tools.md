@@ -1,10 +1,10 @@
 +++
-title = "AD Skin Tools"
+title = "AD Skin Tool"
 translationKey = "ad-skin-tools"
-summary = "A focused toolset for skin weighting and influence management in Autodesk Maya production workflows."
+summary = "A toolset for skin weighting and influence management in Autodesk Maya workflows."
 description = "Manage Maya skin weights through visual, preview-driven workflows for binding, mirroring, and transferring weights."
 date = 2026-08-14T21:09:27+10:00
-lastmod = 2026-10-02T21:50:00+10:00
+lastmod = 2026-10-06T22:23:00+11:00
 
 featured = true
 resource_type = "maya-tool"
@@ -23,7 +23,7 @@ ShowReadingTime = false
 ShowPostNavLinks = false
 +++
 
-AD Skin Tools is a focused Autodesk Maya toolset for skin-weighting operations. It is designed for artists and riggers who want to bind geometry, manage influences, inspect weights, mirror results, and transfer skin weights with a clear preview step before applying changes.
+AD Skin Tool is a focused Autodesk Maya toolset for skin-weighting operations. It is designed for artists and riggers who want to bind geometry, manage influences, inspect weights, mirror results, and transfer skin weights with a clear preview step before applying changes.
 
 ## Compatibility and Downloads (Release Soon)
 
@@ -35,7 +35,7 @@ AD Skin Tools is a focused Autodesk Maya toolset for skin-weighting operations. 
 Select your operating system and Maya version in the table above to download the matching ZIP package. If you need a macOS build, email to hello@adiendendra.com with your Maya version and whether your Mac uses Intel or Apple Silicon.
 
 ## Product Preview
-For a closer look at the features and workflows shown in the demo, read the [AD Skin Tools documentation](/en/documentation/ad-skin-tools/) before watching.
+For a closer look at the features and workflows shown in the demo, read the [AD Skin Tool documentation](/en/documentation/ad-skin-tools/) before watching.
 
 <div class="product-media-grid">
   <section class="product-media-card" aria-labelledby="demo-title">
@@ -48,7 +48,7 @@ For a closer look at the features and workflows shown in the demo, read the [AD 
       <a href="https://www.youtube.com/watch?v=YW-Ko5yevRg"
         target="_blank"
         rel="noopener noreferrer">
-        Watch the AD Skin Tools demo on YouTube
+        Watch the AD Skin Tool demo on YouTube
       </a>
     </p>
   </section>
@@ -64,7 +64,7 @@ For a closer look at the features and workflows shown in the demo, read the [AD 
 
 ## Pricing, Trial, and Licence
 
-The launch price is **US$19.99 for the first 100 completed purchases**, after which the regular price will be **US$24.99**. AD Skin Tools is a one-time purchase with no subscription or recurring product charges. Applicable sales tax or VAT will be calculated at checkout based on the buyer's location.
+The launch price is **US$19.99 for the first 100 completed purchases**, after which the regular price will be **US$24.99**. AD Skin Tool is a one-time purchase with no subscription or recurring product charges. Applicable sales tax or VAT will be calculated at checkout based on the buyer's location.
 
 Each purchase grants a **Perpetual Individual Licence** for that version and may be activated on up to **two personal devices**. The two-device allowance is not a two-user or team licence. Future paid major versions may be offered separately.
 
@@ -73,9 +73,9 @@ The full-featured trial lasts **48 hours** and begins only when the user selects
 
 ## Activation and Offline Use
 
-Activating a paid licence requires an internet connection. After successful validation, AD Skin Tools remains available offline for up to 30 days. You only need to reconnect occasionally to refresh the licence.
+Activating a paid licence requires an internet connection. After successful validation, AD Skin Tool remains available offline for up to 30 days. You only need to reconnect occasionally to refresh the licence.
 
-For guidance on installation, the trial, activation, changing devices, and offline use, see the [AD Skin Tools documentation](/en/documentation/ad-skin-tools/).
+For the complete trial, checkout, activation, device, and offline-use workflow, see the [AD Skin Tool License Guide](/en/documentation/ad-skin-tools-license/).
 
 ## Help and Support
 
@@ -91,4 +91,4 @@ Purchases will be processed by Lemon Squeezy as the *Merchant of Record*.
 
 ---
 
-Autodesk and Maya are registered trademarks or trademarks of Autodesk, Inc., and/or its subsidiaries and affiliates in the United States and other countries. AD Skin Tools and Adien Dendra are not affiliated with, sponsored, endorsed, or approved by Autodesk.
+Autodesk and Maya are registered trademarks or trademarks of Autodesk, Inc., and/or its subsidiaries and affiliates in the United States and other countries. AD Skin Tool and Adien Dendra are not affiliated with, sponsored, endorsed, or approved by Autodesk.

@@ -1,7 +1,7 @@
 +++
 title = "Kebijakan Pengembalian Dana"
 translationKey = "refund-policy"
-description = "Ketentuan refund pembelian digital AD Skin Tools, termasuk change-of-mind request dan remedy."
+description = "Ketentuan refund pembelian digital AD Skin Tool, termasuk change-of-mind request dan remedy."
 date = 2026-09-09T20:58:00+10:00
 lastmod = 2026-09-11T20:58:00+10:00
 comments = false
@@ -13,15 +13,15 @@ ShowPostNavLinks = false
 
 **Tanggal berlaku: 11 September 2026**
 
-Kebijakan Pengembalian Dana ini berlaku untuk pembelian AD Skin Tools. Kontak: [hello@adiendendra.com](mailto:hello@adiendendra.com).
+Kebijakan Pengembalian Dana ini berlaku untuk pembelian AD Skin Tool. Kontak: [hello@adiendendra.com](mailto:hello@adiendendra.com).
 
 ## Evaluasi sebelum membeli
 
-AD Skin Tools menyediakan masa uji coba fitur lengkap selama 48 jam agar Anda dapat menguji alur kerja (workflow) dan kompatibilitas produk sebelum membeli. Anda disarankan mencoba uji coba ini menggunakan scene Maya yang tidak bersifat rahasia, serta memastikan kesesuaian versi Maya, sistem operasi, dan arsitektur prosesor yang didukung.
+AD Skin Tool menyediakan masa uji coba fitur lengkap selama 48 jam agar Anda dapat menguji alur kerja (workflow) dan kompatibilitas produk sebelum membeli. Anda disarankan mencoba uji coba ini menggunakan scene Maya yang tidak bersifat rahasia, serta memastikan kesesuaian versi Maya, sistem operasi, dan arsitektur prosesor yang didukung.
 
 ## Pembelian produk digital dan perubahan pikiran
 
-Karena AD Skin Tools merupakan produk perangkat lunak yang dikirimkan secara digital dan masa uji coba fitur lengkap telah disediakan sebelum transaksi, pembelian yang sudah selesai pada umumnya bersifat final setelah produk dikirimkan atau lisensi diaktifkan.
+Karena AD Skin Tool merupakan produk perangkat lunak yang dikirimkan secara digital dan masa uji coba fitur lengkap telah disediakan sebelum transaksi, pembelian yang sudah selesai pada umumnya bersifat final setelah produk dikirimkan atau lisensi diaktifkan.
 
 Pengembalian dana pada umumnya tidak diberikan hanya karena pembeli:
 
@@ -58,6 +58,6 @@ Lihat informasi Lemon Squeezy mengenai <a href="https://docs.lemonsqueezy.com/he
 
 ## Dampak terhadap lisensi
 
-Jika pengembalian dana, sanggahan pembayaran (chargeback), pembalikan transaksi, atau pembatalan pesanan telah diproses, lisensi AD Skin Tools terkait dapat ditangguhkan atau dicabut. Akibatnya, fungsi-fungsi utama produk akan berhenti bekerja.
+Jika pengembalian dana, sanggahan pembayaran (chargeback), pembalikan transaksi, atau pembatalan pesanan telah diproses, lisensi AD Skin Tool terkait dapat ditangguhkan atau dicabut. Akibatnya, fungsi-fungsi utama produk akan berhenti bekerja.
 
 Kebijakan ini harus dibaca bersamaan dengan [Syarat dan Ketentuan layanan](/id/terms-of-service/) dan [Kebijakan Privasi](/id/privacy-policy/).

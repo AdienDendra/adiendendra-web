@@ -1,10 +1,10 @@
 ---
-title: "AD Skin Tools Documentation & Tutorials"
+title: "AD Skin Tool Documentation & Tutorials"
 translationKey: "ad-skin-tools-getting-started"
-summary: "A guide to AD Skin Tools workflows in Autodesk Maya."
-description: "How to load meshes, manage influences, bind, flood, smooth, visualise, mirror, and transfer skin weights with AD Skin Tools."
+summary: "A guide to AD Skin Tool workflows in Autodesk Maya."
+description: "How to load meshes, manage influences, bind, flood, smooth, visualise, mirror, and transfer skin weights with AD Skin Tool."
 date: 2026-09-11T10:00:00+10:00
-lastmod: 2026-10-01T20:30:00+10:00
+lastmod: 2026-10-06T22:23:00+11:00
 tags: ["maya", "ad-skin-tools", "documentation", "tutorial"]
 categories: ["documentation"]
 comments: true
@@ -16,7 +16,7 @@ ShowPostNavLinks: false
 
 This tutorial follows the AD Skin Weights Tool from top to bottom and explains how each control affects the current Maya scene.
 
-For pricing, compatibility, and release availability, visit the [AD Skin Tools product page](/en/3dtools/ad-skin-tools/).
+For pricing, compatibility, and release availability, visit the [AD Skin Tool product page](/en/3dtools/ad-skin-tools/).
 
 ## Install and open the tool
 
@@ -33,7 +33,7 @@ ad_skin_tools.show(
 )
 ```
 
-The tool opens as a Maya workspace control and can be docked or left floating. **Tool Help** opens a compact reference and environment diagnostics. **License** opens the trial, activation, and device management window.
+The tool opens as a Maya workspace control and can be docked or left floating. **Tool Help** opens a compact reference and environment diagnostics. **License** opens the trial, activation, and device management window. See the [AD Skin Tool License Guide](/en/documentation/ad-skin-tools-license/) for the complete customer workflow.
 
 ## Recommended workflow
 

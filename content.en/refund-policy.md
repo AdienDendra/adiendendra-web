@@ -1,7 +1,7 @@
 +++
 title = "Refund Policy"
 translationKey = "refund-policy"
-description = "Refund terms for AD Skin Tools digital purchases, including change-of-mind requests and consumer-law remedies."
+description = "Refund terms for AD Skin Tool digital purchases, including change-of-mind requests and consumer-law remedies."
 date = 2026-09-09T20:58:00+10:00
 lastmod = 2026-09-11T20:58:00+10:00
 comments = false
@@ -13,15 +13,15 @@ ShowPostNavLinks = false
 
 **Effective date: 11 September 2026**
 
-This Refund Policy applies to purchases of AD Skin Tools. Contact: [hello@adiendendra.com](mailto:hello@adiendendra.com).
+This Refund Policy applies to purchases of AD Skin Tool. Contact: [hello@adiendendra.com](mailto:hello@adiendendra.com).
 
 ## Evaluate before purchasing
 
-AD Skin Tools provides a full-featured 48-hour trial so you can test the product's workflow and compatibility before purchasing. You should use the trial with a non-confidential Maya scene and confirm that your Maya version, operating system, and processor architecture are supported.
+AD Skin Tool provides a full-featured 48-hour trial so you can test the product's workflow and compatibility before purchasing. You should use the trial with a non-confidential Maya scene and confirm that your Maya version, operating system, and processor architecture are supported.
 
 ## Digital purchases and change of mind
 
-Because AD Skin Tools is a digitally delivered software product and a full-featured trial is available before purchase, completed purchases are generally final once the product has been delivered or the licence has been activated.
+Because AD Skin Tool is a digitally delivered software product and a full-featured trial is available before purchase, completed purchases are generally final once the product has been delivered or the licence has been activated.
 
 A refund is not generally provided solely because a customer:
 
@@ -58,6 +58,6 @@ See Lemon Squeezy's information about <a href="https://docs.lemonsqueezy.com/hel
 
 ## Effect on the licence
 
-If a refund, chargeback, payment reversal, or order cancellation is processed, the corresponding AD Skin Tools licence may be suspended or revoked. As a result, the product's core features will stop working.
+If a refund, chargeback, payment reversal, or order cancellation is processed, the corresponding AD Skin Tool licence may be suspended or revoked. As a result, the product's core features will stop working.
 
 This policy should be read together with the [Terms of Service](/en/terms-of-service/) and [Privacy Policy](/en/privacy-policy/).

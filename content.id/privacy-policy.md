@@ -1,7 +1,7 @@
 +++
 title = "Kebijakan Privasi"
 translationKey = "privacy-policy"
-description = "Cara website ini dan AD Skin Tools memproses data website, support, komentar, transaksi, licensing, dan perangkat lokal."
+description = "Cara website ini dan AD Skin Tool memproses data website, support, komentar, transaksi, licensing, dan perangkat lokal."
 date = 2026-09-09T20:58:00+10:00
 lastmod = 2026-09-11T20:58:00+10:00
 comments = false
@@ -13,7 +13,7 @@ ShowPostNavLinks = false
 
 **Tanggal berlaku: 11 September 2026**
 
-Kebijakan Privasi ini menjelaskan bagaimana situs web `adiendendra.com` dan AD Skin Tools mengelola dan memproses informasi. Situs web beserta produk ini dioperasikan oleh Adien Dendra. Pertanyaan mengenai privasi dapat dikirimkan ke [hello@adiendendra.com](mailto:hello@adiendendra.com).
+Kebijakan Privasi ini menjelaskan bagaimana situs web `adiendendra.com` dan AD Skin Tool mengelola dan memproses informasi. Situs web beserta produk ini dioperasikan oleh Adien Dendra. Pertanyaan mengenai privasi dapat dikirimkan ke [hello@adiendendra.com](mailto:hello@adiendendra.com).
 
 Kebijakan ini tidak menyatakan bahwa tidak ada data yang dikumpulkan sama sekali. Infrastruktur situs web, email, komentar, penyedia layanan pembayaran, dan sistem lisensi secara teknis tetap perlu memproses sejumlah informasi terbatas agar dapat beroperasi.
 
@@ -56,13 +56,13 @@ Saat penjualan dibuka, Lemon Squeezy akan menyediakan alur checkout dan bertinda
 - Informasi produk, pesanan, pajak, pengembalian dana, dan sanggahan pembayaran.
 - Informasi perangkat, jaringan, pencegahan penipuan, dan penggunaan alur checkout.
 
-Rincian kartu pembayaran dikelola langsung oleh Lemon Squeezy beserta penyedia pembayaran rekannya, bukan oleh situs web ini atau basis data lisensi AD Skin Tools. Pemrosesan oleh Lemon Squeezy diatur dalam <a href="https://www.lemonsqueezy.com/privacy" target="_blank" rel="noopener noreferrer" aria-label="Lemon Squeezy Privacy Policy, dibuka di tab baru">Kebijakan Privasi</a> dan <a href="https://www.lemonsqueezy.com/buyer-terms" target="_blank" rel="noopener noreferrer" aria-label="Lemon Squeezy Buyer Terms, dibuka di tab baru">Syarat Pembeli</a> milik mereka.
+Rincian kartu pembayaran dikelola langsung oleh Lemon Squeezy beserta penyedia pembayaran rekannya, bukan oleh situs web ini atau basis data lisensi AD Skin Tool. Pemrosesan oleh Lemon Squeezy diatur dalam <a href="https://www.lemonsqueezy.com/privacy" target="_blank" rel="noopener noreferrer" aria-label="Lemon Squeezy Privacy Policy, dibuka di tab baru">Kebijakan Privasi</a> dan <a href="https://www.lemonsqueezy.com/buyer-terms" target="_blank" rel="noopener noreferrer" aria-label="Lemon Squeezy Buyer Terms, dibuka di tab baru">Syarat Pembeli</a> milik mereka.
 
-Layanan lisensi AD Skin Tools dirancang untuk tidak menyimpan nama atau alamat email pelanggan yang diterima dari webhook Lemon Squeezy.
+Layanan lisensi AD Skin Tool dirancang untuk tidak menyimpan nama atau alamat email pelanggan yang diterima dari webhook Lemon Squeezy.
 
 ## 5. Uji coba dan lisensi berbayar
 
-AD Skin Tools berkomunikasi dengan layanan lisensi yang di-host di AWS (Amazon Web Services) saat pengguna memulai masa uji coba, atau melakukan aktivasi, validasi, maupun deaktivasi lisensi berbayar.
+AD Skin Tool berkomunikasi dengan layanan lisensi yang di-host di AWS (Amazon Web Services) saat pengguna memulai masa uji coba, atau melakukan aktivasi, validasi, maupun deaktivasi lisensi berbayar.
 
 Layanan lisensi dapat memproses:
 
@@ -80,7 +80,7 @@ Informasi lisensi digunakan untuk menyediakan masa uji coba 48 jam, menerapkan b
 
 ## 6. Informasi lokal di komputer pelanggan
 
-AD Skin Tools menyimpan data hak akses lokal (local entitlement) dan cache lisensi di komputer pelanggan. Data ini dapat berisi informasi penambatan perangkat pseudonim (pseudonymous device binding), status lisensi atau uji coba, data hak akses tertandatangani, stempel waktu validasi, serta informasi batas waktu penggunaan offline.
+AD Skin Tool menyimpan data hak akses lokal (local entitlement) dan cache lisensi di komputer pelanggan. Data ini dapat berisi informasi penambatan perangkat pseudonim (pseudonymous device binding), status lisensi atau uji coba, data hak akses tertandatangani, stempel waktu validasi, serta informasi batas waktu penggunaan offline.
 
 Informasi lokal ini diperlukan untuk menjalankan masa uji coba dan masa tenggang offline (offline grace period) pada lisensi berbayar. Menghapus atau mengubah data ini tidak menjamin dimulainya masa uji coba baru dan mungkin mengharuskan produk terhubung kembali ke layanan lisensi.
 

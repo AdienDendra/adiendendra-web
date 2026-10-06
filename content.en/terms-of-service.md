@@ -1,7 +1,7 @@
 +++
 title = "Terms of Service"
 translationKey = "terms-of-service"
-description = "Terms governing the AD Skin Tools website, trial, purchase, licence, delivery, and support."
+description = "Terms governing the AD Skin Tool website, trial, purchase, licence, delivery, and support."
 date = 2026-09-09T20:58:00+10:00
 lastmod = 2026-09-11T20:58:00+10:00
 comments = false
@@ -13,21 +13,21 @@ ShowPostNavLinks = false
 
 **Effective date: 11 September 2026**
 
-These Terms of Service apply to the AD Skin Tools product page, trial, software licence, digital delivery, and product support provided by Adien Dendra. Contact: [hello@adiendendra.com](mailto:hello@adiendendra.com).
+These Terms of Service apply to the AD Skin Tool product page, trial, software licence, digital delivery, and product support provided by Adien Dendra. Contact: [hello@adiendendra.com](mailto:hello@adiendendra.com).
 
-By starting a trial, purchasing, downloading, activating, or using AD Skin Tools, you agree to these Terms. If you do not agree, please do not start a trial, purchase, activate, or use the software.
+By starting a trial, purchasing, downloading, activating, or using AD Skin Tool, you agree to these Terms. If you do not agree, please do not start a trial, purchase, activate, or use the software.
 
 ## 1. The product
 
-AD Skin Tools is ready-to-use downloadable software for Autodesk Maya. It is not a physical product, consulting service, commissioned tool, Maya training service, or custom software development service.
+AD Skin Tool is ready-to-use downloadable software for Autodesk Maya. It is not a physical product, consulting service, commissioned tool, Maya training service, or custom software development service.
 
-Autodesk Maya is required separately and is not included with the purchase of AD Skin Tools.
+Autodesk Maya is required separately and is not included with the purchase of AD Skin Tool.
 
 ## 2. Store and payment
 
 When sales open, checkout and payment will be managed by Lemon Squeezy, which acts as the Merchant of Record for each transaction. Lemon Squeezy handles payment processing, applicable sales tax or VAT, receipts, approved refunds, and chargebacks. Lemon Squeezy's <a href="https://www.lemonsqueezy.com/buyer-terms" target="_blank" rel="noopener noreferrer" aria-label="Lemon Squeezy Buyer Terms, opens in a new tab">Buyer Terms</a> and <a href="https://www.lemonsqueezy.com/privacy" target="_blank" rel="noopener noreferrer" aria-label="Lemon Squeezy Privacy Policy, opens in a new tab">Privacy Policy</a> also apply to its services.
 
-AD Skin Tools is a one-time purchase. There is no subscription or recurring product charge.
+AD Skin Tool is a one-time purchase. There is no subscription or recurring product charge.
 
 ## 3. Trial
 
@@ -37,7 +37,7 @@ The trial allows prospective customers to evaluate the product's workflow and co
 
 ## 4. Individual licence
 
-A completed purchase grants a perpetual Individual Licence for the purchased version of AD Skin Tools, subject to these Terms.
+A completed purchase grants a perpetual Individual Licence for the purchased version of AD Skin Tool, subject to these Terms.
 
 - The licence is assigned to one individual purchaser.
 - The purchaser may activate the licence on up to two personal devices.
@@ -79,7 +79,7 @@ A processed refund, chargeback, payment reversal, or order cancellation may caus
 
 ## 10. Responsible use
 
-You must not use AD Skin Tools in a way that violates applicable law or another person's rights. You must not interfere with the licensing service, attempt unauthorised access, distribute malicious modifications, or claim the software as your own product.
+You must not use AD Skin Tool in a way that violates applicable law or another person's rights. You must not interfere with the licensing service, attempt unauthorised access, distribute malicious modifications, or claim the software as your own product.
 
 ## 11. Availability and consumer rights
 
@@ -93,4 +93,4 @@ These Terms may be updated from time to time to reflect changes to the product, 
 
 ## 13. Autodesk notice
 
-Autodesk and Maya are registered trademarks or trademarks of Autodesk, Inc., and/or its subsidiaries and affiliates in the United States and other countries. AD Skin Tools and Adien Dendra are not affiliated with, sponsored, endorsed, or approved by Autodesk.
+Autodesk and Maya are registered trademarks or trademarks of Autodesk, Inc., and/or its subsidiaries and affiliates in the United States and other countries. AD Skin Tool and Adien Dendra are not affiliated with, sponsored, endorsed, or approved by Autodesk.

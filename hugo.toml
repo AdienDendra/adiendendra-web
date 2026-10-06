@@ -80,7 +80,7 @@ lastmod = ['lastmod']
             [languages.en.params.profileMode]
                 enabled = true
                 title = " "
-                subtitle = "Creature TD @ ILM | Aspiring Cloud Architect | Sydney Land-based Angler"
+                subtitle = "Creature TD @ ILM | Aspiring Cloud Architect | Land-based Angler"
                 imageUrl = "https://github.com/AdienDendra.png"
                 imageWidth = 120
                 imageHeight = 120
@@ -130,7 +130,7 @@ lastmod = ['lastmod']
             [languages.id.params.profileMode]
                 enabled = true
                 title = " "
-                subtitle = "Creature TD @ ILM | Calon Cloud Architect | Pemancing Pesisir Sydney"
+                subtitle = "Creature TD @ ILM | Calon Cloud Architect | Pemancing Pesisir"
                 imageUrl = "https://github.com/AdienDendra.png"
                 imageWidth = 120
                 imageHeight = 120
