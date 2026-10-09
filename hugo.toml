@@ -1,6 +1,6 @@
 baseURL = 'https://adiendendra.com/'
 languageCode = 'en-us'
-title = " "
+title = "Adien Dendra"
 theme = 'PaperMod'
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true 
@@ -72,20 +72,20 @@ lastmod = ['lastmod']
         weight = 1
         languageCode = 'en'
         [languages.en.params]
-            title = "Adien"
-            description = "Creature TD & Solution Architect"
+            title = "Adien Dendra"
+            description = "Adien Dendra is a Creature TD exploring AWS services through hands-on projects involving serverless applications, Python automation, API integrations, and cloud infrastructure."
             showLastmod = true
             displayFullDate = false
             dateFormat = "2 Jan 2006, 15:04"
             [languages.en.params.profileMode]
                 enabled = true
-                title = " "
+                title = "Adien Dendra"
                 subtitle = "Creature TD @ ILM | Aspiring Cloud Architect | Land-based Angler"
                 imageUrl = "https://github.com/AdienDendra.png"
                 imageWidth = 120
                 imageHeight = 120
                 [[languages.en.params.profileMode.buttons]]
-                    name = "Documentation"
+                    name = "Explore Documentation"
                     url = "/en/documentation/"
 
         # HEADER MENU (English)
@@ -122,21 +122,21 @@ lastmod = ['lastmod']
         weight = 2
         languageCode = 'id'
         [languages.id.params]
-            title = "Adien"
-            description = "Creature TD & Solution Architect"
+            title = "Adien Dendra"
+            description = "Adien Dendra adalah Creature TD yang sedang mendalami produk servis AWS melalui proyek nyata, termasuk aplikasi serverless, otomatisasi Python, integrasi API, dan infrastruktur cloud."
             showLastmod = true
             displayFullDate = false
             dateFormat = "2 Jan 2006, 15:04"
             [languages.id.params.profileMode]
                 enabled = true
-                title = " "
+                title = "Adien Dendra"
                 subtitle = "Creature TD @ ILM | Calon Cloud Architect | Pemancing Pesisir"
                 imageUrl = "https://github.com/AdienDendra.png"
                 imageWidth = 120
                 imageHeight = 120
                 # pakai /id/ agar tidak balik ke English
                 [[languages.id.params.profileMode.buttons]]
-                    name = "Dokumentasi"
+                    name = "Jelajah Dokumentasi"
                     url = "/id/documentation/"
         [[languages.id.menu.main]]
             name = "Portofolio"
