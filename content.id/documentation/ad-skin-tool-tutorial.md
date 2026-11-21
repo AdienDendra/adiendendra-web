@@ -22,7 +22,7 @@ Untuk harga, kompatibilitas, dan ketersediaan rilis, bisa dilihat di [halaman pr
 
 Gunakan download yang sesuai dengan versi Autodesk Maya, sistem operasi, dan arsitektur processor Anda. Extract package mengikuti petunjuk instalasi yang disertakan bersama download; package yang dibuat secara spesifik untuk versi Maya dan target sistem operasinya.
 
-Buka **Script Editor** di Maya, lalu pindah ke tab Python, dan jalankan:
+Untuk ZIP v1.0.0, buka tab Python di **Script Editor** Maya lalu jalankan perintah pada langkah 5 di `README.txt` yang ada di dalam ZIP. Untuk paket dengan folder `ad_skin_tool`, gunakan:
 
 ```python
 from ad_skin_tool import launch

@@ -22,7 +22,7 @@ For pricing, compatibility, and release availability, visit the [AD Skin Tool pr
 
 Use the download that matches your Autodesk Maya version, operating system, and processor architecture. Extract the package according to the included installation instructions. Each package is built specifically for its Maya version and target operating system.
 
-Open Maya's **Script Editor**, then switch to a Python tab and run:
+For the v1.0.0 download, open a Python tab in Maya’s **Script Editor** and run the command from step 5 of the ZIP’s `README.txt`. For packages with an `ad_skin_tool` folder, use:
 
 ```python
 from ad_skin_tool import launch
