@@ -25,13 +25,15 @@ Use the download that matches your Autodesk Maya version, operating system, and 
 Open Maya's **Script Editor**, then switch to a Python tab and run:
 
 ```python
-import ad_skin_tools.launch as ad_skin_tools
+from ad_skin_tool import launch
 
-ad_skin_tools.show(
+launch.show(
     reload=False,
     auto_refresh=False,
 )
 ```
+
+If your extracted ZIP contains only the older `ad_skin_tools` package, use `from ad_skin_tools import launch` on the first line. The same `launch.show()` call opens the tool.
 
 The tool opens as a Maya workspace control and can be docked or left floating. **Tool Help** opens a compact reference and environment diagnostics. **License** opens the trial, activation, and device management window. See the [AD Skin Tool License Guide](/en/documentation/ad-skin-tool-license/) for the complete customer workflow.
 
@@ -61,7 +63,7 @@ The panel reports:
 Loading a skinned mesh automatically populates the list with its existing influences. Loading an unskinned mesh creates an empty working context ready for joints to be added before binding.
 
 {{< collapse title="Load Mesh demonstration" collapse="true">}}
-![Load Mesh demonstration](/images/documentation/ad-skin-tools/01-load-mesh.gif)
+![Load Mesh demonstration](/images/documentation/ad-skin-tool/01-load-mesh.gif)
 {{< /collapse >}}
 
 ## Joints / Influences
@@ -101,7 +103,7 @@ Right click the joint list for additional actions:
 **Global Owner** is optional. It provides an explicit owner for detached secondary regions after the conservative local assignment used by Bind, Add Influence, and Flood. Leave it unset when the normal local assignment already gives the intended result. The active Global Owner is highlighted in yellow and belongs only to the currently loaded mesh context.
 
 {{< collapse title="Joint List demonstration" collapse="true">}}
-![Joint List demonstration](/images/documentation/ad-skin-tools/02-joint-list.gif)
+![Joint List demonstration](/images/documentation/ad-skin-tool/02-joint-list.gif)
 {{< /collapse >}}
 
 ## Blend and Iterations
@@ -126,7 +128,7 @@ Use **Bind Skin** to create the initial skinCluster on an unskinned loaded mesh.
 Bind Skin uses the **entire joint list**, not only the highlighted rows. It calculates the natural surface ownership for the listed joints, creates one skinCluster, writes the result, and refreshes the context so the newly bind influences appear in the list.
 
 {{< collapse title="Bind Skin demonstration" collapse="true">}}
-![Bind Skin demonstration](/images/documentation/ad-skin-tools/03-bind-skin.gif)
+![Bind Skin demonstration](/images/documentation/ad-skin-tool/03-bind-skin.gif)
 {{< /collapse >}}
 
 ## Add Influence
@@ -142,7 +144,7 @@ Use **Add Influence** when the loaded mesh already has a skinCluster and one or 
 Only the selected pending joints are added. Existing influences remain part of the skinCluster, and the tool updates the regions claimed by the new influences. After completion, the added rows become bind influences and remain selected in the list.
 
 {{< collapse title="Add Influence demonstration" collapse="true">}}
-![Add Influence demonstration](/images/documentation/ad-skin-tools/04-add-influence.gif)
+![Add Influence demonstration](/images/documentation/ad-skin-tool/04-add-influence.gif)
 {{< /collapse >}}
 
 
@@ -160,7 +162,7 @@ When components are selected, only the resolved component scope is processed. Yo
 With Iterations `0`, Flood writes a hard regional result. Positive Iterations values apply smoothing to the affected region using the current Blend value. Pending joints selected alongside bind influences are ignored; use Add Influence to add those joints. Selected Flood targets must be unlocked. Values belonging to other locked influences remain protected.
 
 {{< collapse title="Flood demonstration" collapse="true">}}
-![Flood demonstration](/images/documentation/ad-skin-tools/05-flood.gif)
+![Flood demonstration](/images/documentation/ad-skin-tool/05-flood.gif)
 {{< /collapse >}}
 
 ## Smooth
@@ -174,7 +176,7 @@ Smooth relaxes the current skin weights on a component selection or across the l
 Smooth does not require a joint row to be selected. Component mode respects Maya Soft Selection falloff. Object mode displays a confirmation before processing. Locked influence values remain unchanged, and vertices with no writable weight are skipped.
 
 {{< collapse title="Smooth demonstration" collapse="true">}}
-![Smooth demonstration](/images/documentation/ad-skin-tools/06-smooth.gif)
+![Smooth demonstration](/images/documentation/ad-skin-tool/06-smooth.gif)
 {{< /collapse >}}
 
 ## Skin Weight Visual
@@ -194,7 +196,7 @@ With **Live Joint Selection** set to **On**, selecting a listed bind joint in th
 The visual refreshes after relevant weight operations, Undo, and Redo. It is a temporary display session; it does not bake colour data into the skin weights.
 
 {{< collapse title="Skin Weight Visual demonstration" collapse="true">}}
-![Skin Weight Visual demonstration](/images/documentation/ad-skin-tools/07-skin-weight-visual.gif)
+![Skin Weight Visual demonstration](/images/documentation/ad-skin-tool/07-skin-weight-visual.gif)
 {{< /collapse >}}
 
 ## Mirror Skin Weights Posed Mesh
@@ -231,7 +233,7 @@ The selected direction controls which side donates weights. Joint influences are
 The Mirror **Reset** button clears the active Mirror Mesh and current UI options. It does not delete a persistent pairing already stored on the mesh.
 
 {{< collapse title="Mirror demonstration" collapse="true">}}
-![Mirror demonstration](/images/documentation/ad-skin-tools/08-mirror-optimized.gif)
+![Mirror demonstration](/images/documentation/ad-skin-tool/08-mirror-optimized.gif)
 {{< /collapse >}}
 
 ## Transfer Skin Weights
@@ -279,7 +281,7 @@ During Apply:
 The Transfer **Reset** button clears the registered Source and Target lists and the current Preview. It does not reverse a transfer that has already been applied; use Maya Undo for that.
 
 {{< collapse title="Transfer demonstration" collapse="true">}}
-![Transfer demonstration](/images/documentation/ad-skin-tools/09-transfer-optimized.gif)
+![Transfer demonstration](/images/documentation/ad-skin-tool/09-transfer-optimized.gif)
 {{< /collapse >}}
 
 

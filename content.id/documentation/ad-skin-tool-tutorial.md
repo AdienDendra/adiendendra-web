@@ -25,13 +25,15 @@ Gunakan download yang sesuai dengan versi Autodesk Maya, sistem operasi, dan ars
 Buka **Script Editor** di Maya, lalu pindah ke tab Python, dan jalankan:
 
 ```python
-import ad_skin_tools.launch as ad_skin_tools
+from ad_skin_tool import launch
 
-ad_skin_tools.show(
+launch.show(
     reload=False,
     auto_refresh=False,
 )
 ```
+
+Kalau ZIP Anda hanya berisi package lama `ad_skin_tools`, gunakan `from ad_skin_tools import launch` di baris pertama. Tool tetap dibuka dengan `launch.show()`.
 
 Tool akan terbuka sebagai Maya workspace control dan dapat di dock atau dibiarkan floating. **Tool Help** membuka referensi singkat serta environment diagnostics. **License** membuka jendela trial, activation, dan device management. Baca [Panduan Lisensi AD Skin Tool](/id/documentation/ad-skin-tool-license/) untuk workflow customer secara lengkap.
 
@@ -61,7 +63,7 @@ Panel ini menampilkan:
 Ketika skinned mesh dimuat, list otomatis diisi dengan influence yang sudah dimiliki skinCluster. Ketika unskinned mesh dimuat, tool membuat working context kosong yang siap diisi joint sebelum binding.
 
 {{< collapse title="Load Mesh demonstration" collapse="true">}}
-![Load Mesh demonstration](/images/documentation/ad-skin-tools/01-load-mesh.gif)
+![Load Mesh demonstration](/images/documentation/ad-skin-tool/01-load-mesh.gif)
 {{< /collapse >}}
 
 ## Joints / Influences
@@ -101,7 +103,7 @@ Klik kanan pada joint list untuk membuka action tambahan:
 **Global Owner** bersifat opsional. Fitur ini memberikan owner yang eksplisit untuk detached secondary region setelah conservative local assignment yang digunakan oleh Bind, Add Influence, dan Flood. Biarkan tidak aktif jika local assignment normal sudah memberikan hasil yang diinginkan. Global Owner aktif ditampilkan dengan warna kuning dan hanya berlaku pada loaded mesh context saat ini.
 
 {{< collapse title="Joint List demonstration" collapse="true">}}
-![Joint List demonstration](/images/documentation/ad-skin-tools/02-joint-list.gif)
+![Joint List demonstration](/images/documentation/ad-skin-tool/02-joint-list.gif)
 {{< /collapse >}}
 
 ## Blend dan Iterations
@@ -126,7 +128,7 @@ Gunakan **Bind Skin** untuk membuat skinCluster awal pada unskinned loaded mesh.
 Bind Skin menggunakan **seluruh joint list**, bukan hanya row yang sedang disorot. Tool menghitung natural surface ownership untuk listed joint, membuat satu skinCluster, menulis hasilnya, lalu memperbarui context agar influence yang baru di bind muncul dalam list.
 
 {{< collapse title="Bind Skin demonstration" collapse="true">}}
-![Bind Skin demonstration](/images/documentation/ad-skin-tools/03-bind-skin.gif)
+![Bind Skin demonstration](/images/documentation/ad-skin-tool/03-bind-skin.gif)
 {{< /collapse >}}
 
 ## Add Influence
@@ -142,7 +144,7 @@ Gunakan **Add Influence** ketika loaded mesh sudah memiliki skinCluster dan satu
 Hanya pending joint yang dipilih yang akan ditambahkan. Existing influence tetap menjadi bagian dari skinCluster, sementara tool memperbarui region yang diklaim oleh influence baru. Setelah selesai, row yang ditambahkan berubah menjadi bind influence dan tetap terpilih di dalam list.
 
 {{< collapse title="Add Influence demonstration" collapse="true">}}
-![Add Influence demonstration](/images/documentation/ad-skin-tools/04-add-influence.gif)
+![Add Influence demonstration](/images/documentation/ad-skin-tool/04-add-influence.gif)
 {{< /collapse >}}
 
 ## Flood
@@ -159,7 +161,7 @@ Jika component dipilih, hanya component scope yang berhasil di resolve yang akan
 Dengan Iterations `0`, Flood menulis hard regional result. Iterations menerapkan smoothing pada affected region menggunakan nilai Blend saat ini. Pending Joints yang ikut dipilih bersama bind influence akan diabaikan; jika ingin menambahkan Pending Joints gunakan Add Influence untuk joint. Selected Flood target harus dalam keadaan unlocked, jika terkunci makan nilai influence lain tetap terlindungi.
 
 {{< collapse title="Flood demonstration" collapse="true">}}
-![Flood demonstration](/images/documentation/ad-skin-tools/05-flood.gif)
+![Flood demonstration](/images/documentation/ad-skin-tool/05-flood.gif)
 {{< /collapse >}}
 
 ## Smooth
@@ -173,7 +175,7 @@ Smooth meratakan skin weight saat ini pada component selection atau pada seluruh
 Smooth tidak memerlukan joint row untuk dipilih. Component mode mengikuti Maya Soft Selection falloff. Untuk object mode menampilkan konfirmasi sebelum diproses. Nilai locked influence tetap tidak berubah dan vertex yang tidak memiliki writable weight akan dilewati.
 
 {{< collapse title="Smooth demonstration" collapse="true">}}
-![Smooth demonstration](/images/documentation/ad-skin-tools/06-smooth.gif)
+![Smooth demonstration](/images/documentation/ad-skin-tool/06-smooth.gif)
 {{< /collapse >}}
 
 ## Skin Weight Visual
@@ -193,7 +195,7 @@ Jika **Live Joint Selection** diset ke **On**, memilih listed bind joint di Maya
 Visual akan diperbarui setelah weight operation yang relevan, Undo, dan Redo. Ini adalah temporary display session dan tidak melakukan bake colour data ke dalam skin weight.
 
 {{< collapse title="Skin Weight Visual demonstration" collapse="true">}}
-![Skin Weight Visual demonstration](/images/documentation/ad-skin-tools/07-skin-weight-visual.gif)
+![Skin Weight Visual demonstration](/images/documentation/ad-skin-tool/07-skin-weight-visual.gif)
 {{< /collapse >}}
 
 ## Mirror Skin Weights Posed Mesh
@@ -230,7 +232,7 @@ Direction yang dipilih menentukan sisi yang mendonorkan weight. Joint influence 
 Tombol **Reset** pada Mirror membersihkan active Mirror Mesh dan current UI option. Reset tidak menghapus persistent pairing yang sudah tersimpan pada mesh.
 
 {{< collapse title="Mirror demonstration" collapse="true">}}
-![Mirror demonstration](/images/documentation/ad-skin-tools/08-mirror-optimized.gif)
+![Mirror demonstration](/images/documentation/ad-skin-tool/08-mirror-optimized.gif)
 {{< /collapse >}}
 
 ## Transfer Skin Weights
@@ -278,7 +280,7 @@ Saat Apply:
 Tombol **Reset** pada Transfer membersihkan registered Source dan Target list serta Preview saat ini. Reset tidak membatalkan transfer yang sudah diterapkan; gunakan Maya Undo untuk itu.
 
 {{< collapse title="Transfer demonstration" collapse="true">}}
-![Transfer demonstration](/images/documentation/ad-skin-tools/09-transfer-optimized.gif)
+![Transfer demonstration](/images/documentation/ad-skin-tool/09-transfer-optimized.gif)
 {{< /collapse >}}
 
 ## Status, Undo, dan diagnostics
