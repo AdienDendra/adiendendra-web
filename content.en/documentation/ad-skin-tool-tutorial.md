@@ -33,8 +33,6 @@ launch.show(
 )
 ```
 
-If your extracted ZIP contains only the older `ad_skin_tools` package, use `from ad_skin_tools import launch` on the first line. The same `launch.show()` call opens the tool.
-
 The tool opens as a Maya workspace control and can be docked or left floating. **Tool Help** opens a compact reference and environment diagnostics. **License** opens the trial, activation, and device management window. See the [AD Skin Tool License Guide](/en/documentation/ad-skin-tool-license/) for the complete customer workflow.
 
 ## Recommended workflow

@@ -33,8 +33,6 @@ launch.show(
 )
 ```
 
-Kalau ZIP Anda hanya berisi package lama `ad_skin_tools`, gunakan `from ad_skin_tools import launch` di baris pertama. Tool tetap dibuka dengan `launch.show()`.
-
 Tool akan terbuka sebagai Maya workspace control dan dapat di dock atau dibiarkan floating. **Tool Help** membuka referensi singkat serta environment diagnostics. **License** membuka jendela trial, activation, dan device management. Baca [Panduan Lisensi AD Skin Tool](/id/documentation/ad-skin-tool-license/) untuk workflow customer secara lengkap.
 
 ## Urutan penggunaan yang direkomendasikan
