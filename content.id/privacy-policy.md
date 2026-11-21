@@ -1,5 +1,6 @@
 +++
 title = "Kebijakan Privasi"
+draft = true
 translationKey = "privacy-policy"
 description = "Cara website ini dan AD Skin Tool memproses data website, support, komentar, transaksi, licensing, dan perangkat lokal."
 date = 2026-09-09T20:58:00+10:00

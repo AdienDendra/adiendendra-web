@@ -43,33 +43,20 @@ When the trial ends, the status changes to **Trial ended** and most tool feature
 
 ## Buy a license after the trial
 
-Click **Buy License** to open the AD Skin Tool checkout in your web browser. Lemon Squeezy handles the checkout as the payment provider and *Merchant of Record*.
+Click **Buy License** to open the AD Skin Tool checkout in your web browser. Freemius handles the checkout as the payment provider and *Merchant of Record*.
 
-Before paying, make sure the checkout shows **AD Skin Tool**, then check the price, currency, taxes, and final total. The fields may vary slightly depending on your payment method and billing country.
-
-| Checkout section | What to enter |
-|---|---|
-| Email | Use an address you can access. The order confirmation and license key are sent to this address. |
-| Payment method | Choose one of the methods offered at checkout, such as a debit or credit card, or PayPal. |
-| Card details | If paying by debit or credit card, enter the card number, expiry date, and security code. |
-| Cardholder and billing details | Enter the cardholder name, country, billing address, city, state or region when requested, and postal code. |
-| Tax ID number | Optional. Fill this in only if it applies to your purchase. |
-| Discount code | Optional. Enter a valid discount code, then check the updated total. |
-
-The payment form may offer to save your payment information for faster checkout next time. This is optional and is not required to receive or use your AD Skin Tool license.
-
-Once you have checked the final total, complete the payment using the button showing **Pay** and the amount. Wait for confirmation that your order is complete before closing the checkout page.
+If you see a launch code in the tool's **License** window, click **Have a promotional code?** at checkout and enter it. Make sure the discount appears in the total. Then check the final price, any taxes, and the checkout terms before paying.
 
 <!-- GIF suggestion: buy-license-checkout.gif -->
 
 ## Receive and protect the license key
 
-Once your order is complete, Lemon Squeezy sends an email to the address you used at checkout. This email contains your AD Skin Tool license key.
+Once your order is complete, Freemius sends an email to the address you used at checkout. This email contains your AD Skin Tool license key. Keep a copy of the email, license key, and invoice for your records.
 
 If you have not received the email after a few minutes:
 
 1. Check the Spam, Junk, and Promotions folders.
-2. Search your inbox for **AD Skin Tool** or **Lemon Squeezy**.
+2. Search your inbox for **AD Skin Tool** or **Freemius**.
 3. Make sure you are checking the same email address you used at checkout.
 4. If you still cannot find it, contact [hello@adiendendra.com](mailto:hello@adiendendra.com) with your purchase email address and a short description of the problem.
 
@@ -80,7 +67,7 @@ Keep your license key private. Do not publish it, show it in tutorial recordings
 You need an internet connection to activate the tool. Once your computer is connected:
 
 1. Return to Maya and open the **License** window.
-2. Copy the complete license key from the Lemon Squeezy email.
+2. Copy the complete license key from the Freemius purchase email or customer account.
 3. Paste it into the **License Key** text box.
 4. Click **Activate License**.
 5. Wait for the status to change to **License active**.

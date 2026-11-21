@@ -64,16 +64,14 @@ For a closer look at the features and workflows shown in the demo, read the [AD 
 
 ## Pricing, Trial, and Licence
 
-The launch price is **US$19.99 for the first 100 completed purchases**, after which the regular price will be **US$24.99**. AD Skin Tool is a one-time purchase with no subscription or recurring product charges. Applicable sales tax or VAT will be calculated at checkout based on the buyer's location.
-
-Each purchase grants a **Perpetual Individual Licence** for that version and may be activated on up to **two personal devices**. The two-device allowance is not a two-user or team licence. Future paid major versions may be offered separately.
+AD Skin Tool costs **US$25**, paid once. Your Individual licence lets you use this version on up to **two of your own devices**. There is no subscription, and future major versions may be sold separately. You'll see any applicable taxes before you pay. If a launch discount is available, its code will appear in the tool's **License** window.
 
 The full-featured trial lasts **48 hours** and begins only when the user selects **Start 48-Hour Trial** inside the tool. No purchase is required, although an internet connection is needed to start the trial.
 
 
 ## Activation and Offline Use
 
-Activating a paid licence requires an internet connection. After successful validation, AD Skin Tool remains available offline for up to 30 days. You only need to reconnect occasionally to refresh the licence.
+You'll need an internet connection to activate your licence. After that, you can work offline for up to 30 days. Connect from time to time so the tool can check your licence again.
 
 For the complete trial, checkout, activation, device, and offline-use workflow, see the [AD Skin Tool License Guide](/en/documentation/ad-skin-tools-license/).
 
@@ -81,13 +79,9 @@ For the complete trial, checkout, activation, device, and offline-use workflow, 
 
 Email support is available at [hello@adiendendra.com](mailto:hello@adiendendra.com) for installation, licensing and device activation, compatibility questions, and product-related technical issues.
 
-## Policies
+## Before you buy
 
-- <a href="/en/terms-of-service/" target="_blank" rel="noopener noreferrer" aria-label="Terms of Service, opens in a new tab">Terms of Service</a>
-- <a href="/en/privacy-policy/" target="_blank" rel="noopener noreferrer" aria-label="Privacy Policy, opens in a new tab">Privacy Policy</a>
-- <a href="/en/refund-policy/" target="_blank" rel="noopener noreferrer" aria-label="Refund Policy, opens in a new tab">Refund Policy</a>
-
-Purchases will be processed by Lemon Squeezy as the *Merchant of Record*.
+**Freemius** handles checkout, payment, and purchase emails. Please check the final total and the refund terms shown at checkout. Since you can try AD Skin Tool for 48 hours, I encourage you to test it before buying. Purchases are generally final, subject to the checkout terms and applicable consumer rights.
 
 ---
 

@@ -1,5 +1,6 @@
 +++
 title = "Kebijakan Pengembalian Dana"
+draft = true
 translationKey = "refund-policy"
 description = "Ketentuan refund pembelian digital AD Skin Tool, termasuk change-of-mind request dan remedy."
 date = 2026-09-09T20:58:00+10:00

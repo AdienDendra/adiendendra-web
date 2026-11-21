@@ -1,5 +1,6 @@
 +++
 title = "Terms of Service"
+draft = true
 translationKey = "terms-of-service"
 description = "Terms governing the AD Skin Tool website, trial, purchase, licence, delivery, and support."
 date = 2026-09-09T20:58:00+10:00

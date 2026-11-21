@@ -43,33 +43,20 @@ Setelah periodenya selesai, status berubah menjadi **Trial ended** dan sebagian 
 
 ## Membeli lisensi setelah trial
 
-Klik tombol **Buy License** untuk membuka checkout AD Skin Tool untuk terhubung ke web browser. Checkout tersebut disediakan oleh Lemon Squeezy sebagai penyedia pembayaran dan *Merchant of Record*.
+Klik **Buy License** untuk membuka checkout AD Skin Tool di browser. Freemius menangani checkout sebagai penyedia pembayaran dan *Merchant of Record*.
 
-Sebelum membayar, pastikan checkout menampilkan **AD Skin Tool**, kemudian periksa harga, mata uang, pajak, dan total akhir. Field yang tersedia dapat sedikit berbeda berdasarkan metode pembayaran dan negara billing.
-
-| Bagian checkout | Data yang diisi |
-|---|---|
-| Email | Gunakan alamat yang dapat Anda akses. Konfirmasi order dan license key akan dikirim ke alamat ini. |
-| Metode pembayaran | Pilih salah satu metode yang ditawarkan di checkout, seperti kartu debit atau kredit atau PayPal. |
-| Detail kartu | Untuk pembayaran dengan kartu debit atau kredit, masukkan nomor kartu, tanggal kedaluwarsa, dan security code. |
-| Nama dan alamat billing | Masukkan nama cardholder, negara, alamat billing, kota, state atau region jika diminta, dan kode pos. |
-| Tax ID number | Opsional. Isi hanya jika berlaku untuk pembelian Anda. |
-| Discount code | Opsional. Masukkan kode yang masih valid, lalu periksa kembali total akhir. |
-
-Pada form pembayaran mungkin ada opsi penyimpanan informasi pembayaran untuk checkout yang lebih cepat. Pilihan ini bersifat opsional dan tidak diperlukan untuk menerima atau menggunakan lisensi AD Skin Tool.
-
-Setelah tertera harga total, selesaikan pembayaran melalui tombol yang menampilkan **Pay** dan jumlah pembayaran. Jangan tutup halaman checkout sebelum ada konfirmasi bahwa order telah selesai.
+Jika Anda melihat kode promo peluncuran di jendela **License**, klik **Have a promotional code?** saat checkout dan masukkan kodenya. Pastikan diskonnya muncul pada total harga. Lalu periksa harga akhir, pajak yang berlaku, dan ketentuan checkout sebelum membayar.
 
 <!-- Saran GIF: buy-license-checkout.gif -->
 
 ## Menerima dan menjaga license key
 
-Setelah order berhasil, Lemon Squeezy akan mengirim email ke alamat yang digunakan saat checkout. Email tersebut berisi license key yang diperlukan oleh AD Skin Tool.
+Setelah pesanan selesai, Freemius mengirim email ke alamat yang Anda gunakan saat checkout. Email ini berisi license key AD Skin Tool. Simpan salinan email, license key, dan invoice sebagai arsip.
 
 Jika email belum diterima setelah beberapa menit:
 
 1. Periksa folder Spam, Junk, dan Promotions.
-2. Cari email dengan kata **AD Skin Tool** atau **Lemon Squeezy**.
+2. Cari email dengan kata **AD Skin Tool** atau **Freemius**.
 3. Pastikan Anda memeriksa alamat yang sama dengan yang digunakan saat checkout.
 4. Jika masih belum ada, hubungi [hello@adiendendra.com](mailto:hello@adiendendra.com) dengan menyertakan email order dan deskripsi singkat masalahnya.
 
@@ -80,7 +67,7 @@ Jaga kerahasiaan license key. Jangan memublikasikannya, menampilkannya dalam rek
 Untuk mengaktifasi tool dibutuhkan koneksi internet. Setelah dipastikan terhubung dengan internet:
 
 1. Kembali ke Maya dan buka jendela **License**.
-2. Salin license key lengkap dari email Lemon Squeezy.
+2. Salin license key lengkap dari email pembelian Freemius atau akun pelanggan.
 3. Masukan **License Key** ke text box.
 4. Klik **Activate License**.
 5. Tunggu sampai status berubah menjadi **License active**.

@@ -64,15 +64,13 @@ Agar lebih jelas fitur dan workflow dalam video demo, baca [dokumentasi AD Skin 
 - **Transfer weight yang dapat ditinjau:** Preview hasil dari donor skin weight sebelum diterapkan ke target mesh.
 
 ## Harga, Trial, dan Lisensi
-Harga peluncuran sebesar **US$19.99 untuk 100 transaksi pembeli pertama**, lalu kembali ke harga normal **US$24.99**. AD Skin Tool adalah produk sekali bayar tanpa biaya langganan atau tagihan berkala. Pajak penjualan atau VAT yang berlaku akan dihitung saat checkout sesuai lokasi pembeli.
-
-Setiap pembelian diberikan **Lisensi Perorangan Permanen** untuk versi tersebut dan dapat diaktifkan pada maksimal **dua perangkat pribadi**. Batas dua perangkat ini bukan merupakan lisensi dua pengguna atau lisensi tim. Versi utama berbayar di masa mendatang mungkin akan ditawarkan terpisah.
+Harga AD Skin Tool **US$25**, hanya bayar sekali. Lisensi Individual memungkinkan Anda menggunakan versi ini untuk **dua perangkat pribadi**. Tidak ada biaya langganan, versi terbaru di kemudian hari mungkin akan dijual terpisah. Pada saat checkout, pajak yang berlaku akan terlihat sebelum Anda membayar. Jika promo masih tersedia, kodenya akan muncul di window **License**.
 
 Uji coba fitur lengkap berlaku selama **48 jam** dan baru aktif saat pengguna memilih **Start 48-Hour Trial** di dalam tool. Anda tidak perlu membeli apa pun untuk memulai uji coba, meskipun koneksi internet tetap dibutuhkan di awal.
 
 ## Aktivasi dan Penggunaan Offline
 
-Aktivasi lisensi berbayar membutuhkan koneksi internet. Setelah validasi berhasil, AD Skin Tool tetap dapat digunakan secara offline hingga 30 hari, Anda cukup terhubung ke internet sesekali untuk memperbarui lisensi.
+Anda perlu terhubung dengan internet saat mengaktifkan lisensi. Setelah itu, tool dapat digunakan secara offline hingga 30 hari. Sambungkan kembali dengan internet sesekali agar lisensi dapat diperiksa kembali.
 
 Panduan lengkap mengenai trial, checkout, aktivasi, penggantian perangkat, dan penggunaan offline dapat dibaca di [Panduan Lisensi AD Skin Tool](/id/documentation/ad-skin-tools-license/).
 
@@ -80,13 +78,9 @@ Panduan lengkap mengenai trial, checkout, aktivasi, penggantian perangkat, dan p
 
 Layanan bantuan via email tersedia di [hello@adiendendra.com](mailto:hello@adiendendra.com) untuk menangani masalah instalasi, lisensi dan aktivasi perangkat, pertanyaan kompatibilitas, serta kendala teknis yang berkaitan dengan produk.
 
-## Kebijakan
+## Sebelum membeli
 
-- <a href="/id/terms-of-service/" target="_blank" rel="noopener noreferrer" aria-label="Syarat dan Ketentuan, dibuka di tab baru">Syarat dan Ketentuan</a>
-- <a href="/id/privacy-policy/" target="_blank" rel="noopener noreferrer" aria-label="Kebijakan Privasi, dibuka di tab baru">Kebijakan Privasi</a>
-- <a href="/id/refund-policy/" target="_blank" rel="noopener noreferrer" aria-label="Kebijakan Pengembalian Dana, dibuka di tab baru">Kebijakan Pengembalian Dana</a>
-
-Transaksi pembelian akan diproses oleh Lemon Squeezy selaku *Merchant of Record*
+**Freemius** yang menangani checkout, pembayaran, dan email pembelian. Periksa total harga serta ketentuan refund yang ditampilkan saat checkout. Anda bisa mencoba AD Skin Tool selama 48 jam, jadi pastikan tool ini sesuai kebutuhan sebelum membeli. Pembelian pada umumnya bersifat final, sesuai ketentuan checkout dan hak konsumen yang berlaku.
 
 ---
 

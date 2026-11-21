@@ -1,5 +1,6 @@
 +++
 title = "Syarat dan Ketentuan"
+draft = true
 translationKey = "terms-of-service"
 description = "Ketentuan yang mengatur website, trial, pembelian, lisensi, pengiriman digital, dan support AD Skin Tool."
 date = 2026-09-09T20:58:00+10:00

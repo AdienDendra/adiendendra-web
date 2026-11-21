@@ -1,5 +1,6 @@
 +++
 title = "Refund Policy"
+draft = true
 translationKey = "refund-policy"
 description = "Refund terms for AD Skin Tool digital purchases, including change-of-mind requests and consumer-law remedies."
 date = 2026-09-09T20:58:00+10:00

@@ -1,5 +1,6 @@
 +++
 title = "Privacy Policy"
+draft = true
 translationKey = "privacy-policy"
 description = "How this website and AD Skin Tool process data relating to website visits, support, comments, transactions, licensing, and local devices."
 date = 2026-09-09T20:58:00+10:00
