@@ -26,12 +26,14 @@ AD Skin Tool is a focused Autodesk Maya toolset for skin-weighting operations. I
 
 ## Compatibility and Downloads
 
-| Operating system | Architecture | Autodesk Maya target |
-|---|---|---|
-| Windows | x86-64 | 2023, 2024, 2025, 2026, 2027 |
-| Linux | x86-64 | 2023, 2024, 2025, 2026, 2027 |
+| Operating system | Architecture | Maya 2023 | Maya 2024 | Maya 2025 | Maya 2026 | Maya 2027 |
+|---|---|---|---|---|---|---|
+| Windows | x86-64 | [ZIP](https://github.com/AdienDendra/ad-skin-tools-downloads/releases/download/v1.0.0/ad-skin-tools-native-maya2023-cp39-windows-x86_64.zip) | [ZIP](https://github.com/AdienDendra/ad-skin-tools-downloads/releases/download/v1.0.0/ad-skin-tools-native-maya2024-cp310-windows-x86_64.zip) | [ZIP](https://github.com/AdienDendra/ad-skin-tools-downloads/releases/download/v1.0.0/ad-skin-tools-native-maya2025-cp311-windows-x86_64.zip) | [ZIP](https://github.com/AdienDendra/ad-skin-tools-downloads/releases/download/v1.0.0/ad-skin-tools-native-maya2026-cp311-windows-x86_64.zip) | [ZIP](https://github.com/AdienDendra/ad-skin-tools-downloads/releases/download/v1.0.0/ad-skin-tools-native-maya2027-cp313-windows-x86_64.zip) |
+| Linux | x86-64 | [ZIP](https://github.com/AdienDendra/ad-skin-tools-downloads/releases/download/v1.0.0/ad-skin-tools-native-maya2023-cp39-linux-x86_64.zip) | [ZIP](https://github.com/AdienDendra/ad-skin-tools-downloads/releases/download/v1.0.0/ad-skin-tools-native-maya2024-cp310-linux-x86_64.zip) | [ZIP](https://github.com/AdienDendra/ad-skin-tools-downloads/releases/download/v1.0.0/ad-skin-tools-native-maya2025-cp311-linux-x86_64.zip) | [ZIP](https://github.com/AdienDendra/ad-skin-tools-downloads/releases/download/v1.0.0/ad-skin-tools-native-maya2026-cp311-linux-x86_64.zip) | [ZIP](https://github.com/AdienDendra/ad-skin-tools-downloads/releases/download/v1.0.0/ad-skin-tools-native-maya2027-cp313-linux-x86_64.zip) |
+| macOS | Intel | [ZIP](https://github.com/AdienDendra/ad-skin-tools-downloads/releases/download/v1.0.0/ad-skin-tools-native-maya2023-cp39-macos-x86_64.zip) | [ZIP](https://github.com/AdienDendra/ad-skin-tools-downloads/releases/download/v1.0.0/ad-skin-tools-native-maya2024-cp310-macos-x86_64.zip) | [ZIP](https://github.com/AdienDendra/ad-skin-tools-downloads/releases/download/v1.0.0/ad-skin-tools-native-maya2025-cp311-macos-x86_64.zip) | [ZIP](https://github.com/AdienDendra/ad-skin-tools-downloads/releases/download/v1.0.0/ad-skin-tools-native-maya2026-cp311-macos-x86_64.zip) | [ZIP](https://github.com/AdienDendra/ad-skin-tools-downloads/releases/download/v1.0.0/ad-skin-tools-native-maya2027-cp313-macos-x86_64.zip) |
+| macOS | Apple Silicon | — | [ZIP](https://github.com/AdienDendra/ad-skin-tools-downloads/releases/download/v1.0.0/ad-skin-tools-native-maya2024-cp310-macos-arm64.zip) | [ZIP](https://github.com/AdienDendra/ad-skin-tools-downloads/releases/download/v1.0.0/ad-skin-tools-native-maya2025-cp311-macos-arm64.zip) | [ZIP](https://github.com/AdienDendra/ad-skin-tools-downloads/releases/download/v1.0.0/ad-skin-tools-native-maya2026-cp311-macos-arm64.zip) | [ZIP](https://github.com/AdienDendra/ad-skin-tools-downloads/releases/download/v1.0.0/ad-skin-tools-native-maya2027-cp313-macos-arm64.zip) |
 
-Select your operating system and Maya version in the table above to download the matching ZIP package. If you need a macOS build, email to hello@adiendendra.com with your Maya version and whether your Mac uses Intel or Apple Silicon.
+Select your operating system and Maya version in the table above to download the matching ZIP package.
 
 ## Product Preview
 For a closer look at the features and workflows shown in the demo, read the [AD Skin Tool documentation](/en/documentation/ad-skin-tools/) before watching.
