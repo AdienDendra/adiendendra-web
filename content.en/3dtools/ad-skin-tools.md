@@ -12,7 +12,6 @@ resource_label = "Maya Tool"
 access = "commercial"
 access_label = "Commercial"
 compatibility = "Maya 2023–2027"
-status_label = "Coming Soon"
 preview_label = "AD"
 weight = 1
 
@@ -25,7 +24,7 @@ ShowPostNavLinks = false
 
 AD Skin Tool is a focused Autodesk Maya toolset for skin-weighting operations. It is designed for artists and riggers who want to bind geometry, manage influences, inspect weights, mirror results, and transfer skin weights with a clear preview step before applying changes.
 
-## Compatibility and Downloads (Release Soon)
+## Compatibility and Downloads
 
 | Operating system | Architecture | Autodesk Maya target |
 |---|---|---|
