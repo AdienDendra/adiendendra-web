@@ -1,0 +1,15 @@
+# Existing direct download for Maya 2023 on Windows.
+/downloads/ad-skin-tools-native-maya2023-cp39-windows-x86_64.zip https://github.com/AdienDendra/ad-skin-tool-downloads/releases/download/v1.0.0/ad-skin-tools-native-maya2023-cp39-windows-x86_64.zip 302
+
+# Old links in Maya Help, purchase emails, bookmarks and tag feeds.
+/:lang/3dtools/ad-skin-tools /:lang/3dtools/ad-skin-tool/ 301
+/:lang/3dtools/ad-skin-tools/ /:lang/3dtools/ad-skin-tool/ 301
+/:lang/documentation/ad-skin-tools /:lang/documentation/ad-skin-tool-tutorial/ 301
+/:lang/documentation/ad-skin-tools/ /:lang/documentation/ad-skin-tool-tutorial/ 301
+/:lang/documentation/ad-skin-tools-tutorial /:lang/documentation/ad-skin-tool-tutorial/ 301
+/:lang/documentation/ad-skin-tools-tutorial/ /:lang/documentation/ad-skin-tool-tutorial/ 301
+/:lang/documentation/ad-skin-tools-license /:lang/documentation/ad-skin-tool-license/ 301
+/:lang/documentation/ad-skin-tools-license/ /:lang/documentation/ad-skin-tool-license/ 301
+/:lang/tags/ad-skin-tools /:lang/tags/ad-skin-tool/ 301
+/:lang/tags/ad-skin-tools/ /:lang/tags/ad-skin-tool/ 301
+/:lang/tags/ad-skin-tools/index.xml /:lang/tags/ad-skin-tool/index.xml 301

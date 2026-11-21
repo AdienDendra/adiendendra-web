@@ -1,11 +1,11 @@
 ---
 title: "Panduan Lisensi AD Skin Tool"
-translationKey: "ad-skin-tools-license"
+translationKey: "ad-skin-tool-license"
 summary: "Memulai trial, membeli dan mengaktifkan lisensi, mengelola perangkat, serta memahami validasi online dan akses offline."
 description: "Panduan customer untuk License AD Skin Tool, termasuk trial 48 jam, checkout, aktivasi, deaktivasi perangkat, validasi otomatis, dan akses offline."
 date: 2026-10-06T22:23:00+11:00
 lastmod: 2026-10-06T22:23:00+11:00
-tags: ["maya", "ad-skin-tools", "lisensi", "dokumentasi", "tutorial"]
+tags: ["maya", "ad-skin-tool", "lisensi", "dokumentasi", "tutorial"]
 categories: ["documentation"]
 comments: true
 showToc: true
@@ -16,7 +16,7 @@ ShowPostNavLinks: false
 
 Panduan ini menjelaskan tentang **License**, mulai dari cara mengaktifasi trial, membeli AD Skin Tool, mengaktifkan license key, memindahkan activation antar device, dan menggunakan tool secara offline.
 
-Untuk instalasi dan workflow tool, dapat dibaca di [Dokumentasi & Tutorial AD Skin Tool](/id/documentation/ad-skin-tools/). Untuk harga, kompatibilitas, dan download, dapat ke [halaman produk AD Skin Tool](/id/3dtools/ad-skin-tools/).
+Untuk instalasi dan workflow tool, dapat dibaca di [Dokumentasi & Tutorial AD Skin Tool](/id/documentation/ad-skin-tool-tutorial/). Untuk harga, kompatibilitas, dan download, dapat ke [halaman produk AD Skin Tool](/id/3dtools/ad-skin-tool/).
 
 ## Membuka window License
 

@@ -1,11 +1,11 @@
 ---
 title: "AD Skin Tool License Guide"
-translationKey: "ad-skin-tools-license"
+translationKey: "ad-skin-tool-license"
 summary: "Start the trial, purchase and activate a license, manage devices, and understand online validation and offline access."
 description: "A guide to the AD Skin Tool License window, including the 48-hour trial, checkout, activation, device deactivation, automatic validation, and offline access."
 date: 2026-10-06T22:23:00+11:00
 lastmod: 2026-10-06T23:46:00+11:00
-tags: ["maya", "ad-skin-tools", "license", "documentation", "tutorial"]
+tags: ["maya", "ad-skin-tool", "license", "documentation", "tutorial"]
 categories: ["documentation"]
 comments: true
 showToc: true
@@ -16,7 +16,7 @@ ShowPostNavLinks: false
 
 This guide covers the **License** window, starting the trial, buying AD Skin Tool, activating your license key, moving your activation to another device, and using the tool offline.
 
-For installation and tool workflows, see the [AD Skin Tool Documentation & Tutorials](/en/documentation/ad-skin-tools/). For pricing, compatibility, and downloads, visit the [AD Skin Tool product page](/en/3dtools/ad-skin-tools/).
+For installation and tool workflows, see the [AD Skin Tool Documentation & Tutorials](/en/documentation/ad-skin-tool-tutorial/). For pricing, compatibility, and downloads, visit the [AD Skin Tool product page](/en/3dtools/ad-skin-tool/).
 
 ## Open the License window
 

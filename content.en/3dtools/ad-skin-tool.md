@@ -1,6 +1,6 @@
 +++
 title = "AD Skin Tool"
-translationKey = "ad-skin-tools"
+translationKey = "ad-skin-tool"
 summary = "A toolset for skin weighting and influence management in Autodesk Maya workflows."
 description = "Manage Maya skin weights through visual, preview-driven workflows for binding, mirroring, and transferring weights."
 date = 2026-08-14T21:09:27+10:00
@@ -36,7 +36,7 @@ AD Skin Tool is a focused Autodesk Maya toolset for skin-weighting operations. I
 Select your operating system and Maya version in the table above to download the matching ZIP package.
 
 ## Product Preview
-For a closer look at the features and workflows shown in the demo, read the [AD Skin Tool documentation](/en/documentation/ad-skin-tools/) before watching.
+For a closer look at the features and workflows shown in the demo, read the [AD Skin Tool documentation](/en/documentation/ad-skin-tool-tutorial/) before watching.
 
 <div class="product-media-grid">
   <section class="product-media-card" aria-labelledby="demo-title">
@@ -74,7 +74,7 @@ The full-featured trial lasts **48 hours** and begins only when the user selects
 
 You'll need an internet connection to activate your licence. After that, you can work offline for up to 30 days. Connect from time to time so the tool can check your licence again.
 
-For the complete trial, checkout, activation, device, and offline-use workflow, see the [AD Skin Tool License Guide](/en/documentation/ad-skin-tools-license/).
+For the complete trial, checkout, activation, device, and offline-use workflow, see the [AD Skin Tool License Guide](/en/documentation/ad-skin-tool-license/).
 
 ## Help and Support
 

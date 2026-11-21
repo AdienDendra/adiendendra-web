@@ -1,11 +1,11 @@
 ---
 title: "AD Skin Tool Dokumentasi & Tutorial"
-translationKey: "ad-skin-tools-getting-started"
+translationKey: "ad-skin-tool-tutorial"
 summary: "Panduan untuk workflow AD Skin Tool di Autodesk Maya."
 description: "Cara meload mesh, mengelola influence, bind, flood, smooth, memvisualisasikan, mirror, dan transfer skin weight dengan AD Skin Tool."
 date: 2026-09-11T10:00:00+10:00
 lastmod: 2026-10-06T22:23:00+11:00
-tags: ["maya", "ad-skin-tools", "dokumentasi", "tutorial"]
+tags: ["maya", "ad-skin-tool", "dokumentasi", "tutorial"]
 categories: ["documentation"]
 comments: true
 showToc: true
@@ -14,9 +14,9 @@ ShowReadingTime: false
 ShowPostNavLinks: false
 ---
 
-Tutorial ini mengikuti urutan AD Skin Weights Tool dari atas ke bawah dan menjelaskan setiap control terhadap Maya scene yang sedang digunakan.
+Panduan ini membahas kontrol di AD Skin Tool dari atas ke bawah dan menjelaskan pengaruhnya pada scene Maya Anda.
 
-Untuk harga, kompatibilitas, dan ketersediaan rilis, bisa dilihat di [halaman produk AD Skin Tool](/id/3dtools/ad-skin-tools/).
+Untuk harga, kompatibilitas, dan ketersediaan rilis, bisa dilihat di [halaman produk AD Skin Tool](/id/3dtools/ad-skin-tool/).
 
 ## Instalasi dan membuka tool
 
@@ -33,7 +33,7 @@ ad_skin_tools.show(
 )
 ```
 
-Tool akan terbuka sebagai Maya workspace control dan dapat di dock atau dibiarkan floating. **Tool Help** membuka referensi singkat serta environment diagnostics. **License** membuka jendela trial, activation, dan device management. Baca [Panduan Lisensi AD Skin Tool](/id/documentation/ad-skin-tools-license/) untuk workflow customer secara lengkap.
+Tool akan terbuka sebagai Maya workspace control dan dapat di dock atau dibiarkan floating. **Tool Help** membuka referensi singkat serta environment diagnostics. **License** membuka jendela trial, activation, dan device management. Baca [Panduan Lisensi AD Skin Tool](/id/documentation/ad-skin-tool-license/) untuk workflow customer secara lengkap.
 
 ## Urutan penggunaan yang direkomendasikan
 

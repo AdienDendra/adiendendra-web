@@ -1,6 +1,6 @@
 +++
 title = "AD Skin Tool"
-translationKey = "ad-skin-tools"
+translationKey = "ad-skin-tool"
 summary = "Toolset untuk skin weight dan influence management dalam workflow Autodesk Maya."
 description = "Pengelola skin weight Maya dengan bind, mirror, dan transfer skin weight dengan visual dan berbasis preview."
 date = 2026-08-14T21:09:27+10:00
@@ -37,7 +37,7 @@ Pilih sistem operasi dan versi Maya pada tabel di atas untuk mengunduh paket ZIP
 
 ## Preview produk
 
-Agar lebih jelas fitur dan workflow dalam video demo, baca [dokumentasi AD Skin Tool](/id/documentation/ad-skin-tools/) sebelum menontonnya.
+Agar lebih jelas fitur dan workflow dalam video demo, baca [dokumentasi AD Skin Tool](/id/documentation/ad-skin-tool-tutorial/) sebelum menontonnya.
 
 <div class="product-media-grid">
   <section class="product-media-card" aria-labelledby="demo-title">
@@ -73,7 +73,7 @@ Uji coba fitur lengkap berlaku selama **48 jam** dan baru aktif saat pengguna me
 
 Anda perlu terhubung dengan internet saat mengaktifkan lisensi. Setelah itu, tool dapat digunakan secara offline hingga 30 hari. Sambungkan kembali dengan internet sesekali agar lisensi dapat diperiksa kembali.
 
-Panduan lengkap mengenai trial, checkout, aktivasi, penggantian perangkat, dan penggunaan offline dapat dibaca di [Panduan Lisensi AD Skin Tool](/id/documentation/ad-skin-tools-license/).
+Panduan lengkap mengenai trial, checkout, aktivasi, penggantian perangkat, dan penggunaan offline dapat dibaca di [Panduan Lisensi AD Skin Tool](/id/documentation/ad-skin-tool-license/).
 
 ## Bantuan dan Dukungan
 
