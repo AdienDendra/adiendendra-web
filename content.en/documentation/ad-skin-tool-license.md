@@ -4,7 +4,7 @@ translationKey: "ad-skin-tool-license"
 summary: "Start the trial, purchase and activate a license, manage devices, and understand online validation and offline access."
 description: "A guide to the AD Skin Tool License window, including the 48-hour trial, checkout, activation, device deactivation, automatic validation, and offline access."
 date: 2026-10-06T22:23:00+11:00
-lastmod: 2026-11-22T18:40:45+11:00
+lastmod: 2026-11-22T18:44:22+11:00
 tags: ["maya", "ad-skin-tool", "license", "documentation", "tutorial"]
 categories: ["documentation"]
 comments: true
@@ -22,7 +22,7 @@ For installation and tool workflows, see the [AD Skin Tool Documentation & Tutor
 
 Open AD Skin Tool in Maya, then click **License** in the top-right corner. The window displays the current computer's licence status and the actions available for that status.
 
-Opening Maya, AD Skin Tool, or the **License** window—or attempting to use a licensed feature—does **not** start the trial. The 48-hour period begins only when **Start 48-Hour Trial** is clicked.
+Opening Maya, launching AD Skin Tool, viewing the **License** window, or attempting to use a licensed feature does **not** start the trial. The 48-hour period begins only when **Start 48-Hour Trial** is clicked.
 
 <!-- GIF suggestion: open-license-window.gif -->
 

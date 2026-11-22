@@ -9,6 +9,7 @@ These instructions apply to documentation and technical articles in `content.en/
 - Avoid second-person address in user-facing documentation: **you, your, yours** in English and **kamu, Anda, kalian**, or possessive **-mu** in Indonesian. Avoid conversational **kita** and **we** in procedural documentation unless a first-person narrative is explicitly requested.
 - Prefer short active statements, clear subject-based descriptions, and concise imperative steps. Imperatives such as "Select the mesh and click Load Mesh" are natural and do not require a pronoun.
 - Explain what a control, service, or operation does, when it matters, and what result to expect. Avoid filler, sales language, robotic transitions, and unnecessary repetition.
+- Avoid em dashes (`—`), en dashes (`–`), and semicolons (`;`) as punctuation in English and Indonesian documentation prose. Use commas instead, adjusting sentence structure so the result remains fluent and grammatically correct. Preserve these characters where required in code, commands, URLs, identifiers, exact UI text, or verbatim quotations.
 - Match technical depth to the article's audience. Maya tutorials assume rigging artists and technical artists know skinCluster, influences, vertices, weights, and other common Maya terms. Cloud architecture articles can assume familiarity with AWS, IAM, Lambda, API Gateway, DynamoDB, IaC, and related concepts when appropriate. Do not dilute technically accurate material into beginner-level prose.
 
 ## English
