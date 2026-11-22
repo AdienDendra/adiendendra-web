@@ -4,7 +4,7 @@ translationKey: "ad-skin-tool-tutorial"
 summary: "A guide to AD Skin Tool workflows in Autodesk Maya."
 description: "How to load meshes, manage influences, bind, flood, smooth, visualise, mirror, and transfer skin weights with AD Skin Tool."
 date: 2026-09-11T10:00:00+10:00
-lastmod: 2026-11-22T18:09:40+11:00
+lastmod: 2026-11-22T18:47:20+11:00
 tags: ["maya", "ad-skin-tool", "documentation", "tutorial"]
 categories: ["documentation"]
 comments: true
@@ -20,7 +20,7 @@ For pricing, compatibility, and release availability, visit the [AD Skin Tool pr
 
 ## Install and open the tool
 
-Use the package built for the required Maya version, operating system, and processor architecture. Follow the installation instructions included in the download; each package targets a specific Maya version and platform.
+Use the package built for the required Maya version, operating system, and processor architecture. Follow the installation instructions included in the download, as each package targets a specific Maya version and platform.
 
 For the v1.0.0 download, open a Python tab in Maya’s **Script Editor** and run the command from step 5 of the ZIP’s `README.txt`. For packages with an `ad_skin_tool` folder, use:
 
@@ -108,7 +108,7 @@ Right click the joint list for additional actions:
 
 These controls are shared by **Bind Skin**, **Add Influence**, **Flood**, and **Smooth**:
 
-- **Blend** ranges from `0.000` to `1.000` and controls how strongly each smoothing pass shifts weights based on neighbouring vertices. Lower values preserve more of the current blocking; higher values produce a stronger smoothing effect.
+- **Blend** ranges from `0.000` to `1.000` and controls how strongly each smoothing pass shifts weights based on neighbouring vertices. Lower values preserve more of the current blocking, while higher values produce a stronger smoothing effect.
 - **Iterations** ranges from `0` to `10`. More iterations spread and relax the result farther through neighbouring vertices.
 
 For Bind Skin, Add Influence, and Flood, **Iterations 0** keeps the result in hard blocking mode. **Smooth** requires Iterations `1` or higher. The default values are Blend `0.250` and Iterations `0`.
@@ -157,7 +157,7 @@ Flood recalculates the natural regions owned by selected joints that are already
 
 With components selected, Flood operates within that component scope. Maya Soft Selection is also supported, and its falloff affects the result. Selecting the loaded mesh object instead triggers a confirmation before the entire mesh is processed.
 
-With Iterations `0`, Flood writes a hard regional result. Positive Iterations values apply smoothing to the affected region using the current Blend value. Pending joints selected alongside bind influences are ignored; use Add Influence to add those joints. Selected Flood targets must be unlocked. Values belonging to other locked influences remain protected.
+With Iterations `0`, Flood writes a hard regional result. Positive Iterations values apply smoothing to the affected region using the current Blend value. Pending joints selected alongside bind influences are ignored, so use Add Influence to add those joints. Selected Flood targets must be unlocked. Values belonging to other locked influences remain protected.
 
 {{< collapse title="Flood demonstration" collapse="true">}}
 ![Flood demonstration](/images/documentation/ad-skin-tool/05-flood.gif)
@@ -191,7 +191,7 @@ Skin Weight Visual displays one bind influence's weights directly on the loaded 
 
 With **Live Joint Selection** set to **On**, selecting a listed bind joint in Maya highlights it in the UI list and refreshes the active weight visual. Set it to **Off** to keep the displayed influence fixed while the Maya scene selection changes.
 
-The visual refreshes after relevant weight operations, Undo, and Redo. It is a temporary display session; it does not bake colour data into the skin weights.
+The visual refreshes after relevant weight operations, Undo, and Redo. It is a temporary display session, and it does not bake colour data into the skin weights.
 
 {{< collapse title="Skin Weight Visual demonstration" collapse="true">}}
 ![Skin Weight Visual demonstration](/images/documentation/ad-skin-tool/07-skin-weight-visual.gif)
@@ -210,13 +210,13 @@ Mirror uses a persistent vertex pairing so it can work reliably on a skinned mes
    - **XY** mirrors across Z.
 3. Choose the source-to-target **Direction** for that axis.
 4. Set the centre plane coordinate. Enter the value directly, or select suitable centre components or the mesh transform and click **Register Selected** to calculate it from the selection.
-5. Set **Tolerance**. Start with the default `0.001`; increase it only enough to resolve valid symmetrical counterparts.
+5. Set **Tolerance**. Start with the default `0.001`, then increase it only enough to resolve valid symmetrical counterparts.
 6. Enter literal **Left** and **Right** joint name markers, for example `L` / `R`, `L_` / `R_`, or `_l` / `_r`. The markers may be prefixes, suffixes, or infixes, but they must be different.
 7. Click **Preview Pairing**.
 
 Preview reports legal pairs, centre vertices, unmatched vertices, ambiguous vertices, and the maximum pairing error. Vertices with pairing issues are selected in Maya for inspection. Preview does not overwrite an existing registered pairing.
 
-When the preview is complete and valid, click **Register Pairing**. The geometry pairing is stored on the mesh and can be reused. If the mesh already contains pairing data, the button becomes **Replace Pairing...** and asks for confirmation before replacing it. A topology change makes an old pairing obsolete; run Preview and Replace Pairing again.
+When the preview is complete and valid, click **Register Pairing**. The geometry pairing is stored on the mesh and can be reused. If the mesh already contains pairing data, the button becomes **Replace Pairing...** and asks for confirmation before replacing it. A topology change makes an old pairing obsolete, so run Preview and Replace Pairing again.
 
 ### Apply mirrored weights
 
@@ -236,12 +236,12 @@ The Mirror **Reset** button clears the active Mirror Mesh and current UI options
 
 ## Transfer Skin Weights
 
-Transfer projects weights from one or more skinned source surfaces onto one or more target meshes. The registered sources provide the reference influences and weights; the targets receive the transferred result.
+Transfer projects weights from one or more skinned source surfaces onto one or more target meshes. The registered sources provide the reference influences and weights, while the targets receive the transferred result.
 
 ### Register sources and targets
 
 1. Select one or more already skinned source meshes and click **Add Selected** under **Sources**. Selecting source components is allowed, but the owning mesh is registered as the donor surface.
-2. Select one or more target meshes or their components and click **Add Selected** under **Targets**. Registration records the owning target meshes; the active component scope is evaluated later, when Preview Transfer runs.
+2. Select one or more target meshes or their components and click **Add Selected** under **Targets**. Registration records the owning target meshes, and Preview Transfer evaluates the active component scope later.
 3. Use **Remove Selected** or **Clear** to edit either list. A mesh cannot be registered as both a source and a target.
 
 Right click either list to select the highlighted object or every registered object in that list within the Maya scene.
@@ -263,10 +263,10 @@ Mixed scope means that, within one operation, one target can use selected compon
 
 1. Set the intended target component selection, or leave registered targets without selected components for object mode.
 2. Click **Preview Transfer**.
-3. Review the status summary: registered, active, and skipped targets; requested and writable vertices; locked or empty rows; and maximum source distance.
+3. Review the status summary for registered, active, and skipped targets, requested and writable vertices, locked or empty rows, and maximum source distance.
 4. If the preview is valid, click **Transfer Skin Weights**.
 
-Preview records the closest source correspondence that Apply will use; it does not change any weights. If the source or target registration, target component scope, skinCluster, or influence order changes after Preview, run Preview again.
+Preview records the closest source correspondence that Apply will use, but does not change any weights. If the source or target registration, target component scope, skinCluster, or influence order changes after Preview, run Preview again.
 
 During Apply:
 
@@ -276,7 +276,7 @@ During Apply:
 - If either condition applies, the tool presents **Cancel** and **Proceed**. Cancel keeps the Preview available and makes no changes.
 - Transfer and adaptive boundary smoothing run as one operation. If a multi-target transfer fails, the changes are rolled back to avoid a partial result.
 
-The Transfer **Reset** button clears the registered Source and Target lists and the current Preview. It does not reverse a transfer that has already been applied; use Maya Undo for that.
+The Transfer **Reset** button clears the registered Source and Target lists and the current Preview. It does not reverse a transfer that has already been applied, so use Maya Undo for that.
 
 {{< collapse title="Transfer demonstration" collapse="true">}}
 ![Transfer demonstration](/images/documentation/ad-skin-tool/09-transfer-optimized.gif)

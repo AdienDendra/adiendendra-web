@@ -4,7 +4,7 @@ translationKey: "ad-skin-tool-tutorial"
 summary: "Panduan untuk workflow AD Skin Tool di Autodesk Maya."
 description: "Panduan load mesh, pengelolaan influence, bind, flood, smooth, visualisasi skin weights, mirror, dan transfer dengan AD Skin Tool."
 date: 2026-09-11T10:00:00+10:00
-lastmod: 2026-11-22T18:09:40+11:00
+lastmod: 2026-11-22T18:47:20+11:00
 tags: ["maya", "ad-skin-tool", "dokumentasi", "tutorial"]
 categories: ["documentation"]
 comments: true
@@ -20,7 +20,7 @@ Untuk harga, kompatibilitas, dan ketersediaan rilis, bisa dilihat di [halaman pr
 
 ## Instalasi dan membuka tool
 
-Download paket yang sesuai dengan versi Maya, sistem operasi, dan arsitektur prosesor yang akan digunakan. Ikuti petunjuk instalasi di dalam ZIP; setiap paket dibuat untuk kombinasi versi Maya dan platform tertentu.
+Download paket yang sesuai dengan versi Maya, sistem operasi, dan arsitektur prosesor yang akan digunakan. Ikuti petunjuk instalasi di dalam ZIP, karena setiap paket dibuat untuk kombinasi versi Maya dan platform tertentu.
 
 Untuk ZIP v1.0.0, buka tab Python di **Script Editor** Maya, lalu jalankan perintah pada langkah 5 di `README.txt`. Jika paket berisi folder `ad_skin_tool`, gunakan:
 
@@ -108,8 +108,8 @@ Klik kanan pada daftar joint untuk membuka perintah tambahan:
 
 Control ini digunakan bersama oleh **Bind Skin**, **Add Influence**, **Flood**, dan **Smooth**:
 
-- **Blend** (`0.000`–`1.000`) mengatur seberapa kuat smoothing mengubah weight berdasarkan vertex di sekitarnya. Nilai rendah lebih mempertahankan blocking, sedangkan nilai tinggi menghasilkan smoothing yang lebih kuat.
-- **Iterations** (`0`–`10`) menentukan berapa kali smoothing dijalankan. Semakin tinggi nilainya, semakin jauh pengaruh smoothing menyebar ke vertex di sekitarnya.
+- **Blend** memiliki rentang `0.000` sampai `1.000` dan mengatur seberapa kuat smoothing mengubah weight berdasarkan vertex di sekitarnya. Nilai rendah lebih mempertahankan blocking, sedangkan nilai tinggi menghasilkan smoothing yang lebih kuat.
+- **Iterations** memiliki rentang `0` sampai `10` dan menentukan berapa kali smoothing dijalankan. Semakin tinggi nilainya, semakin jauh pengaruh smoothing menyebar ke vertex di sekitarnya.
 
 Pada Bind Skin, Add Influence, dan Flood, **Iterations 0** mempertahankan hasil hard blocking. **Smooth** membutuhkan Iterations `1` atau lebih. Nilai default adalah Blend `0.250` dan Iterations `0`.
 
@@ -156,7 +156,7 @@ Hanya pending joint yang dipilih yang ditambahkan. Influence lama tetap berada d
 
 Jika component dipilih, Flood hanya memproses area selection tersebut. Maya Soft Selection juga didukung, dan falloff-nya memengaruhi hasil. Jika object mesh aktif yang dipilih, tool akan meminta konfirmasi sebelum memproses seluruh mesh.
 
-Dengan Iterations `0`, Flood menghasilkan hard blocking pada region yang diproses. Iterations di atas `0` menambahkan smoothing sesuai nilai Blend. Pending joint tetap diabaikan meskipun ikut dipilih bersama bind influence; gunakan Add Influence untuk menambahkannya. Target Flood yang dipilih harus unlocked, sedangkan weight pada influence lain yang terkunci tetap terlindungi.
+Dengan Iterations `0`, Flood menghasilkan hard blocking pada region yang diproses. Iterations di atas `0` menambahkan smoothing sesuai nilai Blend. Pending joint tetap diabaikan meskipun ikut dipilih bersama bind influence, jadi gunakan Add Influence untuk menambahkannya. Target Flood yang dipilih harus unlocked, sedangkan weight pada influence lain yang terkunci tetap terlindungi.
 
 {{< collapse title="Flood demonstration" collapse="true">}}
 ![Flood demonstration](/images/documentation/ad-skin-tool/05-flood.gif)
@@ -209,13 +209,13 @@ Mirror menyimpan pasangan vertex (*persistent vertex pairing*) agar weight tetap
    - **XY** melakukan mirror melintasi Z.
 3. Pilih **Direction** source-to-target pada axis tersebut.
 4. Atur koordinat centre plane. Nilainya bisa dimasukkan langsung, atau dihitung dari selection dengan memilih centre component maupun mesh transform lalu klik **Register Selected**.
-5. Atur **Tolerance**. Mulai dari nilai default `0.001`; naikkan secukupnya untuk menemukan symmetrical counterpart yang valid.
+5. Atur **Tolerance**. Mulai dari nilai default `0.001`, lalu naikkan secukupnya untuk menemukan symmetrical counterpart yang valid.
 6. Masukkan literal joint name marker untuk **Left** dan **Right**, misalnya `L` / `R`, `L_` / `R_`, atau `_l` / `_r`. Marker dapat berupa prefix, suffix, atau infix, tetapi keduanya harus berbeda.
 7. Klik **Preview Pairing**.
 
 Preview menampilkan jumlah legal pair, centre vertex, unmatched vertex, ambiguous vertex, dan maximum pairing error. Vertex yang bermasalah dipilih di Maya untuk diperiksa. Preview tidak menimpa pairing yang sudah tersimpan.
 
-Jika hasil Preview valid, klik **Register Pairing**. Pasangan vertex disimpan pada mesh dan dapat digunakan kembali. Jika pairing sudah ada, tombol berubah menjadi **Replace Pairing...** dan meminta konfirmasi. Perubahan topology membuat pairing lama tidak berlaku; jalankan Preview lagi lalu Replace Pairing.
+Jika hasil Preview valid, klik **Register Pairing**. Pasangan vertex disimpan pada mesh dan dapat digunakan kembali. Jika pairing sudah ada, tombol berubah menjadi **Replace Pairing...** dan meminta konfirmasi. Perubahan topology membuat pairing lama tidak berlaku, sehingga Preview dan Replace Pairing perlu dijalankan ulang.
 
 ### Terapkan mirrored weights
 
@@ -262,7 +262,7 @@ Component mode dan object mode dapat digunakan dalam satu transfer. Misalnya, sa
 
 1. Atur target component selection yang diinginkan, atau biarkan registered target tanpa component untuk object mode.
 2. Klik **Preview Transfer**.
-3. Periksa status summary: registered, active, dan skipped target; requested dan writable vertex; locked atau empty row; serta maximum source distance.
+3. Periksa status summary yang mencakup registered, active, dan skipped target, requested dan writable vertex, locked atau empty row, serta maximum source distance.
 4. Jika Preview valid, klik **Transfer Skin Weights**.
 
 Preview menghitung dan menyimpan pasangan titik source terdekat (*closest-source correspondence*) untuk digunakan saat Apply. Tahap ini tidak mengubah weight. Jika daftar Source/Target, component scope, skinCluster, atau influence order berubah setelah Preview, jalankan Preview kembali.
@@ -275,7 +275,7 @@ Saat Apply:
 - Jika salah satu kondisi tersebut ada, tool menampilkan **Cancel** dan **Proceed**. Cancel mempertahankan Preview dan tidak melakukan perubahan.
 - Transfer dan adaptive boundary smoothing dijalankan sebagai satu operasi. Jika transfer ke beberapa target gagal, perubahan di-rollback agar tidak meninggalkan partial result.
 
-Tombol **Reset** pada Transfer membersihkan registered Source dan Target list serta Preview saat ini. Reset tidak membatalkan transfer yang sudah diterapkan; gunakan Maya Undo untuk itu.
+Tombol **Reset** pada Transfer membersihkan registered Source dan Target list serta Preview saat ini. Reset tidak membatalkan transfer yang sudah diterapkan, sehingga pembatalan perlu dilakukan melalui Maya Undo.
 
 {{< collapse title="Transfer demonstration" collapse="true">}}
 ![Transfer demonstration](/images/documentation/ad-skin-tool/09-transfer-optimized.gif)
