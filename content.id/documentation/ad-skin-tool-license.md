@@ -2,9 +2,9 @@
 title: "Panduan Lisensi AD Skin Tool"
 translationKey: "ad-skin-tool-license"
 summary: "Memulai trial, membeli dan mengaktifkan lisensi, mengelola perangkat, serta memahami validasi online dan akses offline."
-description: "Panduan customer untuk License AD Skin Tool, termasuk trial 48 jam, checkout, aktivasi, deaktivasi perangkat, validasi otomatis, dan akses offline."
+description: "Panduan jendela License AD Skin Tool, meliputi trial 48 jam, checkout, aktivasi lisensi, deaktivasi perangkat, validasi otomatis, dan akses offline."
 date: 2026-10-06T22:23:00+11:00
-lastmod: 2026-10-06T22:23:00+11:00
+lastmod: 2026-11-22T18:40:45+11:00
 tags: ["maya", "ad-skin-tool", "lisensi", "dokumentasi", "tutorial"]
 categories: ["documentation"]
 comments: true
@@ -14,61 +14,61 @@ ShowReadingTime: false
 ShowPostNavLinks: false
 ---
 
-Panduan ini menjelaskan tentang **License**, mulai dari cara mengaktifasi trial, membeli AD Skin Tool, mengaktifkan license key, memindahkan activation antar device, dan menggunakan tool secara offline.
+Panduan ini membahas jendela **License** AD Skin Tool, mulai dari memulai trial dan pembelian lisensi hingga aktivasi, pengelolaan perangkat, serta penggunaan offline.
 
-Untuk instalasi dan workflow tool, dapat dibaca di [Dokumentasi & Tutorial AD Skin Tool](/id/documentation/ad-skin-tool-tutorial/). Untuk harga, kompatibilitas, dan download, dapat ke [halaman produk AD Skin Tool](/id/3dtools/ad-skin-tool/).
+Panduan instalasi dan workflow tersedia di [Dokumentasi & Tutorial AD Skin Tool](/id/documentation/ad-skin-tool-tutorial/). Informasi harga, kompatibilitas, dan download tersedia di [halaman produk AD Skin Tool](/id/3dtools/ad-skin-tool/).
 
-## Membuka window License
+## Membuka jendela License
 
-Buka AD Skin Tool di Maya, kemudian klik tombol **License** di pojok kanan atas. License akan menampilkan status lisensi untuk komputer yang sedang digunakan dan action yang tersedia untuk status tersebut.
+Buka AD Skin Tool di Maya, lalu klik **License** di pojok kanan atas. Jendela ini menampilkan status lisensi komputer yang digunakan serta tindakan yang tersedia sesuai status tersebut.
 
-Membuka Maya, AD Skin Tool, jendela License, atau menjalankan fitur, **tidak** akan memulai trial. Trial akan dimulai ketika Anda menekan **Start 48-Hour Trial**.
+Membuka Maya, AD Skin Tool, atau jendela **License**, maupun mencoba fitur berlisensi, **tidak** otomatis memulai trial. Periode 48 jam baru dimulai setelah tombol **Start 48-Hour Trial** diklik.
 
 <!-- Saran GIF: open-license-window.gif -->
 
 ## Memulai trial 48 jam
 
-Trial AD Skin Tool hanya belaku selama 48 jam, akses ini terbuka ke seluruh fitur. Cara mengaktifkan trial:
+Trial AD Skin Tool memberikan akses penuh ke seluruh fitur selama 48 jam. Untuk memulainya:
 
-1. Komputer terhubung ke internet.
+1. Pastikan komputer terhubung ke internet.
 2. Buka jendela **License**.
 3. Klik **Start 48-Hour Trial**.
 4. Tunggu sampai status berubah menjadi **Trial active**.
 
-Periode 48 jam dihitung menggunakan waktu server. Waktunya tetap berjalan ketika Maya atau komputer ditutup, dan reset data lisensi lokal tidak akan memulai ulang atau memperpanjang trial. Pada jendela License akan menampilkan waktu berakhirnya trial sesuai waktu lokal komputer yang Anda gunakan.
+Periode 48 jam dihitung berdasarkan waktu server dan terus berjalan meskipun Maya ditutup atau komputer dimatikan. Reset data lisensi lokal tidak akan memulai ulang atau memperpanjang trial. Waktu berakhirnya trial ditampilkan di jendela **License** sesuai waktu lokal komputer.
 
-Setelah periodenya selesai, status berubah menjadi **Trial ended** dan sebagian besar fitur pada tool tidak dapat digunakan.
+Setelah trial berakhir, status berubah menjadi **Trial ended** dan sebagian besar fitur tidak lagi dapat digunakan.
 
 <!-- Saran GIF: start-trial.gif -->
 
 ## Membeli lisensi setelah trial
 
-Klik **Buy License** untuk membuka checkout AD Skin Tool di browser. Freemius menangani checkout sebagai penyedia pembayaran dan *Merchant of Record*.
+Klik **Buy License** untuk membuka halaman checkout AD Skin Tool melalui browser. Freemius memproses pembayaran sebagai *Merchant of Record*.
 
-Jika Anda melihat kode promo peluncuran di jendela **License**, klik **Have a promotional code?** saat checkout dan masukkan kodenya. Pastikan diskonnya muncul pada total harga. Lalu periksa harga akhir, pajak yang berlaku, dan ketentuan checkout sebelum membayar.
+Jika kode promo peluncuran tersedia di jendela **License**, klik **Have a promotional code?** pada halaman checkout dan masukkan kodenya. Pastikan potongan harga tercantum dalam total pembayaran, lalu periksa harga akhir, pajak yang berlaku, dan ketentuan checkout sebelum menyelesaikan pembelian.
 
 <!-- Saran GIF: buy-license-checkout.gif -->
 
 ## Menerima dan menjaga license key
 
-Setelah pesanan selesai, Freemius mengirim email ke alamat yang Anda gunakan saat checkout. Email ini berisi license key AD Skin Tool. Simpan salinan email, license key, dan invoice sebagai arsip.
+Setelah pesanan selesai, Freemius mengirim email berisi license key AD Skin Tool ke alamat yang dimasukkan saat checkout. Simpan email konfirmasi, license key, dan invoice sebagai arsip.
 
 Jika email belum diterima setelah beberapa menit:
 
 1. Periksa folder Spam, Junk, dan Promotions.
 2. Cari email dengan kata **AD Skin Tool** atau **Freemius**.
-3. Pastikan Anda memeriksa alamat yang sama dengan yang digunakan saat checkout.
-4. Jika masih belum ada, hubungi [hello@adiendendra.com](mailto:hello@adiendendra.com) dengan menyertakan email order dan deskripsi singkat masalahnya.
+3. Periksa kotak masuk dari alamat email yang digunakan saat checkout.
+4. Jika email tetap tidak ditemukan, hubungi [hello@adiendendra.com](mailto:hello@adiendendra.com) dengan menyertakan alamat email pembelian dan deskripsi singkat masalahnya.
 
-Jaga kerahasiaan license key. Jangan memublikasikannya, menampilkannya dalam rekaman tutorial, atau mengirimkan key lengkap di screenshot.
+Jaga kerahasiaan license key. Hindari memublikasikannya, menampilkannya dalam rekaman tutorial, atau menyertakan key lengkap pada screenshot.
 
 ## Mengaktifkan lisensi berbayar
 
-Untuk mengaktifasi tool dibutuhkan koneksi internet. Setelah dipastikan terhubung dengan internet:
+Aktivasi lisensi memerlukan koneksi internet. Setelah komputer terhubung:
 
 1. Kembali ke Maya dan buka jendela **License**.
 2. Salin license key lengkap dari email pembelian Freemius atau akun pelanggan.
-3. Masukan **License Key** ke text box.
+3. Tempelkan key ke kolom **License Key**.
 4. Klik **Activate License**.
 5. Tunggu sampai status berubah menjadi **License active**.
 
@@ -79,85 +79,85 @@ Aktivasi yang berhasil menampilkan:
 > Next auto-validation: *tanggal dan waktu*.  
 > Offline access available until: *tanggal dan waktu*.
 
-Setiap lisensi Individual dapat aktif pada maksimal **dua perangkat pribadi**. Jika kedua slot sudah digunakan, deactivate salah satu perangkat yang tidak lagi diperlukan sebelum mengaktifkan perangkat lain.
+Setiap lisensi Individual dapat aktif pada maksimal **dua perangkat pribadi**. Jika kedua slot sudah terpakai, lakukan deaktivasi pada perangkat yang tidak lagi digunakan sebelum mengaktifkan perangkat lain.
 
 <!-- Saran GIF: activate-license.gif -->
 
 ## Memahami validasi otomatis dan akses offline
 
-AD Skin Tool adalah tool yang bersifat perpetual, dua tanggal pada jendela License merupakan periode validasi, **bukan tanggal berakhirnya lisensi yang telah dibeli**.
+Lisensi AD Skin Tool bersifat perpetual. Dua tanggal pada jendela **License** menunjukkan jadwal validasi online dan batas akses offline, **bukan tanggal kedaluwarsa lisensi yang dibeli**.
 
 | Teks pada jendela License | Artinya |
 |---|---|
-| **Next auto-validation** | Tanggal berikutnya saat tool perlu memperbarui status lisensinya secara online. Normalnya tujuh hari setelah aktivasi atau validasi terakhir yang berhasil. |
-| **Offline access available until** | Tanggal terakhir ketika akses offline terverifikasi yang tersimpan masih dapat digunakan tanpa koneksi internet ker server. Normalnya 30 hari setelah aktivasi atau validasi terakhir yang berhasil. |
+| **Next auto-validation** | Jadwal pemeriksaan lisensi online berikutnya, biasanya tujuh hari setelah aktivasi atau validasi terakhir yang berhasil. |
+| **Offline access available until** | Batas masa akses offline yang tersimpan tanpa koneksi ke server, biasanya 30 hari setelah aktivasi atau validasi terakhir yang berhasil. |
 
-Setelah waktu **Next auto-validation** tercapai, tool mencoba melakukan validasi secara otomatis ketika AD Skin Tool dibuka atau ketika fitur digunakan. Anda tidak perlu menekan tombol apa pun, license otomatis akan memverifikasi ke server.
+Setelah jadwal **Next auto-validation** tercapai, AD Skin Tool otomatis memeriksa status lisensi saat tool dibuka atau fitur berlisensi digunakan. Proses ini tidak memerlukan tindakan manual.
 
-Jika komputer sementara tidak terhubung ke internet, status dapat menampilkan **Working offline**. Fitur pada tool akan tetap tersedia sampai tanggal offline access yang ada pada tampilan. Tool akan mencoba kembali pada pembukaan tool berikutnya, dan **Retry Now** dapat digunakan untuk langsung memeriksa kembali setelah koneksi internet terhubung.
+Jika komputer sementara tidak terhubung ke internet, status dapat berubah menjadi **Working offline**. Fitur berlisensi tetap tersedia hingga batas akses offline yang ditampilkan. AD Skin Tool mencoba validasi lagi saat dibuka berikutnya. Setelah koneksi pulih, klik **Retry Now** untuk melakukan pemeriksaan langsung.
 
-Setiap validasi online yang berhasil akan memajukan kedua tanggal tersebut dari waktu pemeriksaan yang berhasil. Jika komputer tetap offline sampai tanggal offline access terlewati, fitur tool akan terblokir dan akan ada tampilan:
+Setiap validasi online yang berhasil memperbarui kedua tanggal berdasarkan waktu pemeriksaan terakhir. Jika komputer tetap offline melewati batas akses tersebut, fitur berlisensi akan diblokir dan jendela **License** menampilkan:
 
 > **Online check required**  
 > Offline access has ended.  
 > Connect to the internet and click Retry Now to validate your license.
 
-Untuk menaktifkannya kembali, hubungkan kembali komputer ke internet, klik **Retry Now**, lalu tunggu sampai status **License active** muncul kembali.
+Untuk memulihkan akses, sambungkan kembali komputer ke internet, klik **Retry Now**, lalu tunggu hingga status kembali menjadi **License active**.
 
 ## Deactivate This Device
 
-Gunakan **Deactivate This Device** untuk melepas slot aktivasi komputer yang Anda gunakan, misalnya jika ada case untuk menjual, memformat atau menginstall ulang komputer, atau ketika Anda memindahkan lisensi ke perangkat pribadi lainnya.
+Gunakan **Deactivate This Device** untuk melepas slot aktivasi yang terhubung ke komputer saat ini. Langkah ini berguna sebelum komputer dijual, diformat ulang, sistem operasinya diinstal ulang, atau lisensi dipindahkan ke perangkat pribadi lain.
 
-1. Hubungkan komputer yang sedang aktif ke internet.
+1. Pastikan komputer yang memiliki aktivasi aktif terhubung ke internet.
 2. Buka jendela **License**.
 3. Klik **Deactivate This Device**.
 4. Periksa dialog konfirmasi, kemudian klik **Deactivate**.
 
-Deactivation yang berhasil akan melepas satu dari dua slot perangkat dan menghapus data lisensi berbayar yang disimpan AD Skin Tool pada komputer tersebut. Komputer yang sama dapat diaktifkan kembali menggunakan license key yang sama.
+Deaktivasi yang berhasil membebaskan satu dari dua slot perangkat dan menghapus data lisensi berbayar yang disimpan secara lokal oleh AD Skin Tool. Komputer yang sama dapat diaktifkan kembali menggunakan license key yang sama.
 
-Deactivation **tidak** membatalkan pembelian, mencabut lisensi, menonaktifkan komputer lain, atau menghapus order customer. Jika proses deactivation tidak dapat terhubung ke server, lisensi lokal akan tetap disimpan agar prosesnya dapat dicoba kembali dengan aman.
+Deaktivasi **tidak** membatalkan pembelian, mencabut lisensi, menonaktifkan komputer lain, atau menghapus pesanan. Jika server tidak dapat dihubungi, data lisensi lokal tetap disimpan agar proses deaktivasi dapat dicoba lagi dengan aman.
 
-Jika komputer lama hilang atau sudah tidak dapat diakses, hubungi [hello@adiendendra.com](mailto:hello@adiendendra.com) untuk bantuan dan jangan membagikan license key.
+Jika komputer lama hilang atau tidak lagi dapat diakses, hubungi [hello@adiendendra.com](mailto:hello@adiendendra.com) untuk mendapatkan bantuan. Jangan membagikan license key.
 
 <!-- Saran GIF: deactivate-this-device.gif -->
 
-## Control lain pada jendela License
+## Kontrol lain pada jendela License
 
-| Control | Kegunaan |
+| Kontrol | Kegunaan |
 |---|---|
-| **Retry Now** | Langsung mencoba kembali request trial atau lisensi berbayar yang tersimpan ketika status saat ini membolehkannya. Gunakan setelah koneksi internet pulih atau ketika komputer sudah diperbaiki. |
-| **Reset Local License Data** | Action pemulihan hanya ditampilkan ketika data lisensi lokal perlu diperbaiki. Action ini menghapus data lisensi di komputer tersebut, tetapi tidak melepas slot perangkat di server dan tidak memulai ulang atau memperpanjang trial. Gunakan hanya ketika License menginstruksikannya. |
-| **Buy License** | Membuka checkout resmi di default web browser. |
-| **Update** atau **Upgrade** | Hanya muncul ketika rilis baru yang sesuai tersedia. Tombol ini membuka halaman resmi AD Skin Tool, AD Skin Tool tidak menginstal software secara diam-diam atau mengubah lisensi saat ini. |
+| **Retry Now** | Mengulangi permintaan trial atau lisensi berbayar yang tersimpan jika status saat ini memungkinkan. Gunakan setelah koneksi internet pulih atau masalah pada komputer teratasi. |
+| **Reset Local License Data** | Hanya ditampilkan ketika data lisensi lokal memerlukan perbaikan. Menghapus data lisensi pada komputer tanpa membebaskan slot perangkat di server atau memulai ulang maupun memperpanjang trial. Gunakan hanya jika diminta oleh jendela **License**. |
+| **Buy License** | Membuka halaman checkout resmi melalui browser default. |
+| **Update** atau **Upgrade** | Hanya muncul jika tersedia versi terbaru yang kompatibel. Membuka halaman resmi AD Skin Tool tanpa menginstal software di latar belakang atau mengubah lisensi saat ini. |
 
 ## Status yang umum ditampilkan
 
 | Status | Arti dan tindakan yang diperlukan |
 |---|---|
-| **Trial available** | Trial belum dimulai. Hubungkan komputer ke internet dan klik **Start 48-Hour Trial** ketika Anda siap. |
-| **Trial active** | Seluruh fitur terproteksi tersedia sampai waktu berakhirnya trial yang ditampilkan. |
-| **Trial ended** | Aktifkan lisensi berbayar untuk kembali menggunakan fitur yang terproteksi. |
-| **License active** | Komputer ini sudah aktif dan fitur aktif secara penuh. |
-| **Checking license** | Pemeriksaan online otomatis sedang berjalan. Fitur tetap tersedia selama pemeriksaan. |
-| **Working offline** | Pemeriksaan online tidak dapat diselesaikan, tetapi periode offline yang tersimpan masih valid. Pulihkan koneksi sebelum tanggal offline access. |
-| **Online check required** | Akses offline sudah berakhir. Hubungkan komputer ke internet dan klik **Retry Now**. |
-| **License not found** | Pastikan key disali secara lengkap dari email pembelian, kemudian coba lagi. |
-| **Device inactive** | Perangkat ini sudah tidak aktif. Masukkan key dan aktifkan kembali jika slot perangkat masih tersedia. |
-| **License inactive** | Lisensi sudah tidak aktif. Gunakan lisensi valid lain atau hubungi support. |
-| **Temporarily unavailable** | Service tidak dapat dihubungi. Periksa koneksi internet dan coba kembali nanti. |
-| **Computer clock needs attention** | Perbaiki tanggal, waktu, dan time zone komputer, lalu coba validasi online kembali. |
-| **Local license data needs repair** | Gunakan **Reset Local License Data** ketika ditawarkan, lalu mulai trial atau lakukan aktivasi kembali. |
-| **License checking unavailable** | Instal ulang package resmi AD Skin Tool. Jika pesan tetap muncul, hubungi support. |
+| **Trial available** | Trial belum dimulai. Hubungkan komputer ke internet, lalu klik **Start 48-Hour Trial** saat siap memulai. |
+| **Trial active** | Seluruh fitur berlisensi dapat digunakan hingga waktu berakhirnya trial yang ditampilkan. |
+| **Trial ended** | Aktifkan lisensi berbayar untuk kembali menggunakan fitur berlisensi. |
+| **License active** | Lisensi aktif pada komputer ini dan seluruh fitur berlisensi siap digunakan. |
+| **Checking license** | Pemeriksaan online otomatis sedang berlangsung. Fitur berlisensi tetap tersedia selama proses validasi. |
+| **Working offline** | Pemeriksaan online tidak dapat diselesaikan, tetapi akses offline yang tersimpan masih berlaku. Sambungkan kembali komputer ke internet sebelum batas akses offline. |
+| **Online check required** | Akses offline telah berakhir. Hubungkan komputer ke internet, lalu klik **Retry Now**. |
+| **License not found** | Pastikan license key sudah disalin lengkap dari email pembelian, lalu coba lagi. |
+| **Device inactive** | Perangkat ini tidak lagi aktif. Masukkan license key dan lakukan aktivasi kembali jika slot perangkat masih tersedia. |
+| **License inactive** | Lisensi tidak lagi aktif. Gunakan lisensi valid lain atau hubungi support. |
+| **Temporarily unavailable** | Layanan tidak dapat dihubungi. Periksa koneksi internet dan coba lagi nanti. |
+| **Computer clock needs attention** | Perbaiki tanggal, waktu, dan zona waktu komputer, lalu ulangi validasi online. |
+| **Local license data needs repair** | Gunakan **Reset Local License Data** jika tersedia, lalu mulai trial jika masih memungkinkan atau aktifkan lisensi. |
+| **License checking unavailable** | Instal ulang paket resmi AD Skin Tool. Jika pesan tetap muncul, hubungi support. |
 
-Jika aktivasi melaporkan bahwa batas perangkat sudah tercapai, deactivate AD Skin Tool pada salah satu perangkat yang tidak lagi digunakan. Jika perangkat tersebut tidak dapat diakses, hubungi support.
+Jika batas perangkat tercapai saat aktivasi, nonaktifkan AD Skin Tool pada perangkat yang tidak lagi digunakan. Hubungi support jika perangkat tersebut sudah tidak dapat diakses.
 
 ## Bantuan lisensi
 
-Untuk bantuan lisensi, kirim email ke [hello@adiendendra.com](mailto:hello@adiendendra.com) dengan menyertakan:
+Untuk bantuan terkait lisensi, kirim email ke [hello@adiendendra.com](mailto:hello@adiendendra.com) dengan informasi berikut:
 
-- Sistem operasi dan versi Maya, dapat dilihat secara lengkap melalui tombol **Tool Help**, kemudian **Copy Diagnostics**.
-- Judul status dan pesan lengkap yang terlihat pada jendela License.
-- Deskripsi singkat mengenai tindakan yang dilakukan saat masalah terjadi.
-- Alamat email pembelian jika diperlukan untuk mencari order.
+- Sistem operasi dan versi Maya. Klik **Tool Help**, lalu **Copy Diagnostics** untuk menyalin detailnya.
+- Judul status dan pesan lengkap yang ditampilkan pada jendela **License**.
+- Deskripsi singkat mengenai tindakan yang sedang dilakukan saat masalah terjadi.
+- Alamat email pembelian jika diperlukan untuk menemukan pesanan.
 
-Jangan pernah mengirim license key, detail kartu pembayaran, password, atau file AD Skin Tool.
+Jangan pernah mengirim license key, detail kartu pembayaran, kata sandi, atau file AD Skin Tool.

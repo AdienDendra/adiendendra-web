@@ -4,7 +4,7 @@ translationKey: "ad-skin-tool-license"
 summary: "Start the trial, purchase and activate a license, manage devices, and understand online validation and offline access."
 description: "A guide to the AD Skin Tool License window, including the 48-hour trial, checkout, activation, device deactivation, automatic validation, and offline access."
 date: 2026-10-06T22:23:00+11:00
-lastmod: 2026-10-06T23:46:00+11:00
+lastmod: 2026-11-22T18:40:45+11:00
 tags: ["maya", "ad-skin-tool", "license", "documentation", "tutorial"]
 categories: ["documentation"]
 comments: true
@@ -14,60 +14,60 @@ ShowReadingTime: false
 ShowPostNavLinks: false
 ---
 
-This guide covers the **License** window, starting the trial, buying AD Skin Tool, activating your license key, moving your activation to another device, and using the tool offline.
+This guide covers the **License** window, including the 48-hour trial, purchasing and activating a licence, managing device activations, and offline access.
 
 For installation and tool workflows, see the [AD Skin Tool Documentation & Tutorials](/en/documentation/ad-skin-tool-tutorial/). For pricing, compatibility, and downloads, visit the [AD Skin Tool product page](/en/3dtools/ad-skin-tool/).
 
 ## Open the License window
 
-Open AD Skin Tool in Maya, then click **License** in the top-right corner. The License window shows the license status for the computer you are using and the actions available for that status.
+Open AD Skin Tool in Maya, then click **License** in the top-right corner. The window displays the current computer's licence status and the actions available for that status.
 
-Opening Maya, AD Skin Tool, or the License window, or trying to use a feature that requires a license, does **not** start the trial. It starts when you click **Start 48-Hour Trial**.
+Opening Maya, AD Skin Tool, or the **License** window—or attempting to use a licensed feature—does **not** start the trial. The 48-hour period begins only when **Start 48-Hour Trial** is clicked.
 
 <!-- GIF suggestion: open-license-window.gif -->
 
 ## Start the 48-hour trial
 
-The AD Skin Tool trial gives you access to all features for 48 hours. To start your trial:
+The AD Skin Tool trial provides full access to all features for 48 hours. To begin:
 
 1. Connect the computer to the internet.
 2. Open the **License** window.
 3. Click **Start 48-Hour Trial**.
 4. Wait for the status to change to **Trial active**.
 
-The 48-hour period is based on server time. It keeps running even when you close Maya or turn off your computer. Resetting local license data does not restart or extend the trial. The License window shows the trial end time in your computer's local time.
+The 48-hour period is measured using server time and continues running even after Maya is closed or the computer is turned off. Resetting local licence data does not restart or extend the trial. The **License** window displays the trial end time in the computer's local time.
 
 When the trial ends, the status changes to **Trial ended** and most tool features become unavailable.
 
 <!-- GIF suggestion: start-trial.gif -->
 
-## Buy a license after the trial
+## Buy a licence after the trial
 
-Click **Buy License** to open the AD Skin Tool checkout in your web browser. Freemius handles the checkout as the payment provider and *Merchant of Record*.
+Click **Buy License** to open AD Skin Tool checkout in the default browser. Freemius handles payment processing as the *Merchant of Record*.
 
-If you see a launch code in the tool's **License** window, click **Have a promotional code?** at checkout and enter it. Make sure the discount appears in the total. Then check the final price, any taxes, and the checkout terms before paying.
+If a launch promotion code appears in the **License** window, select **Have a promotional code?** at checkout and enter the code. Confirm that the discount is reflected in the total, then review the final price, applicable taxes, and checkout terms before payment.
 
 <!-- GIF suggestion: buy-license-checkout.gif -->
 
-## Receive and protect the license key
+## Receive and protect the licence key
 
-Once your order is complete, Freemius sends an email to the address you used at checkout. This email contains your AD Skin Tool license key. Keep a copy of the email, license key, and invoice for your records.
+After the order is completed, Freemius sends the AD Skin Tool licence key to the email address entered at checkout. Keep the confirmation email, licence key, and invoice for future reference.
 
-If you have not received the email after a few minutes:
+If the email has not arrived after a few minutes:
 
 1. Check the Spam, Junk, and Promotions folders.
-2. Search your inbox for **AD Skin Tool** or **Freemius**.
-3. Make sure you are checking the same email address you used at checkout.
-4. If you still cannot find it, contact [hello@adiendendra.com](mailto:hello@adiendendra.com) with your purchase email address and a short description of the problem.
+2. Search the inbox for **AD Skin Tool** or **Freemius**.
+3. Check the inbox associated with the email address entered at checkout.
+4. If the email is still missing, contact [hello@adiendendra.com](mailto:hello@adiendendra.com) with the purchase email address and a short description of the problem.
 
-Keep your license key private. Do not publish it, show it in tutorial recordings, or include the complete key in screenshots.
+Keep the licence key private. Do not publish it, display it in tutorial recordings, or include the complete key in screenshots.
 
-## Activate the paid license
+## Activate the paid licence
 
-You need an internet connection to activate the tool. Once your computer is connected:
+An internet connection is required for initial activation. Once connected:
 
 1. Return to Maya and open the **License** window.
-2. Copy the complete license key from the Freemius purchase email or customer account.
+2. Copy the complete licence key from the Freemius purchase email or customer account.
 3. Paste it into the **License Key** text box.
 4. Click **Activate License**.
 5. Wait for the status to change to **License active**.
@@ -79,45 +79,45 @@ A successful activation displays:
 > Next auto-validation: *date and time*.  
 > Offline access available until: *date and time*.
 
-Each Individual license can be active on up to **two personal devices**. If both slots are in use, deactivate a device you no longer need before activating another one.
+Each Individual licence can be active on up to **two personal devices**. If both slots are occupied, deactivate an unused device before activating another one.
 
 <!-- GIF suggestion: activate-license.gif -->
 
 ## Understand automatic validation and offline access
 
-AD Skin Tool comes with a perpetual license. The two dates in the License window refer to license checks and offline access, **not the expiry of your purchased license**.
+AD Skin Tool uses a perpetual licence. The two dates in the **License** window govern online validation and offline access, **not the expiry of the purchased licence**.
 
 | License window text | Meaning |
 |---|---|
-| **Next auto-validation** | When the tool is due to check your license status online again. This is normally seven days after your last successful activation or validation. |
-| **Offline access available until** | How long your saved offline access remains valid without connecting to the server. This is normally 30 days after your last successful activation or validation. |
+| **Next auto-validation** | When the next online licence check is due, normally seven days after the last successful activation or validation. |
+| **Offline access available until** | How long saved offline access remains valid without a server connection, normally 30 days after the last successful activation or validation. |
 
-Once the **Next auto-validation** time is reached, AD Skin Tool tries to check your license automatically when you open the tool or use a licensed feature. You do not need to press a button to start this check.
+Once **Next auto-validation** is reached, AD Skin Tool checks the licence automatically when the tool is next opened or a licensed feature is used. No manual action is needed to start the check.
 
-If your computer is temporarily offline, the status may show **Working offline**. You can keep using the licensed features until the offline-access date shown in the window. The tool will try again when you next open it. Once you are back online, you can also click **Retry Now** to check immediately.
+If the computer is temporarily offline, the status may show **Working offline**. Licensed features remain available until the offline-access date shown in the window. AD Skin Tool retries validation the next time it opens. After reconnecting, click **Retry Now** to check immediately.
 
-Each successful online check refreshes both dates from the time of that check. If your computer stays offline beyond the offline-access date, licensed features are blocked and the window shows:
+Each successful online check refreshes both dates based on the time of that check. If the computer remains offline past the offline-access date, licensed features are blocked and the window shows:
 
 > **Online check required**  
 > Offline access has ended.  
 > Connect to the internet and click Retry Now to validate your license.
 
-To restore access, connect your computer to the internet, click **Retry Now**, and wait for the status to return to **License active**.
+To restore access, reconnect the computer to the internet, click **Retry Now**, and wait for the status to return to **License active**.
 
 ## Deactivate This Device
 
-Use **Deactivate This Device** to free up the activation slot used by your current computer. For example, do this before selling or reformatting the computer, reinstalling its operating system, or moving your license to another personal device.
+Use **Deactivate This Device** to release the activation slot assigned to the current computer. This is useful before selling or reformatting the computer, reinstalling its operating system, or transferring the licence to another personal device.
 
 1. Connect the currently activated computer to the internet.
 2. Open the **License** window.
 3. Click **Deactivate This Device**.
 4. Read the confirmation dialog, then click **Deactivate**.
 
-Once deactivation succeeds, one of your two device slots is freed and the paid license data stored by AD Skin Tool on this computer is removed. You can activate the same computer again using the same license key.
+Successful deactivation frees one of the two device slots and removes the paid-licence data stored locally by AD Skin Tool. The same computer can be activated again using the same licence key.
 
-Deactivation does **not** cancel your purchase, revoke your license, deactivate another computer, or delete your order. If the tool cannot connect to the server, it keeps your local license data so you can try deactivation again safely.
+Deactivation does **not** cancel the purchase, revoke the licence, deactivate another computer, or delete the order. If the server cannot be reached, local licence data is retained so deactivation can be retried safely.
 
-If your old computer is lost or you can no longer access it, contact [hello@adiendendra.com](mailto:hello@adiendendra.com) for help. Do not share your license key.
+If an activated computer is lost or no longer accessible, contact [hello@adiendendra.com](mailto:hello@adiendendra.com) for assistance. Do not share the licence key.
 
 <!-- GIF suggestion: deactivate-this-device.gif -->
 
@@ -125,39 +125,39 @@ If your old computer is lost or you can no longer access it, contact [hello@adie
 
 | Control | Purpose |
 |---|---|
-| **Retry Now** | Tries your saved trial or paid-license request again, when available for the current status. Use it after reconnecting to the internet or when your computer has been fixed. |
-| **Reset Local License Data** | Appears only when your local license data needs repair. It clears the license data on this computer, but does not free up a device slot on the server or restart or extend your trial. Use it only when the License window asks you to. |
-| **Buy License** | Opens the official checkout in your default web browser. |
-| **Update** or **Upgrade** | Appears only when a newer release is available for your installation. It opens the official AD Skin Tool page. The tool does not install software in the background or change your current license. |
+| **Retry Now** | Retries a saved trial or paid-licence request when the current status permits it. Use after reconnecting to the internet or resolving a computer issue. |
+| **Reset Local License Data** | Appears only when local licence data requires repair. Clears data on the current computer without freeing a device slot on the server or restarting or extending the trial. Use only when prompted by the **License** window. |
+| **Buy License** | Opens the official checkout in the default web browser. |
+| **Update** or **Upgrade** | Appears only when a newer release is available for the current installation. Opens the official AD Skin Tool page without installing software in the background or changing the current licence. |
 
 ## Common status messages
 
 | Status | What it means and what to do |
 |---|---|
-| **Trial available** | Your trial has not started. Connect to the internet and click **Start 48-Hour Trial** when you are ready. |
+| **Trial available** | The trial has not started. Connect to the internet and click **Start 48-Hour Trial** when ready. |
 | **Trial active** | All licensed features are available until the trial end time shown in the window. |
 | **Trial ended** | Activate a paid license to use licensed features again. |
 | **License active** | This computer is activated and all licensed features are ready to use. |
 | **Checking license** | An automatic online check is in progress. Licensed features remain available during the check. |
-| **Working offline** | The online check could not finish, but your saved offline access is still valid. Reconnect before the offline-access date. |
+| **Working offline** | The online check could not finish, but saved offline access remains valid. Reconnect before the offline-access date. |
 | **Online check required** | Offline access has ended. Connect to the internet and click **Retry Now**. |
-| **License not found** | Make sure you copied the complete key from the purchase email, then try again. |
-| **Device inactive** | This device is no longer activated. Enter your key and activate it again if a device slot is available. |
-| **License inactive** | Your license is no longer active. Use another valid license or contact support. |
-| **Temporarily unavailable** | The service could not be reached. Check your internet connection and try again later. |
-| **Computer clock needs attention** | Correct your computer's date, time, and time zone, then try online validation again. |
-| **Local license data needs repair** | Use **Reset Local License Data** when offered, then start the trial or activate again. |
+| **License not found** | Check that the complete key was copied from the purchase email, then try again. |
+| **Device inactive** | This device is no longer activated. Enter the licence key and activate again if a device slot is available. |
+| **License inactive** | The licence is no longer active. Activate another valid licence or contact support. |
+| **Temporarily unavailable** | The service could not be reached. Check the internet connection and try again later. |
+| **Computer clock needs attention** | Correct the computer's date, time, and time zone, then try online validation again. |
+| **Local license data needs repair** | Use **Reset Local License Data** when offered, then start the trial if still available or activate a licence. |
 | **License checking unavailable** | Reinstall the official AD Skin Tool package. If the message still appears, contact support. |
 
-If activation reports that you have reached the device limit, deactivate AD Skin Tool on a device you no longer use. If you cannot access that device, contact support.
+If activation reports that the device limit has been reached, deactivate AD Skin Tool on an unused device. Contact support if that device is no longer accessible.
 
 ## License support
 
-For help with your license, email [hello@adiendendra.com](mailto:hello@adiendendra.com) and include:
+For licence support, email [hello@adiendendra.com](mailto:hello@adiendendra.com) and include:
 
-- Your operating system and Maya version. To copy these details, click **Tool Help**, then **Copy Diagnostics**.
-- The exact status title and message shown in the License window.
-- A short description of what you were doing when the problem occurred.
-- Your purchase email address, if needed to find your order.
+- Operating system and Maya version. To copy these details, click **Tool Help**, then **Copy Diagnostics**.
+- The exact status title and message shown in the **License** window.
+- A short description of the action in progress when the problem occurred.
+- The purchase email address, if needed to locate the order.
 
-Never send your license key, payment card details, passwords, or AD Skin Tool files.
+Never send the licence key, payment card details, passwords, or AD Skin Tool files.
