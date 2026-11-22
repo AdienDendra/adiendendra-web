@@ -14,13 +14,13 @@ ShowReadingTime: false
 ShowPostNavLinks: false
 ---
 
-Panduan ini membahas alur kerja AD Skin Tool, mulai dari load mesh dan mengelola influence hingga mirror dan transfer skin weights. Kita akan melihat fungsi setiap kontrol serta kapan fitur tersebut digunakan di Maya.
+Panduan ini membahas alur kerja AD Skin Tool, mulai dari load mesh dan mengelola influence hingga mirror dan transfer skin weights. Setiap kontrol dijelaskan berdasarkan fungsinya di Maya dan kapan fitur tersebut digunakan.
 
 Informasi harga, kompatibilitas, dan download tersedia di [halaman produk AD Skin Tool](/id/3dtools/ad-skin-tool/).
 
 ## Instalasi dan menjalankan tool
 
-Download ZIP yang sesuai dengan versi Maya, sistem operasi, dan arsitektur prosesor yang kamu gunakan. Ikuti petunjuk instalasi di dalam ZIP karena setiap build dibuat untuk kombinasi versi Maya dan platform tertentu.
+Download ZIP yang sesuai dengan versi Maya, sistem operasi, dan arsitektur prosesor yang akan digunakan. Ikuti petunjuk instalasi di dalam ZIP karena setiap build dibuat untuk kombinasi versi Maya dan platform tertentu.
 
 Untuk ZIP v1.0.0, buka tab Python di **Script Editor** Maya, lalu jalankan perintah pada langkah 5 di `README.txt` yang disertakan. Jika paket berisi folder `ad_skin_tool`, gunakan:
 
@@ -33,7 +33,7 @@ launch.show(
 )
 ```
 
-AD Skin Tool akan terbuka sebagai panel Maya yang bisa di-dock atau dibiarkan floating. **Tool Help** berisi referensi singkat dan informasi diagnostik. Lewat **License**, kamu bisa memulai trial, mengaktifkan lisensi, dan mengelola perangkat. Detailnya ada di [Panduan Lisensi AD Skin Tool](/id/documentation/ad-skin-tool-license/).
+AD Skin Tool akan terbuka sebagai panel Maya yang bisa di-dock atau dibiarkan floating. **Tool Help** berisi referensi singkat dan informasi diagnostik. Panel **License** menyediakan opsi untuk memulai trial, mengaktifkan lisensi, dan mengelola perangkat. Detailnya ada di [Panduan Lisensi AD Skin Tool](/id/documentation/ad-skin-tool-license/).
 
 ## Alur kerja singkat
 
@@ -44,13 +44,13 @@ AD Skin Tool akan terbuka sebagai panel Maya yang bisa di-dock atau dibiarkan fl
 5. Gunakan panel **Mirror** atau **Transfer** jika ingin menyalin weights antar-sisi atau antar-mesh.
 6. Periksa status setelah setiap operasi. Untuk detailnya, lihat output di Maya Script Editor.
 
-> Selection di Maya memengaruhi hasil setiap operasi. Sebelum menjalankan perintah, periksa apakah kamu sedang memilih mesh aktif, component, joint, atau tidak memilih apa pun.
+> Selection di Maya memengaruhi hasil setiap operasi. Sebelum menjalankan perintah, periksa apakah selection aktif berupa mesh, component, joint, atau tidak ada selection sama sekali.
 
 ## Mesh / Skin Context
 
 ### Load Mesh
 
-Pilih polygon mesh atau salah satu vertex, edge, maupun face-nya, lalu klik **Load Mesh**. Mesh tersebut akan tetap aktif di AD Skin Tool meskipun kamu memilih object lain di Maya. Untuk pindah ke mesh lain, cukup pilih mesh baru dan klik **Load Mesh** lagi.
+Pilih polygon mesh atau salah satu vertex, edge, maupun face-nya, lalu klik **Load Mesh**. Mesh tersebut akan tetap aktif di AD Skin Tool meskipun selection di Maya berubah. Untuk pindah ke mesh lain, cukup pilih mesh baru dan klik **Load Mesh** lagi.
 
 Panel ini menampilkan:
 
@@ -58,7 +58,7 @@ Panel ini menampilkan:
 - **Loaded Mesh:** nama transform yang digunakan oleh Bind, Add Influence, Flood, Smooth, dan Skin Weight Visual.
 - **Listed Joints:** jumlah bound influence dan pending joint yang tampil di daftar.
 
-Saat kamu load mesh yang sudah memiliki skinCluster, daftar joint otomatis menampilkan influence yang ada. Jika mesh belum di-bind, daftarnya dimulai dari kosong sehingga kamu bisa menambahkan joint terlebih dahulu.
+Saat mesh yang sudah memiliki skinCluster di-load, daftar joint otomatis menampilkan influence yang ada. Jika mesh belum di-bind, daftarnya dimulai dari kosong sehingga joint bisa ditambahkan terlebih dahulu.
 
 {{< collapse title="Load Mesh demonstration" collapse="true">}}
 ![Load Mesh demonstration](/images/documentation/ad-skin-tool/01-load-mesh.gif)
@@ -73,7 +73,7 @@ Ada dua jenis joint yang bisa muncul dalam daftar:
 - **Bound influence** sudah menjadi bagian dari skinCluster pada mesh aktif dan ditampilkan dengan warna hijau.
 - **Pending joint** sudah ada di scene dan masuk ke daftar, tetapi belum ditambahkan ke skinCluster. Joint ini ditampilkan dengan warna putih.
 
-Pilih satu atau beberapa joint di Maya, lalu klik **Add Joints To The List**. Jika mesh belum di-bind, joint tersebut akan digunakan oleh **Bind Skin**. Jika mesh sudah memiliki skinCluster, joint baru tetap berstatus pending sampai kamu memilihnya di daftar dan menjalankan **Add Influence**.
+Pilih satu atau beberapa joint di Maya, lalu klik **Add Joints To The List**. Jika mesh belum di-bind, joint tersebut akan digunakan oleh **Bind Skin**. Jika mesh sudah memiliki skinCluster, joint baru tetap berstatus pending sampai dipilih di daftar dan diproses menggunakan **Add Influence**.
 
 Untuk mencari joint dalam daftar influence yang panjang, pilih joint tersebut di Maya lalu klik **Select Joints In The List**. Baris yang cocok akan langsung disorot.
 
@@ -98,7 +98,7 @@ Klik kanan pada daftar joint untuk mengakses perintah tambahan:
 - Memilih satu atau seluruh joint dalam daftar di Maya.
 - Menjadikan satu joint terpilih sebagai **Global Owner**, atau menghapus pengaturan Global Owner.
 
-**Global Owner** bersifat opsional. Jika mesh memiliki bagian terpisah (*detached secondary region*), kamu bisa memilih joint yang akan menjadi owner bagian tersebut setelah proses local assignment pada Bind, Add Influence, atau Flood. Biasanya fitur ini tidak perlu diaktifkan jika hasil otomatisnya sudah sesuai. Global Owner yang aktif ditandai warna kuning dan hanya berlaku untuk mesh yang sedang di-load.
+**Global Owner** bersifat opsional. Jika mesh memiliki bagian terpisah (*detached secondary region*), joint tertentu dapat ditetapkan sebagai owner bagian tersebut setelah proses local assignment pada Bind, Add Influence, atau Flood. Biasanya fitur ini tidak perlu diaktifkan jika hasil otomatisnya sudah sesuai. Global Owner yang aktif ditandai warna kuning dan hanya berlaku untuk mesh yang sedang di-load.
 
 {{< collapse title="Joint List demonstration" collapse="true">}}
 ![Joint List demonstration](/images/documentation/ad-skin-tool/02-joint-list.gif)
@@ -154,7 +154,7 @@ Hanya pending joint yang dipilih yang ditambahkan. Influence lama tetap berada d
 3. Atur Blend dan Iterations.
 4. Klik **Flood**.
 
-Jika kamu memilih component, Flood bekerja pada area selection tersebut. Maya Soft Selection juga didukung, dan falloff-nya akan memengaruhi hasil. Jika kamu memilih object mesh aktif, AD Skin Tool akan meminta konfirmasi sebelum memproses seluruh mesh.
+Jika component dipilih, Flood bekerja pada area selection tersebut. Maya Soft Selection juga didukung, dan falloff-nya akan memengaruhi hasil. Jika object mesh aktif yang dipilih, AD Skin Tool akan meminta konfirmasi sebelum memproses seluruh mesh.
 
 Dengan Iterations `0`, Flood menghasilkan hard blocking pada region yang diproses. Gunakan Iterations di atas `0` untuk menambahkan smoothing sesuai nilai Blend. Pending joint akan diabaikan meskipun ikut dipilih bersama bound influence—gunakan Add Influence untuk menambahkannya terlebih dahulu. Target Flood yang dipilih harus dalam keadaan unlocked; weight pada influence lain yang terkunci tetap dilindungi.
 
@@ -198,7 +198,7 @@ Tampilan weight akan diperbarui setelah operasi yang relevan, Undo, dan Redo. In
 
 ## Mirror Skin Weights Posed Mesh
 
-**Mirror** menyimpan pasangan vertex (*persistent vertex pairing*) agar skin weights tetap bisa di-mirror saat karakter berada dalam pose. Jika bind-reference geometry tersedia, pairing dibuat dari geometry tersebut, sehingga kamu tidak perlu mengembalikan karakter ke bind pose.
+**Mirror** menyimpan pasangan vertex (*persistent vertex pairing*) agar skin weights tetap bisa di-mirror saat karakter berada dalam pose. Jika bind-reference geometry tersedia, pairing dibuat dari geometry tersebut sehingga karakter tidak perlu dikembalikan ke bind pose.
 
 ### Register mirror pairing
 
@@ -208,7 +208,7 @@ Tampilan weight akan diperbarui setelah operasi yang relevan, Undo, dan Redo. In
    - **XZ** melakukan mirror melintasi Y.
    - **XY** melakukan mirror melintasi Z.
 3. Pilih **Direction** source-to-target pada axis tersebut.
-4. Atur koordinat centre plane. Kamu bisa memasukkan nilainya langsung, atau memilih centre component maupun transform mesh, lalu klik **Register Selected** agar nilainya dihitung dari selection.
+4. Atur koordinat centre plane. Nilainya bisa dimasukkan langsung, atau dihitung dari selection dengan memilih centre component maupun transform mesh, lalu klik **Register Selected**.
 5. Atur **Tolerance**. Mulai dari default `0.001`, lalu naikkan seperlunya hingga pasangan vertex simetris dapat ditemukan.
 6. Masukkan marker nama joint untuk **Left** dan **Right**, misalnya `L` / `R`, `L_` / `R_`, atau `_l` / `_r`. Marker bisa berada di awal, tengah, atau akhir nama joint, tetapi keduanya harus berbeda.
 7. Klik **Preview Pairing**.
@@ -239,15 +239,15 @@ Tombol **Reset** pada Mirror mengosongkan mesh aktif dan pengaturan panel Mirror
 
 ### Register source dan target
 
-1. Pilih satu atau beberapa source mesh yang sudah memiliki skinCluster, lalu klik **Add Selected** di bagian **Sources**. Kamu boleh memilih component, tetapi AD Skin Tool tetap mendaftarkan seluruh mesh sebagai donor.
-2. Pilih satu atau beberapa target mesh atau component-nya, lalu klik **Add Selected** di bagian **Targets**. Mesh target didaftarkan sekarang; selection component baru diperiksa saat kamu menjalankan Preview Transfer.
+1. Pilih satu atau beberapa source mesh yang sudah memiliki skinCluster, lalu klik **Add Selected** di bagian **Sources**. Component juga bisa dipilih, tetapi AD Skin Tool tetap mendaftarkan seluruh mesh sebagai donor.
+2. Pilih satu atau beberapa target mesh atau component-nya, lalu klik **Add Selected** di bagian **Targets**. Mesh target langsung didaftarkan; selection component baru diperiksa saat Preview Transfer dijalankan.
 3. Gunakan **Remove Selected** atau **Clear** untuk mengubah daftar. Satu mesh tidak bisa menjadi Source sekaligus Target.
 
 Klik kanan pada salah satu daftar untuk memilih object yang disorot atau seluruh object terdaftar di Maya.
 
 ### Menentukan area target
 
-Daftar Target menentukan mesh mana saja yang ikut dalam transfer. Saat kamu menjalankan Preview, component selection di Maya hanya memengaruhi area pada target terdaftar yang sesuai:
+Daftar Target menentukan mesh mana saja yang ikut dalam transfer. Saat Preview dijalankan, component selection di Maya hanya memengaruhi area pada target terdaftar yang sesuai:
 
 | Kondisi target saat Preview | Scope yang digunakan |
 |---|---|
